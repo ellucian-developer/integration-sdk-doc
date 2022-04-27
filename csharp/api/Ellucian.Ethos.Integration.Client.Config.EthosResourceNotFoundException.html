@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Resource
+    <title>Class EthosResourceNotFoundException
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Resource
+    <meta name="title" content="Class EthosResourceNotFoundException
    ">
     <meta name="generator" content="docfx 2.56.5.0">
     
@@ -68,37 +68,37 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource">
+            <article class="content wrap" id="_content" data-uid="Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException">
   
   
-  <h1 id="Ellucian_Ethos_Integration_Client_Messages_Resource" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource" class="text-break">Class Resource
+  <h1 id="Ellucian_Ethos_Integration_Client_Config_EthosResourceNotFoundException" data-uid="Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException" class="text-break">Class EthosResourceNotFoundException
   </h1>
-  <div class="markdown level0 summary"><p>A Resource object that is associated with a change-notification.</p>
+  <div class="markdown level0 summary"><p>Thrown when the given resource is not found in the available resources response.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Resource</span></div>
+    <div class="level1"><span class="xref">EthosResourceNotFoundException</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Ellucian.Ethos.Integration.Client.Messages.html">Ellucian.Ethos.Integration.Client.Messages</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Ellucian.Ethos.Integration.Client.Config.html">Ellucian.Ethos.Integration.Client.Config</a></h6>
   <h6><strong>Assembly</strong>: Ellucian.Ethos.Integration.dll</h6>
-  <h5 id="Ellucian_Ethos_Integration_Client_Messages_Resource_syntax">Syntax</h5>
+  <h5 id="Ellucian_Ethos_Integration_Client_Config_EthosResourceNotFoundException_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Resource : object</code></pre>
+    <pre><code class="lang-csharp hljs">public class EthosResourceNotFoundException : Exception</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Ellucian_Ethos_Integration_Client_Messages_Resource__ctor_" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource.#ctor*"></a>
-  <h4 id="Ellucian_Ethos_Integration_Client_Messages_Resource__ctor_System_String_System_String_System_String_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource.#ctor(System.String,System.String,System.String,System.String)">Resource(String, String, String, String)</h4>
-  <div class="markdown level1 summary"><p>A Resource object that is associated with a change-notification.</p>
+  <a id="Ellucian_Ethos_Integration_Client_Config_EthosResourceNotFoundException__ctor_" data-uid="Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.#ctor*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Config_EthosResourceNotFoundException__ctor_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.#ctor(System.String)">EthosResourceNotFoundException(String)</h4>
+  <div class="markdown level1 summary"><p>Constructor taking the error message.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Resource(string id, string name, string version, string domain)</code></pre>
+    <pre><code class="lang-csharp hljs">public EthosResourceNotFoundException(string message)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -112,123 +112,59 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">id</span></td>
-        <td><p>The ID of the resource.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The name of the resource.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">version</span></td>
-        <td><p>The version of the resource.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">domain</span></td>
-        <td><p>The domain to which the resource belongs.</p>
+        <td><span class="parametername">message</span></td>
+        <td><p>The error message for this exception.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="Ellucian_Ethos_Integration_Client_Messages_Resource__ctor_System_String_System_String_System_String_System_String__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>The attribute JsonConstructor is used to parse json and convert in to the object.</p>
+  
+  
+  <a id="Ellucian_Ethos_Integration_Client_Config_EthosResourceNotFoundException__ctor_" data-uid="Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.#ctor*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Config_EthosResourceNotFoundException__ctor_System_String_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.#ctor(System.String,System.String)">EthosResourceNotFoundException(String, String)</h4>
+  <div class="markdown level1 summary"><p>Constructor taking the error message and the name of the resource not found in the available resources response.</p>
 </div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EthosResourceNotFoundException(string message, string resourceName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The error message for this exception.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">resourceName</span></td>
+        <td><p>The name of the resource not found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Ellucian_Ethos_Integration_Client_Messages_Resource_Domain_" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource.Domain*"></a>
-  <h4 id="Ellucian_Ethos_Integration_Client_Messages_Resource_Domain" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource.Domain">Domain</h4>
-  <div class="markdown level1 summary"><p>The domain to which the resource belongs.</p>
+  <a id="Ellucian_Ethos_Integration_Client_Config_EthosResourceNotFoundException_ResourceName_" data-uid="Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.ResourceName*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Config_EthosResourceNotFoundException_ResourceName" data-uid="Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.ResourceName">ResourceName</h4>
+  <div class="markdown level1 summary"><p>Gets the name of the resource that was not found.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Domain { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Ellucian_Ethos_Integration_Client_Messages_Resource_Id_" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource.Id*"></a>
-  <h4 id="Ellucian_Ethos_Integration_Client_Messages_Resource_Id" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource.Id">Id</h4>
-  <div class="markdown level1 summary"><p>The ID of the resource.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Id { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Ellucian_Ethos_Integration_Client_Messages_Resource_Name_" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource.Name*"></a>
-  <h4 id="Ellucian_Ethos_Integration_Client_Messages_Resource_Name" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource.Name">Name</h4>
-  <div class="markdown level1 summary"><p>The name of the resource.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Ellucian_Ethos_Integration_Client_Messages_Resource_Version_" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource.Version*"></a>
-  <h4 id="Ellucian_Ethos_Integration_Client_Messages_Resource_Version" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource.Version">Version</h4>
-  <div class="markdown level1 summary"><p>The version of the resource.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Version { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string ResourceName { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

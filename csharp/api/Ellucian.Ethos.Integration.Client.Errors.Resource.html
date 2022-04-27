@@ -82,7 +82,7 @@
     <div class="level1"><span class="xref">Resource</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Ellucian.Ethos.Integration.Client.Errors.html">Ellucian.Ethos.Integration.Client.Errors</a></h6>
-  <h6><strong>Assembly</strong>: Ellucian.EthosIntegration.SDK.dll</h6>
+  <h6><strong>Assembly</strong>: Ellucian.Ethos.Integration.dll</h6>
   <h5 id="Ellucian_Ethos_Integration_Client_Errors_Resource_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class Resource : object</code></pre>
@@ -92,13 +92,13 @@
   
   
   <a id="Ellucian_Ethos_Integration_Client_Errors_Resource__ctor_" data-uid="Ellucian.Ethos.Integration.Client.Errors.Resource.#ctor*"></a>
-  <h4 id="Ellucian_Ethos_Integration_Client_Errors_Resource__ctor_System_String_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Errors.Resource.#ctor(System.String,System.String)">Resource(String, String)</h4>
+  <h4 id="Ellucian_Ethos_Integration_Client_Errors_Resource__ctor_System_String_System_String_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Errors.Resource.#ctor(System.String,System.String,System.String)">Resource(String, String, String)</h4>
   <div class="markdown level1 summary"><p>Create a resource with an id and a name.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Resource(string id, string name)</code></pre>
+    <pre><code class="lang-csharp hljs">public Resource(string id, string name, string version)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -120,6 +120,12 @@
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
         <td><p>The name of the resource.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The version of the resource.</p>
 </td>
       </tr>
     </tbody>
@@ -176,6 +182,33 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><p>resource name</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Ellucian_Ethos_Integration_Client_Errors_Resource_Version_" data-uid="Ellucian.Ethos.Integration.Client.Errors.Resource.Version*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Errors_Resource_Version" data-uid="Ellucian.Ethos.Integration.Client.Errors.Resource.Version">Version</h4>
+  <div class="markdown level1 summary"><p>Get the version of the resource.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Version { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>resource version</p>
 </td>
       </tr>
     </tbody>

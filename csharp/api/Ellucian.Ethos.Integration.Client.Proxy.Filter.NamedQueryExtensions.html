@@ -82,13 +82,64 @@
     <div class="level1"><span class="xref">NamedQueryExtensions</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Ellucian.Ethos.Integration.Client.Proxy.Filter.html">Ellucian.Ethos.Integration.Client.Proxy.Filter</a></h6>
-  <h6><strong>Assembly</strong>: Ellucian.EthosIntegration.SDK.dll</h6>
+  <h6><strong>Assembly</strong>: Ellucian.Ethos.Integration.dll</h6>
   <h5 id="Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class NamedQueryExtensions : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryExtensions_BuildExpando_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.BuildExpando*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryExtensions_BuildExpando_System_String_System_Object_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.BuildExpando(System.String,System.Object)">BuildExpando(String, Object)</h4>
+  <div class="markdown level1 summary"><p>Builds Expandobject.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">static ExpandoObject BuildExpando(string key, object value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>key for the dictionary.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>value for the dictionary.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ExpandoObject</span></td>
+        <td><p><see cref="!:ExpandoObject"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryExtensions_WithNamedQuery_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.WithNamedQuery*"></a>
@@ -207,6 +258,70 @@ var result = new NamedQueryFilter( label ).WithNamedQuery( label, keywordValue )
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value which is an <a class="xref" href="Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter.html">NamedQueryFilter</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter.html">NamedQueryFilter</a></td>
+        <td><p><a class="xref" href="Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter.html">NamedQueryFilter</a> Represents an object whose members can be dynamically added and removed at run time.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryExtensions_WithNamedQuery_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.WithNamedQuery*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryExtensions_WithNamedQuery_Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryFilter_System_String_System_ValueTuple_System_String_System_String_System_Object____" data-uid="Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.WithNamedQuery(Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter,System.String,System.ValueTuple{System.String,System.String,System.Object}[])">WithNamedQuery(NamedQueryFilter, String, (String label, String key, Object value)[])</h4>
+  <div class="markdown level1 summary"><p>Example:</p>
+<pre><code><strong>
+    //Creates section-registrations?registrationStatusesByAcademicPeriod={&quot;statuses&quot;:[{&quot;detail&quot;:{&quot;id&quot;:&quot;11111111-1111-1111-1111-111111111111&quot;}},{&quot;detail&quot;:{&quot;id&quot;:&quot;11111111-1111-1111-1111-111111111112&quot;}}],&quot;academicPeriod&quot;:{&quot;id&quot;:&quot;11111111-1111-1111-1111-111111111113&quot;}}
+    var filter = new NamedQueryFilter( &quot;registrationStatusesByAcademicPeriod&quot; )
+                    .WithNamedQuery( &quot;statuses&quot;, (&quot;detail&quot;, &quot;id&quot;, &quot;11111111-1111-1111-1111-111111111111&quot;), (&quot;detail&quot;, &quot;id&quot;, &quot;11111111-1111-1111-1111-111111111112&quot;) )
+                    .WithNamedQuery( &quot;academicPeriod&quot;, &quot;id&quot;, &quot;11111111-1111-1111-1111-111111111113&quot; )
+                    .BuildNamedQuery();
+</strong></code></pre>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static NamedQueryFilter WithNamedQuery(this NamedQueryFilter namedQuery, string queryLabel, params (string label, string key, object value)[] keyValues)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter.html">NamedQueryFilter</a></td>
+        <td><span class="parametername">namedQuery</span></td>
+        <td><p>Instance of NamedQueryFilter object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">queryLabel</span></td>
+        <td><p>Named query label.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;[]</td>
+        <td><span class="parametername">keyValues</span></td>
+        <td><p>key and value with specific label.</p>
 </td>
       </tr>
     </tbody>

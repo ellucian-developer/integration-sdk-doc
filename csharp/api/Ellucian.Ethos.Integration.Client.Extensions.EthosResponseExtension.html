@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Resource
+    <title>Class EthosResponseExtension
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Resource
+    <meta name="title" content="Class EthosResponseExtension
    ">
     <meta name="generator" content="docfx 2.56.5.0">
     
@@ -68,37 +68,37 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource">
+            <article class="content wrap" id="_content" data-uid="Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension">
   
   
-  <h1 id="Ellucian_Ethos_Integration_Client_Messages_Resource" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource" class="text-break">Class Resource
+  <h1 id="Ellucian_Ethos_Integration_Client_Extensions_EthosResponseExtension" data-uid="Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension" class="text-break">Class EthosResponseExtension
   </h1>
-  <div class="markdown level0 summary"><p>A Resource object that is associated with a change-notification.</p>
+  <div class="markdown level0 summary"><p>Extends <a class="xref" href="Ellucian.Ethos.Integration.Client.EthosResponse.html">EthosResponse</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Resource</span></div>
+    <div class="level1"><span class="xref">EthosResponseExtension</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Ellucian.Ethos.Integration.Client.Messages.html">Ellucian.Ethos.Integration.Client.Messages</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Ellucian.Ethos.Integration.Client.Extensions.html">Ellucian.Ethos.Integration.Client.Extensions</a></h6>
   <h6><strong>Assembly</strong>: Ellucian.Ethos.Integration.dll</h6>
-  <h5 id="Ellucian_Ethos_Integration_Client_Messages_Resource_syntax">Syntax</h5>
+  <h5 id="Ellucian_Ethos_Integration_Client_Extensions_EthosResponseExtension_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Resource : object</code></pre>
+    <pre><code class="lang-csharp hljs">public static class EthosResponseExtension : object</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Ellucian_Ethos_Integration_Client_Messages_Resource__ctor_" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource.#ctor*"></a>
-  <h4 id="Ellucian_Ethos_Integration_Client_Messages_Resource__ctor_System_String_System_String_System_String_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource.#ctor(System.String,System.String,System.String,System.String)">Resource(String, String, String, String)</h4>
-  <div class="markdown level1 summary"><p>A Resource object that is associated with a change-notification.</p>
+  <a id="Ellucian_Ethos_Integration_Client_Extensions_EthosResponseExtension_Deserialize_" data-uid="Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.Deserialize*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Extensions_EthosResponseExtension_Deserialize__1_Ellucian_Ethos_Integration_Client_EthosResponse_" data-uid="Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.Deserialize``1(Ellucian.Ethos.Integration.Client.EthosResponse)">Deserialize&lt;T&gt;(EthosResponse)</h4>
+  <div class="markdown level1 summary"><p>Converts ethos response content to an object of type T</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Resource(string id, string name, string version, string domain)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T Deserialize&lt;T&gt;(this EthosResponse ethosResponse)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -111,48 +111,81 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">id</span></td>
-        <td><p>The ID of the resource.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The name of the resource.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">version</span></td>
-        <td><p>The version of the resource.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">domain</span></td>
-        <td><p>The domain to which the resource belongs.</p>
+        <td><a class="xref" href="Ellucian.Ethos.Integration.Client.EthosResponse.html">EthosResponse</a></td>
+        <td><span class="parametername">ethosResponse</span></td>
+        <td><p>Ethos response.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="Ellucian_Ethos_Integration_Client_Messages_Resource__ctor_System_String_System_String_System_String_System_String__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>The attribute JsonConstructor is used to parse json and convert in to the object.</p>
-</div>
-  <h3 id="properties">Properties
-  </h3>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>Returns deserialized object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of object to be deserialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
-  <a id="Ellucian_Ethos_Integration_Client_Messages_Resource_Domain_" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource.Domain*"></a>
-  <h4 id="Ellucian_Ethos_Integration_Client_Messages_Resource_Domain" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource.Domain">Domain</h4>
-  <div class="markdown level1 summary"><p>The domain to which the resource belongs.</p>
+  <a id="Ellucian_Ethos_Integration_Client_Extensions_EthosResponseExtension_Serialize_" data-uid="Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.Serialize*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Extensions_EthosResponseExtension_Serialize__1_Ellucian_Ethos_Integration_Client_EthosResponse_Formatting_" data-uid="Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.Serialize``1(Ellucian.Ethos.Integration.Client.EthosResponse,Formatting)">Serialize&lt;T&gt;(EthosResponse, Formatting)</h4>
+  <div class="markdown level1 summary"><p>Converts ethos response content to an object of type T</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Domain { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static string Serialize&lt;T&gt;(this EthosResponse ethosResponse, Formatting formatting = null)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ellucian.Ethos.Integration.Client.EthosResponse.html">EthosResponse</a></td>
+        <td><span class="parametername">ethosResponse</span></td>
+        <td><p>Ethos response containing json content.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Formatting</span></td>
+        <td><span class="parametername">formatting</span></td>
+        <td><p>Json formatting, values are none where json is not formatted and Indented where json is properly indented.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -163,85 +196,24 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>Returns serialized string.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="Ellucian_Ethos_Integration_Client_Messages_Resource_Id_" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource.Id*"></a>
-  <h4 id="Ellucian_Ethos_Integration_Client_Messages_Resource_Id" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource.Id">Id</h4>
-  <div class="markdown level1 summary"><p>The ID of the resource.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Id { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Ellucian_Ethos_Integration_Client_Messages_Resource_Name_" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource.Name*"></a>
-  <h4 id="Ellucian_Ethos_Integration_Client_Messages_Resource_Name" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource.Name">Name</h4>
-  <div class="markdown level1 summary"><p>The name of the resource.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Ellucian_Ethos_Integration_Client_Messages_Resource_Version_" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource.Version*"></a>
-  <h4 id="Ellucian_Ethos_Integration_Client_Messages_Resource_Version" data-uid="Ellucian.Ethos.Integration.Client.Messages.Resource.Version">Version</h4>
-  <div class="markdown level1 summary"><p>The version of the resource.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Version { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of object to be serialized.</p>
+</td>
       </tr>
     </tbody>
   </table>

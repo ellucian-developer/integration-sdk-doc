@@ -120,6 +120,107 @@ references:
   commentId: N:Ellucian.Ethos.Integration.Client
   fullName: Ellucian.Ethos.Integration.Client
   nameWithType: Ellucian.Ethos.Integration.Client
+- uid: Ellucian.Ethos.Integration.Client.Config
+  name: Ellucian.Ethos.Integration.Client.Config
+  href: api/Ellucian.Ethos.Integration.Client.Config.html
+  commentId: N:Ellucian.Ethos.Integration.Client.Config
+  fullName: Ellucian.Ethos.Integration.Client.Config
+  nameWithType: Ellucian.Ethos.Integration.Client.Config
+- uid: Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException
+  name: EthosResourceNotFoundException
+  href: api/Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.html
+  commentId: T:Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException
+  fullName: Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException
+  nameWithType: EthosResourceNotFoundException
+- uid: Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.#ctor(System.String)
+  name: EthosResourceNotFoundException(String)
+  href: api/Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.html#Ellucian_Ethos_Integration_Client_Config_EthosResourceNotFoundException__ctor_System_String_
+  commentId: M:Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.#ctor(System.String)
+  fullName: Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.EthosResourceNotFoundException(System.String)
+  nameWithType: EthosResourceNotFoundException.EthosResourceNotFoundException(String)
+- uid: Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.#ctor(System.String,System.String)
+  name: EthosResourceNotFoundException(String, String)
+  href: api/Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.html#Ellucian_Ethos_Integration_Client_Config_EthosResourceNotFoundException__ctor_System_String_System_String_
+  commentId: M:Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.#ctor(System.String,System.String)
+  fullName: Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.EthosResourceNotFoundException(System.String, System.String)
+  nameWithType: EthosResourceNotFoundException.EthosResourceNotFoundException(String, String)
+- uid: Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.#ctor*
+  name: EthosResourceNotFoundException
+  href: api/Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.html#Ellucian_Ethos_Integration_Client_Config_EthosResourceNotFoundException__ctor_
+  commentId: Overload:Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.#ctor
+  isSpec: "True"
+  fullName: Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.EthosResourceNotFoundException
+  nameWithType: EthosResourceNotFoundException.EthosResourceNotFoundException
+- uid: Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.ResourceName
+  name: ResourceName
+  href: api/Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.html#Ellucian_Ethos_Integration_Client_Config_EthosResourceNotFoundException_ResourceName
+  commentId: P:Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.ResourceName
+  fullName: Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.ResourceName
+  nameWithType: EthosResourceNotFoundException.ResourceName
+- uid: Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.ResourceName*
+  name: ResourceName
+  href: api/Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.html#Ellucian_Ethos_Integration_Client_Config_EthosResourceNotFoundException_ResourceName_
+  commentId: Overload:Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.ResourceName
+  isSpec: "True"
+  fullName: Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.ResourceName
+  nameWithType: EthosResourceNotFoundException.ResourceName
+- uid: Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException
+  name: UnsupportedVersionException
+  href: api/Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.html
+  commentId: T:Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException
+  fullName: Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException
+  nameWithType: UnsupportedVersionException
+- uid: Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.#ctor(System.String)
+  name: UnsupportedVersionException(String)
+  href: api/Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.html#Ellucian_Ethos_Integration_Client_Config_UnsupportedVersionException__ctor_System_String_
+  commentId: M:Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.#ctor(System.String)
+  fullName: Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.UnsupportedVersionException(System.String)
+  nameWithType: UnsupportedVersionException.UnsupportedVersionException(String)
+- uid: Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.#ctor(System.String,System.String)
+  name: UnsupportedVersionException(String, String)
+  href: api/Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.html#Ellucian_Ethos_Integration_Client_Config_UnsupportedVersionException__ctor_System_String_System_String_
+  commentId: M:Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.#ctor(System.String,System.String)
+  fullName: Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.UnsupportedVersionException(System.String, System.String)
+  nameWithType: UnsupportedVersionException.UnsupportedVersionException(String, String)
+- uid: Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.#ctor(System.String,System.String,System.String)
+  name: UnsupportedVersionException(String, String, String)
+  href: api/Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.html#Ellucian_Ethos_Integration_Client_Config_UnsupportedVersionException__ctor_System_String_System_String_System_String_
+  commentId: M:Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.#ctor(System.String,System.String,System.String)
+  fullName: Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.UnsupportedVersionException(System.String, System.String, System.String)
+  nameWithType: UnsupportedVersionException.UnsupportedVersionException(String, String, String)
+- uid: Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.#ctor*
+  name: UnsupportedVersionException
+  href: api/Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.html#Ellucian_Ethos_Integration_Client_Config_UnsupportedVersionException__ctor_
+  commentId: Overload:Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.#ctor
+  isSpec: "True"
+  fullName: Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.UnsupportedVersionException
+  nameWithType: UnsupportedVersionException.UnsupportedVersionException
+- uid: Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.ResourceName
+  name: ResourceName
+  href: api/Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.html#Ellucian_Ethos_Integration_Client_Config_UnsupportedVersionException_ResourceName
+  commentId: P:Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.ResourceName
+  fullName: Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.ResourceName
+  nameWithType: UnsupportedVersionException.ResourceName
+- uid: Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.ResourceName*
+  name: ResourceName
+  href: api/Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.html#Ellucian_Ethos_Integration_Client_Config_UnsupportedVersionException_ResourceName_
+  commentId: Overload:Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.ResourceName
+  isSpec: "True"
+  fullName: Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.ResourceName
+  nameWithType: UnsupportedVersionException.ResourceName
+- uid: Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.UnsupportedVersion
+  name: UnsupportedVersion
+  href: api/Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.html#Ellucian_Ethos_Integration_Client_Config_UnsupportedVersionException_UnsupportedVersion
+  commentId: P:Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.UnsupportedVersion
+  fullName: Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.UnsupportedVersion
+  nameWithType: UnsupportedVersionException.UnsupportedVersion
+- uid: Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.UnsupportedVersion*
+  name: UnsupportedVersion
+  href: api/Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.html#Ellucian_Ethos_Integration_Client_Config_UnsupportedVersionException_UnsupportedVersion_
+  commentId: Overload:Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.UnsupportedVersion
+  isSpec: "True"
+  fullName: Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.UnsupportedVersion
+  nameWithType: UnsupportedVersionException.UnsupportedVersion
 - uid: Ellucian.Ethos.Integration.Client.Errors
   name: Ellucian.Ethos.Integration.Client.Errors
   href: api/Ellucian.Ethos.Integration.Client.Errors.html
@@ -840,12 +941,12 @@ references:
   commentId: T:Ellucian.Ethos.Integration.Client.Errors.Resource
   fullName: Ellucian.Ethos.Integration.Client.Errors.Resource
   nameWithType: Resource
-- uid: Ellucian.Ethos.Integration.Client.Errors.Resource.#ctor(System.String,System.String)
-  name: Resource(String, String)
-  href: api/Ellucian.Ethos.Integration.Client.Errors.Resource.html#Ellucian_Ethos_Integration_Client_Errors_Resource__ctor_System_String_System_String_
-  commentId: M:Ellucian.Ethos.Integration.Client.Errors.Resource.#ctor(System.String,System.String)
-  fullName: Ellucian.Ethos.Integration.Client.Errors.Resource.Resource(System.String, System.String)
-  nameWithType: Resource.Resource(String, String)
+- uid: Ellucian.Ethos.Integration.Client.Errors.Resource.#ctor(System.String,System.String,System.String)
+  name: Resource(String, String, String)
+  href: api/Ellucian.Ethos.Integration.Client.Errors.Resource.html#Ellucian_Ethos_Integration_Client_Errors_Resource__ctor_System_String_System_String_System_String_
+  commentId: M:Ellucian.Ethos.Integration.Client.Errors.Resource.#ctor(System.String,System.String,System.String)
+  fullName: Ellucian.Ethos.Integration.Client.Errors.Resource.Resource(System.String, System.String, System.String)
+  nameWithType: Resource.Resource(String, String, String)
 - uid: Ellucian.Ethos.Integration.Client.Errors.Resource.#ctor*
   name: Resource
   href: api/Ellucian.Ethos.Integration.Client.Errors.Resource.html#Ellucian_Ethos_Integration_Client_Errors_Resource__ctor_
@@ -879,6 +980,19 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Errors.Resource.Name
   nameWithType: Resource.Name
+- uid: Ellucian.Ethos.Integration.Client.Errors.Resource.Version
+  name: Version
+  href: api/Ellucian.Ethos.Integration.Client.Errors.Resource.html#Ellucian_Ethos_Integration_Client_Errors_Resource_Version
+  commentId: P:Ellucian.Ethos.Integration.Client.Errors.Resource.Version
+  fullName: Ellucian.Ethos.Integration.Client.Errors.Resource.Version
+  nameWithType: Resource.Version
+- uid: Ellucian.Ethos.Integration.Client.Errors.Resource.Version*
+  name: Version
+  href: api/Ellucian.Ethos.Integration.Client.Errors.Resource.html#Ellucian_Ethos_Integration_Client_Errors_Resource_Version_
+  commentId: Overload:Ellucian.Ethos.Integration.Client.Errors.Resource.Version
+  isSpec: "True"
+  fullName: Ellucian.Ethos.Integration.Client.Errors.Resource.Version
+  nameWithType: Resource.Version
 - uid: Ellucian.Ethos.Integration.Client.EthosClient
   name: EthosClient
   href: api/Ellucian.Ethos.Integration.Client.EthosClient.html
@@ -1325,19 +1439,45 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.EthosResponse.Content
   nameWithType: EthosResponse.Content
-- uid: Ellucian.Ethos.Integration.Client.EthosResponse.ContentAsJson
-  name: ContentAsJson
-  href: api/Ellucian.Ethos.Integration.Client.EthosResponse.html#Ellucian_Ethos_Integration_Client_EthosResponse_ContentAsJson
-  commentId: P:Ellucian.Ethos.Integration.Client.EthosResponse.ContentAsJson
-  fullName: Ellucian.Ethos.Integration.Client.EthosResponse.ContentAsJson
-  nameWithType: EthosResponse.ContentAsJson
-- uid: Ellucian.Ethos.Integration.Client.EthosResponse.ContentAsJson*
-  name: ContentAsJson
-  href: api/Ellucian.Ethos.Integration.Client.EthosResponse.html#Ellucian_Ethos_Integration_Client_EthosResponse_ContentAsJson_
-  commentId: Overload:Ellucian.Ethos.Integration.Client.EthosResponse.ContentAsJson
+- uid: Ellucian.Ethos.Integration.Client.EthosResponse.Dto
+  name: Dto
+  href: api/Ellucian.Ethos.Integration.Client.EthosResponse.html#Ellucian_Ethos_Integration_Client_EthosResponse_Dto
+  commentId: P:Ellucian.Ethos.Integration.Client.EthosResponse.Dto
+  fullName: Ellucian.Ethos.Integration.Client.EthosResponse.Dto
+  nameWithType: EthosResponse.Dto
+- uid: Ellucian.Ethos.Integration.Client.EthosResponse.Dto*
+  name: Dto
+  href: api/Ellucian.Ethos.Integration.Client.EthosResponse.html#Ellucian_Ethos_Integration_Client_EthosResponse_Dto_
+  commentId: Overload:Ellucian.Ethos.Integration.Client.EthosResponse.Dto
   isSpec: "True"
-  fullName: Ellucian.Ethos.Integration.Client.EthosResponse.ContentAsJson
-  nameWithType: EthosResponse.ContentAsJson
+  fullName: Ellucian.Ethos.Integration.Client.EthosResponse.Dto
+  nameWithType: EthosResponse.Dto
+- uid: Ellucian.Ethos.Integration.Client.EthosResponse.GetContentAsJson
+  name: GetContentAsJson()
+  href: api/Ellucian.Ethos.Integration.Client.EthosResponse.html#Ellucian_Ethos_Integration_Client_EthosResponse_GetContentAsJson
+  commentId: M:Ellucian.Ethos.Integration.Client.EthosResponse.GetContentAsJson
+  fullName: Ellucian.Ethos.Integration.Client.EthosResponse.GetContentAsJson()
+  nameWithType: EthosResponse.GetContentAsJson()
+- uid: Ellucian.Ethos.Integration.Client.EthosResponse.GetContentAsJson*
+  name: GetContentAsJson
+  href: api/Ellucian.Ethos.Integration.Client.EthosResponse.html#Ellucian_Ethos_Integration_Client_EthosResponse_GetContentAsJson_
+  commentId: Overload:Ellucian.Ethos.Integration.Client.EthosResponse.GetContentAsJson
+  isSpec: "True"
+  fullName: Ellucian.Ethos.Integration.Client.EthosResponse.GetContentAsJson
+  nameWithType: EthosResponse.GetContentAsJson
+- uid: Ellucian.Ethos.Integration.Client.EthosResponse.GetContentCount
+  name: GetContentCount()
+  href: api/Ellucian.Ethos.Integration.Client.EthosResponse.html#Ellucian_Ethos_Integration_Client_EthosResponse_GetContentCount
+  commentId: M:Ellucian.Ethos.Integration.Client.EthosResponse.GetContentCount
+  fullName: Ellucian.Ethos.Integration.Client.EthosResponse.GetContentCount()
+  nameWithType: EthosResponse.GetContentCount()
+- uid: Ellucian.Ethos.Integration.Client.EthosResponse.GetContentCount*
+  name: GetContentCount
+  href: api/Ellucian.Ethos.Integration.Client.EthosResponse.html#Ellucian_Ethos_Integration_Client_EthosResponse_GetContentCount_
+  commentId: Overload:Ellucian.Ethos.Integration.Client.EthosResponse.GetContentCount
+  isSpec: "True"
+  fullName: Ellucian.Ethos.Integration.Client.EthosResponse.GetContentCount
+  nameWithType: EthosResponse.GetContentCount
 - uid: Ellucian.Ethos.Integration.Client.EthosResponse.GetHeader(System.String)
   name: GetHeader(String)
   href: api/Ellucian.Ethos.Integration.Client.EthosResponse.html#Ellucian_Ethos_Integration_Client_EthosResponse_GetHeader_System_String_
@@ -1628,6 +1768,133 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.EthosResponseConverter.TrimContentFromOffsetForNumRows
   nameWithType: EthosResponseConverter.TrimContentFromOffsetForNumRows
+- uid: Ellucian.Ethos.Integration.Client.Extensions
+  name: Ellucian.Ethos.Integration.Client.Extensions
+  href: api/Ellucian.Ethos.Integration.Client.Extensions.html
+  commentId: N:Ellucian.Ethos.Integration.Client.Extensions
+  fullName: Ellucian.Ethos.Integration.Client.Extensions
+  nameWithType: Ellucian.Ethos.Integration.Client.Extensions
+- uid: Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension
+  name: EthosResponseExtension
+  href: api/Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.html
+  commentId: T:Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension
+  fullName: Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension
+  nameWithType: EthosResponseExtension
+- uid: Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.Deserialize*
+  name: Deserialize
+  href: api/Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.html#Ellucian_Ethos_Integration_Client_Extensions_EthosResponseExtension_Deserialize_
+  commentId: Overload:Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.Deserialize
+  isSpec: "True"
+  fullName: Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.Deserialize
+  nameWithType: EthosResponseExtension.Deserialize
+- uid: Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.Deserialize``1(Ellucian.Ethos.Integration.Client.EthosResponse)
+  name: Deserialize<T>(EthosResponse)
+  href: api/Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.html#Ellucian_Ethos_Integration_Client_Extensions_EthosResponseExtension_Deserialize__1_Ellucian_Ethos_Integration_Client_EthosResponse_
+  commentId: M:Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.Deserialize``1(Ellucian.Ethos.Integration.Client.EthosResponse)
+  name.vb: Deserialize(Of T)(EthosResponse)
+  fullName: Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.Deserialize<T>(Ellucian.Ethos.Integration.Client.EthosResponse)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.Deserialize(Of T)(Ellucian.Ethos.Integration.Client.EthosResponse)
+  nameWithType: EthosResponseExtension.Deserialize<T>(EthosResponse)
+  nameWithType.vb: EthosResponseExtension.Deserialize(Of T)(EthosResponse)
+- uid: Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.Serialize*
+  name: Serialize
+  href: api/Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.html#Ellucian_Ethos_Integration_Client_Extensions_EthosResponseExtension_Serialize_
+  commentId: Overload:Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.Serialize
+  isSpec: "True"
+  fullName: Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.Serialize
+  nameWithType: EthosResponseExtension.Serialize
+- uid: Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.Serialize``1(Ellucian.Ethos.Integration.Client.EthosResponse,Formatting)
+  name: Serialize<T>(EthosResponse, Formatting)
+  href: api/Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.html#Ellucian_Ethos_Integration_Client_Extensions_EthosResponseExtension_Serialize__1_Ellucian_Ethos_Integration_Client_EthosResponse_Formatting_
+  commentId: M:Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.Serialize``1(Ellucian.Ethos.Integration.Client.EthosResponse,Formatting)
+  name.vb: Serialize(Of T)(EthosResponse, Formatting)
+  fullName: Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.Serialize<T>(Ellucian.Ethos.Integration.Client.EthosResponse, Formatting)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.Serialize(Of T)(Ellucian.Ethos.Integration.Client.EthosResponse, Formatting)
+  nameWithType: EthosResponseExtension.Serialize<T>(EthosResponse, Formatting)
+  nameWithType.vb: EthosResponseExtension.Serialize(Of T)(EthosResponse, Formatting)
+- uid: Ellucian.Ethos.Integration.Client.Filter.Extensions
+  name: Ellucian.Ethos.Integration.Client.Filter.Extensions
+  href: api/Ellucian.Ethos.Integration.Client.Filter.Extensions.html
+  commentId: N:Ellucian.Ethos.Integration.Client.Filter.Extensions
+  fullName: Ellucian.Ethos.Integration.Client.Filter.Extensions
+  nameWithType: Ellucian.Ethos.Integration.Client.Filter.Extensions
+- uid: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension
+  name: CriteriaExtension
+  href: api/Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.html
+  commentId: T:Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension
+  fullName: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension
+  nameWithType: CriteriaExtension
+- uid: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,Dictionary{System.String,System.Object})
+  name: WithArray(CriteriaFilter, String, Dictionary<String, Object>)
+  href: api/Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.html#Ellucian_Ethos_Integration_Client_Filter_Extensions_CriteriaExtension_WithArray_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_System_String_Dictionary_System_String_System_Object__
+  commentId: M:Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,Dictionary{System.String,System.Object})
+  name.vb: WithArray(CriteriaFilter, String, Dictionary(Of String, Object))
+  fullName: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, Dictionary<System.String, System.Object>)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, Dictionary(Of System.String, System.Object))
+  nameWithType: CriteriaExtension.WithArray(CriteriaFilter, String, Dictionary<String, Object>)
+  nameWithType.vb: CriteriaExtension.WithArray(CriteriaFilter, String, Dictionary(Of String, Object))
+- uid: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.Object[])
+  name: WithArray(CriteriaFilter, String, Object[])
+  href: api/Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.html#Ellucian_Ethos_Integration_Client_Filter_Extensions_CriteriaExtension_WithArray_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_System_String_System_Object___
+  commentId: M:Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.Object[])
+  name.vb: WithArray(CriteriaFilter, String, Object())
+  fullName: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.Object[])
+  fullName.vb: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.Object())
+  nameWithType: CriteriaExtension.WithArray(CriteriaFilter, String, Object[])
+  nameWithType.vb: CriteriaExtension.WithArray(CriteriaFilter, String, Object())
+- uid: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.ValueTuple{System.String,System.Object}[])
+  name: WithArray(CriteriaFilter, String, (String key, Object value)[])
+  href: api/Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.html#Ellucian_Ethos_Integration_Client_Filter_Extensions_CriteriaExtension_WithArray_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_System_String_System_ValueTuple_System_String_System_Object____
+  commentId: M:Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.ValueTuple{System.String,System.Object}[])
+  name.vb: WithArray(CriteriaFilter, String, (key As String, value As Object)())
+  fullName: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.ValueTuple<System.String, System.Object>[])
+  fullName.vb: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.ValueTuple(Of System.String, System.Object)())
+  nameWithType: CriteriaExtension.WithArray(CriteriaFilter, String, (String key, Object value)[])
+  nameWithType.vb: CriteriaExtension.WithArray(CriteriaFilter, String, (key As String, value As Object)())
+- uid: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithArray*
+  name: WithArray
+  href: api/Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.html#Ellucian_Ethos_Integration_Client_Filter_Extensions_CriteriaExtension_WithArray_
+  commentId: Overload:Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithArray
+  isSpec: "True"
+  fullName: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithArray
+  nameWithType: CriteriaExtension.WithArray
+- uid: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String)
+  name: WithSimpleCriteria(CriteriaFilter, String)
+  href: api/Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.html#Ellucian_Ethos_Integration_Client_Filter_Extensions_CriteriaExtension_WithSimpleCriteria_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_System_String_
+  commentId: M:Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String)
+  fullName: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String)
+  nameWithType: CriteriaExtension.WithSimpleCriteria(CriteriaFilter, String)
+- uid: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.Object)
+  name: WithSimpleCriteria(CriteriaFilter, String, Object)
+  href: api/Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.html#Ellucian_Ethos_Integration_Client_Filter_Extensions_CriteriaExtension_WithSimpleCriteria_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_System_String_System_Object_
+  commentId: M:Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.Object)
+  fullName: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.Object)
+  nameWithType: CriteriaExtension.WithSimpleCriteria(CriteriaFilter, String, Object)
+- uid: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.ValueTuple{System.String,System.Object})
+  name: WithSimpleCriteria(CriteriaFilter, String, (String key, Object value))
+  href: api/Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.html#Ellucian_Ethos_Integration_Client_Filter_Extensions_CriteriaExtension_WithSimpleCriteria_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_System_String_System_ValueTuple_System_String_System_Object__
+  commentId: M:Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.ValueTuple{System.String,System.Object})
+  name.vb: WithSimpleCriteria(CriteriaFilter, String, (key As String, value As Object))
+  fullName: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.ValueTuple<System.String, System.Object>)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.ValueTuple(Of System.String, System.Object))
+  nameWithType: CriteriaExtension.WithSimpleCriteria(CriteriaFilter, String, (String key, Object value))
+  nameWithType.vb: CriteriaExtension.WithSimpleCriteria(CriteriaFilter, String, (key As String, value As Object))
+- uid: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.ValueTuple{System.String,System.Object}[])
+  name: WithSimpleCriteria(CriteriaFilter, String, (String key, Object value)[])
+  href: api/Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.html#Ellucian_Ethos_Integration_Client_Filter_Extensions_CriteriaExtension_WithSimpleCriteria_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_System_String_System_ValueTuple_System_String_System_Object____
+  commentId: M:Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.ValueTuple{System.String,System.Object}[])
+  name.vb: WithSimpleCriteria(CriteriaFilter, String, (key As String, value As Object)())
+  fullName: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.ValueTuple<System.String, System.Object>[])
+  fullName.vb: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.ValueTuple(Of System.String, System.Object)())
+  nameWithType: CriteriaExtension.WithSimpleCriteria(CriteriaFilter, String, (String key, Object value)[])
+  nameWithType.vb: CriteriaExtension.WithSimpleCriteria(CriteriaFilter, String, (key As String, value As Object)())
+- uid: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithSimpleCriteria*
+  name: WithSimpleCriteria
+  href: api/Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.html#Ellucian_Ethos_Integration_Client_Filter_Extensions_CriteriaExtension_WithSimpleCriteria_
+  commentId: Overload:Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithSimpleCriteria
+  isSpec: "True"
+  fullName: Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.WithSimpleCriteria
+  nameWithType: CriteriaExtension.WithSimpleCriteria
 - uid: Ellucian.Ethos.Integration.Client.HttpProtocolClientBuilder
   name: HttpProtocolClientBuilder
   href: api/Ellucian.Ethos.Integration.Client.HttpProtocolClientBuilder.html
@@ -1685,6 +1952,12 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.HttpProtocolClientBuilder.Client
   nameWithType: HttpProtocolClientBuilder.Client
+- uid: Ellucian.Ethos.Integration.Client.HttpProtocolClientBuilder.CLIENT_NAME
+  name: CLIENT_NAME
+  href: api/Ellucian.Ethos.Integration.Client.HttpProtocolClientBuilder.html#Ellucian_Ethos_Integration_Client_HttpProtocolClientBuilder_CLIENT_NAME
+  commentId: F:Ellucian.Ethos.Integration.Client.HttpProtocolClientBuilder.CLIENT_NAME
+  fullName: Ellucian.Ethos.Integration.Client.HttpProtocolClientBuilder.CLIENT_NAME
+  nameWithType: HttpProtocolClientBuilder.CLIENT_NAME
 - uid: Ellucian.Ethos.Integration.Client.HttpProtocolClientBuilder.CONNECTION_TIMEOUT
   name: CONNECTION_TIMEOUT
   href: api/Ellucian.Ethos.Integration.Client.HttpProtocolClientBuilder.html#Ellucian_Ethos_Integration_Client_HttpProtocolClientBuilder_CONNECTION_TIMEOUT
@@ -2231,6 +2504,15 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithCriteriaFilterAsync
   nameWithType: EthosFilterQueryClient.GetPagesFromOffsetWithCriteriaFilterAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithCriteriaFilterAsync``1(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.Int32,System.Int32)
+  name: GetPagesFromOffsetWithCriteriaFilterAsync<T>(String, CriteriaFilter, String, Int32, Int32)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesFromOffsetWithCriteriaFilterAsync__1_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_System_String_System_Int32_System_Int32_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithCriteriaFilterAsync``1(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.Int32,System.Int32)
+  name.vb: GetPagesFromOffsetWithCriteriaFilterAsync(Of T)(String, CriteriaFilter, String, Int32, Int32)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithCriteriaFilterAsync<T>(System.String, Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.Int32, System.Int32)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithCriteriaFilterAsync(Of T)(System.String, Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.Int32, System.Int32)
+  nameWithType: EthosFilterQueryClient.GetPagesFromOffsetWithCriteriaFilterAsync<T>(String, CriteriaFilter, String, Int32, Int32)
+  nameWithType.vb: EthosFilterQueryClient.GetPagesFromOffsetWithCriteriaFilterAsync(Of T)(String, CriteriaFilter, String, Int32, Int32)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithFilterMapAsync(System.String,System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterMap,System.Int32)
   name: GetPagesFromOffsetWithFilterMapAsync(String, String, FilterMap, Int32)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesFromOffsetWithFilterMapAsync_System_String_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_FilterMap_System_Int32_
@@ -2250,6 +2532,15 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithFilterMapAsync
   nameWithType: EthosFilterQueryClient.GetPagesFromOffsetWithFilterMapAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithFilterMapAsync``1(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterMap,System.String,System.Int32,System.Int32)
+  name: GetPagesFromOffsetWithFilterMapAsync<T>(String, FilterMap, String, Int32, Int32)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesFromOffsetWithFilterMapAsync__1_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_FilterMap_System_String_System_Int32_System_Int32_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithFilterMapAsync``1(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterMap,System.String,System.Int32,System.Int32)
+  name.vb: GetPagesFromOffsetWithFilterMapAsync(Of T)(String, FilterMap, String, Int32, Int32)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithFilterMapAsync<T>(System.String, Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterMap, System.String, System.Int32, System.Int32)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithFilterMapAsync(Of T)(System.String, Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterMap, System.String, System.Int32, System.Int32)
+  nameWithType: EthosFilterQueryClient.GetPagesFromOffsetWithFilterMapAsync<T>(String, FilterMap, String, Int32, Int32)
+  nameWithType.vb: EthosFilterQueryClient.GetPagesFromOffsetWithFilterMapAsync(Of T)(String, FilterMap, String, Int32, Int32)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithNamedQueryFilterAsync(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter,System.Int32)
   name: GetPagesFromOffsetWithNamedQueryFilterAsync(String, NamedQueryFilter, Int32)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesFromOffsetWithNamedQueryFilterAsync_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryFilter_System_Int32_
@@ -2281,6 +2572,15 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithNamedQueryFilterAsync
   nameWithType: EthosFilterQueryClient.GetPagesFromOffsetWithNamedQueryFilterAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithNamedQueryFilterAsync``1(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter,System.String,System.Int32,System.Int32)
+  name: GetPagesFromOffsetWithNamedQueryFilterAsync<T>(String, NamedQueryFilter, String, Int32, Int32)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesFromOffsetWithNamedQueryFilterAsync__1_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryFilter_System_String_System_Int32_System_Int32_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithNamedQueryFilterAsync``1(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter,System.String,System.Int32,System.Int32)
+  name.vb: GetPagesFromOffsetWithNamedQueryFilterAsync(Of T)(String, NamedQueryFilter, String, Int32, Int32)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithNamedQueryFilterAsync<T>(System.String, Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter, System.String, System.Int32, System.Int32)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithNamedQueryFilterAsync(Of T)(System.String, Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter, System.String, System.Int32, System.Int32)
+  nameWithType: EthosFilterQueryClient.GetPagesFromOffsetWithNamedQueryFilterAsync<T>(String, NamedQueryFilter, String, Int32, Int32)
+  nameWithType.vb: EthosFilterQueryClient.GetPagesFromOffsetWithNamedQueryFilterAsync(Of T)(String, NamedQueryFilter, String, Int32, Int32)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithCriteriaFilterAsync(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter)
   name: GetPagesWithCriteriaFilterAsync(String, CriteriaFilter)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesWithCriteriaFilterAsync_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_
@@ -2312,6 +2612,15 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithCriteriaFilterAsync
   nameWithType: EthosFilterQueryClient.GetPagesWithCriteriaFilterAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithCriteriaFilterAsync``1(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.Int32)
+  name: GetPagesWithCriteriaFilterAsync<T>(String, CriteriaFilter, String, Int32)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesWithCriteriaFilterAsync__1_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_System_String_System_Int32_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithCriteriaFilterAsync``1(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.Int32)
+  name.vb: GetPagesWithCriteriaFilterAsync(Of T)(String, CriteriaFilter, String, Int32)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithCriteriaFilterAsync<T>(System.String, Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.Int32)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithCriteriaFilterAsync(Of T)(System.String, Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.Int32)
+  nameWithType: EthosFilterQueryClient.GetPagesWithCriteriaFilterAsync<T>(String, CriteriaFilter, String, Int32)
+  nameWithType.vb: EthosFilterQueryClient.GetPagesWithCriteriaFilterAsync(Of T)(String, CriteriaFilter, String, Int32)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithFilterMapAsync(System.String,System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterMap)
   name: GetPagesWithFilterMapAsync(String, String, FilterMap)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesWithFilterMapAsync_System_String_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_FilterMap_
@@ -2331,6 +2640,15 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithFilterMapAsync
   nameWithType: EthosFilterQueryClient.GetPagesWithFilterMapAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithFilterMapAsync``1(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterMap,System.String,System.Int32)
+  name: GetPagesWithFilterMapAsync<T>(String, FilterMap, String, Int32)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesWithFilterMapAsync__1_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_FilterMap_System_String_System_Int32_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithFilterMapAsync``1(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterMap,System.String,System.Int32)
+  name.vb: GetPagesWithFilterMapAsync(Of T)(String, FilterMap, String, Int32)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithFilterMapAsync<T>(System.String, Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterMap, System.String, System.Int32)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithFilterMapAsync(Of T)(System.String, Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterMap, System.String, System.Int32)
+  nameWithType: EthosFilterQueryClient.GetPagesWithFilterMapAsync<T>(String, FilterMap, String, Int32)
+  nameWithType.vb: EthosFilterQueryClient.GetPagesWithFilterMapAsync(Of T)(String, FilterMap, String, Int32)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithNamedQueryFilterAsync(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter)
   name: GetPagesWithNamedQueryFilterAsync(String, NamedQueryFilter)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesWithNamedQueryFilterAsync_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryFilter_
@@ -2362,6 +2680,15 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithNamedQueryFilterAsync
   nameWithType: EthosFilterQueryClient.GetPagesWithNamedQueryFilterAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithNamedQueryFilterAsync``1(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter,System.String,System.Int32)
+  name: GetPagesWithNamedQueryFilterAsync<T>(String, NamedQueryFilter, String, Int32)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesWithNamedQueryFilterAsync__1_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryFilter_System_String_System_Int32_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithNamedQueryFilterAsync``1(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter,System.String,System.Int32)
+  name.vb: GetPagesWithNamedQueryFilterAsync(Of T)(String, NamedQueryFilter, String, Int32)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithNamedQueryFilterAsync<T>(System.String, Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter, System.String, System.Int32)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithNamedQueryFilterAsync(Of T)(System.String, Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter, System.String, System.Int32)
+  nameWithType: EthosFilterQueryClient.GetPagesWithNamedQueryFilterAsync<T>(String, NamedQueryFilter, String, Int32)
+  nameWithType.vb: EthosFilterQueryClient.GetPagesWithNamedQueryFilterAsync(Of T)(String, NamedQueryFilter, String, Int32)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetTotalCountAsync(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter)
   name: GetTotalCountAsync(String, CriteriaFilter)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetTotalCountAsync_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_
@@ -2430,6 +2757,24 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithCriteriaFilterAsync
   nameWithType: EthosFilterQueryClient.GetWithCriteriaFilterAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithCriteriaFilterAsync``1(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String)
+  name: GetWithCriteriaFilterAsync<T>(String, CriteriaFilter, String)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetWithCriteriaFilterAsync__1_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_System_String_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithCriteriaFilterAsync``1(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String)
+  name.vb: GetWithCriteriaFilterAsync(Of T)(String, CriteriaFilter, String)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithCriteriaFilterAsync<T>(System.String, Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithCriteriaFilterAsync(Of T)(System.String, Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String)
+  nameWithType: EthosFilterQueryClient.GetWithCriteriaFilterAsync<T>(String, CriteriaFilter, String)
+  nameWithType.vb: EthosFilterQueryClient.GetWithCriteriaFilterAsync(Of T)(String, CriteriaFilter, String)
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithCriteriaFilterAsync``1(System.String,System.String,System.String)
+  name: GetWithCriteriaFilterAsync<T>(String, String, String)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetWithCriteriaFilterAsync__1_System_String_System_String_System_String_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithCriteriaFilterAsync``1(System.String,System.String,System.String)
+  name.vb: GetWithCriteriaFilterAsync(Of T)(String, String, String)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithCriteriaFilterAsync<T>(System.String, System.String, System.String)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithCriteriaFilterAsync(Of T)(System.String, System.String, System.String)
+  nameWithType: EthosFilterQueryClient.GetWithCriteriaFilterAsync<T>(String, String, String)
+  nameWithType.vb: EthosFilterQueryClient.GetWithCriteriaFilterAsync(Of T)(String, String, String)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithFilterMapAsync(System.String,System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterMap)
   name: GetWithFilterMapAsync(String, String, FilterMap)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetWithFilterMapAsync_System_String_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_FilterMap_
@@ -2449,6 +2794,24 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithFilterMapAsync
   nameWithType: EthosFilterQueryClient.GetWithFilterMapAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithFilterMapAsync``1(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterMap,System.String)
+  name: GetWithFilterMapAsync<T>(String, FilterMap, String)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetWithFilterMapAsync__1_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_FilterMap_System_String_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithFilterMapAsync``1(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterMap,System.String)
+  name.vb: GetWithFilterMapAsync(Of T)(String, FilterMap, String)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithFilterMapAsync<T>(System.String, Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterMap, System.String)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithFilterMapAsync(Of T)(System.String, Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterMap, System.String)
+  nameWithType: EthosFilterQueryClient.GetWithFilterMapAsync<T>(String, FilterMap, String)
+  nameWithType.vb: EthosFilterQueryClient.GetWithFilterMapAsync(Of T)(String, FilterMap, String)
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithFilterMapAsync``1(System.String,System.String,System.String)
+  name: GetWithFilterMapAsync<T>(String, String, String)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetWithFilterMapAsync__1_System_String_System_String_System_String_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithFilterMapAsync``1(System.String,System.String,System.String)
+  name.vb: GetWithFilterMapAsync(Of T)(String, String, String)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithFilterMapAsync<T>(System.String, System.String, System.String)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithFilterMapAsync(Of T)(System.String, System.String, System.String)
+  nameWithType: EthosFilterQueryClient.GetWithFilterMapAsync<T>(String, String, String)
+  nameWithType.vb: EthosFilterQueryClient.GetWithFilterMapAsync(Of T)(String, String, String)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithNamedQueryFilterAsync(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter)
   name: GetWithNamedQueryFilterAsync(String, NamedQueryFilter)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetWithNamedQueryFilterAsync_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryFilter_
@@ -2480,6 +2843,24 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithNamedQueryFilterAsync
   nameWithType: EthosFilterQueryClient.GetWithNamedQueryFilterAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithNamedQueryFilterAsync``1(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter,System.String)
+  name: GetWithNamedQueryFilterAsync<T>(String, NamedQueryFilter, String)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetWithNamedQueryFilterAsync__1_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryFilter_System_String_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithNamedQueryFilterAsync``1(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter,System.String)
+  name.vb: GetWithNamedQueryFilterAsync(Of T)(String, NamedQueryFilter, String)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithNamedQueryFilterAsync<T>(System.String, Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter, System.String)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithNamedQueryFilterAsync(Of T)(System.String, Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter, System.String)
+  nameWithType: EthosFilterQueryClient.GetWithNamedQueryFilterAsync<T>(String, NamedQueryFilter, String)
+  nameWithType.vb: EthosFilterQueryClient.GetWithNamedQueryFilterAsync(Of T)(String, NamedQueryFilter, String)
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithNamedQueryFilterAsync``1(System.String,System.String,System.String)
+  name: GetWithNamedQueryFilterAsync<T>(String, String, String)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetWithNamedQueryFilterAsync__1_System_String_System_String_System_String_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithNamedQueryFilterAsync``1(System.String,System.String,System.String)
+  name.vb: GetWithNamedQueryFilterAsync(Of T)(String, String, String)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithNamedQueryFilterAsync<T>(System.String, System.String, System.String)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithNamedQueryFilterAsync(Of T)(System.String, System.String, System.String)
+  nameWithType: EthosFilterQueryClient.GetWithNamedQueryFilterAsync<T>(String, String, String)
+  nameWithType.vb: EthosFilterQueryClient.GetWithNamedQueryFilterAsync(Of T)(String, String, String)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithSimpleCriteriaValuesAsync(System.String,System.String,System.String,System.String)
   name: GetWithSimpleCriteriaValuesAsync(String, String, String, String)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetWithSimpleCriteriaValuesAsync_System_String_System_String_System_String_System_String_
@@ -2499,6 +2880,15 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithSimpleCriteriaValuesAsync
   nameWithType: EthosFilterQueryClient.GetWithSimpleCriteriaValuesAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithSimpleCriteriaValuesAsync``1(System.String,System.String,System.String,System.String,System.String)
+  name: GetWithSimpleCriteriaValuesAsync<T>(String, String, String, String, String)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetWithSimpleCriteriaValuesAsync__1_System_String_System_String_System_String_System_String_System_String_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithSimpleCriteriaValuesAsync``1(System.String,System.String,System.String,System.String,System.String)
+  name.vb: GetWithSimpleCriteriaValuesAsync(Of T)(String, String, String, String, String)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithSimpleCriteriaValuesAsync<T>(System.String, System.String, System.String, System.String, System.String)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithSimpleCriteriaValuesAsync(Of T)(System.String, System.String, System.String, System.String, System.String)
+  nameWithType: EthosFilterQueryClient.GetWithSimpleCriteriaValuesAsync<T>(String, String, String, String, String)
+  nameWithType.vb: EthosFilterQueryClient.GetWithSimpleCriteriaValuesAsync(Of T)(String, String, String, String, String)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.PrepareForPagingAsync(Ellucian.Ethos.Integration.Client.Proxy.Pager)
   name: PrepareForPagingAsync(Pager)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_PrepareForPagingAsync_Ellucian_Ethos_Integration_Client_Proxy_Pager_
@@ -2570,6 +2960,44 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.BuildHeadersMap
   nameWithType: EthosProxyClient.BuildHeadersMap
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.ConvertEthosResponseContentListToType*
+  name: ConvertEthosResponseContentListToType
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_ConvertEthosResponseContentListToType_
+  commentId: Overload:Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.ConvertEthosResponseContentListToType
+  isSpec: "True"
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.ConvertEthosResponseContentListToType
+  nameWithType: EthosProxyClient.ConvertEthosResponseContentListToType
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.ConvertEthosResponseContentListToType``1(IEnumerable{Ellucian.Ethos.Integration.Client.EthosResponse})
+  name: ConvertEthosResponseContentListToType<T>(IEnumerable<EthosResponse>)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_ConvertEthosResponseContentListToType__1_IEnumerable_Ellucian_Ethos_Integration_Client_EthosResponse__
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.ConvertEthosResponseContentListToType``1(IEnumerable{Ellucian.Ethos.Integration.Client.EthosResponse})
+  name.vb: ConvertEthosResponseContentListToType(Of T)(IEnumerable(Of EthosResponse))
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.ConvertEthosResponseContentListToType<T>(IEnumerable<Ellucian.Ethos.Integration.Client.EthosResponse>)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.ConvertEthosResponseContentListToType(Of T)(IEnumerable(Of Ellucian.Ethos.Integration.Client.EthosResponse))
+  nameWithType: EthosProxyClient.ConvertEthosResponseContentListToType<T>(IEnumerable<EthosResponse>)
+  nameWithType.vb: EthosProxyClient.ConvertEthosResponseContentListToType(Of T)(IEnumerable(Of EthosResponse))
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.ConvertEthosResponseContentToType*
+  name: ConvertEthosResponseContentToType
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_ConvertEthosResponseContentToType_
+  commentId: Overload:Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.ConvertEthosResponseContentToType
+  isSpec: "True"
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.ConvertEthosResponseContentToType
+  nameWithType: EthosProxyClient.ConvertEthosResponseContentToType
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.ConvertEthosResponseContentToType``1(Ellucian.Ethos.Integration.Client.EthosResponse)
+  name: ConvertEthosResponseContentToType<T>(EthosResponse)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_ConvertEthosResponseContentToType__1_Ellucian_Ethos_Integration_Client_EthosResponse_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.ConvertEthosResponseContentToType``1(Ellucian.Ethos.Integration.Client.EthosResponse)
+  name.vb: ConvertEthosResponseContentToType(Of T)(EthosResponse)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.ConvertEthosResponseContentToType<T>(Ellucian.Ethos.Integration.Client.EthosResponse)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.ConvertEthosResponseContentToType(Of T)(Ellucian.Ethos.Integration.Client.EthosResponse)
+  nameWithType: EthosProxyClient.ConvertEthosResponseContentToType<T>(EthosResponse)
+  nameWithType.vb: EthosProxyClient.ConvertEthosResponseContentToType(Of T)(EthosResponse)
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.DATE_FORMAT
+  name: DATE_FORMAT
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_DATE_FORMAT
+  commentId: F:Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.DATE_FORMAT
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.DATE_FORMAT
+  nameWithType: EthosProxyClient.DATE_FORMAT
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.DEFAULT_MAX_PAGE_SIZE
   name: DEFAULT_MAX_PAGE_SIZE
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_DEFAULT_MAX_PAGE_SIZE
@@ -2711,6 +3139,12 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAllPagesAsStringsAsync
   nameWithType: EthosProxyClient.GetAllPagesAsStringsAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAllPagesAsync(System.String)
+  name: GetAllPagesAsync(String)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_GetAllPagesAsync_System_String_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAllPagesAsync(System.String)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAllPagesAsync(System.String)
+  nameWithType: EthosProxyClient.GetAllPagesAsync(String)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAllPagesAsync(System.String,System.String)
   name: GetAllPagesAsync(String, String)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_GetAllPagesAsync_System_String_System_String_
@@ -2730,6 +3164,15 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAllPagesAsync
   nameWithType: EthosProxyClient.GetAllPagesAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAllPagesAsync``1(System.String,System.String,System.Int32)
+  name: GetAllPagesAsync<T>(String, String, Int32)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_GetAllPagesAsync__1_System_String_System_String_System_Int32_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAllPagesAsync``1(System.String,System.String,System.Int32)
+  name.vb: GetAllPagesAsync(Of T)(String, String, Int32)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAllPagesAsync<T>(System.String, System.String, System.Int32)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAllPagesAsync(Of T)(System.String, System.String, System.Int32)
+  nameWithType: EthosProxyClient.GetAllPagesAsync<T>(String, String, Int32)
+  nameWithType.vb: EthosProxyClient.GetAllPagesAsync(Of T)(String, String, Int32)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAllPagesFromOffsetAsJArraysAsync(System.String,System.String,System.Int32,System.Int32)
   name: GetAllPagesFromOffsetAsJArraysAsync(String, String, Int32, Int32)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_GetAllPagesFromOffsetAsJArraysAsync_System_String_System_String_System_Int32_System_Int32_
@@ -2769,6 +3212,15 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAllPagesFromOffsetAsync
   nameWithType: EthosProxyClient.GetAllPagesFromOffsetAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAllPagesFromOffsetAsync``1(System.String,System.String,System.Int32,System.Int32)
+  name: GetAllPagesFromOffsetAsync<T>(String, String, Int32, Int32)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_GetAllPagesFromOffsetAsync__1_System_String_System_String_System_Int32_System_Int32_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAllPagesFromOffsetAsync``1(System.String,System.String,System.Int32,System.Int32)
+  name.vb: GetAllPagesFromOffsetAsync(Of T)(String, String, Int32, Int32)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAllPagesFromOffsetAsync<T>(System.String, System.String, System.Int32, System.Int32)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAllPagesFromOffsetAsync(Of T)(System.String, System.String, System.Int32, System.Int32)
+  nameWithType: EthosProxyClient.GetAllPagesFromOffsetAsync<T>(String, String, Int32, Int32)
+  nameWithType.vb: EthosProxyClient.GetAllPagesFromOffsetAsync(Of T)(String, String, Int32, Int32)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAsJArrayAsync(System.String,System.String)
   name: GetAsJArrayAsync(String, String)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_GetAsJArrayAsync_System_String_System_String_
@@ -2833,6 +3285,12 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAsStringByIdAsync
   nameWithType: EthosProxyClient.GetAsStringByIdAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAsync(System.String)
+  name: GetAsync(String)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_GetAsync_System_String_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAsync(System.String)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAsync(System.String)
+  nameWithType: EthosProxyClient.GetAsync(String)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAsync(System.String,System.String)
   name: GetAsync(String, String)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_GetAsync_System_String_System_String_
@@ -2852,6 +3310,15 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAsync
   nameWithType: EthosProxyClient.GetAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAsync``1(System.String,System.String,System.Int32,System.Int32)
+  name: GetAsync<T>(String, String, Int32, Int32)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_GetAsync__1_System_String_System_String_System_Int32_System_Int32_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAsync``1(System.String,System.String,System.Int32,System.Int32)
+  name.vb: GetAsync(Of T)(String, String, Int32, Int32)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAsync<T>(System.String, System.String, System.Int32, System.Int32)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetAsync(Of T)(System.String, System.String, System.Int32, System.Int32)
+  nameWithType: EthosProxyClient.GetAsync<T>(String, String, Int32, Int32)
+  nameWithType.vb: EthosProxyClient.GetAsync(Of T)(String, String, Int32, Int32)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetByIdAsync(System.String,System.String,System.String)
   name: GetByIdAsync(String, String, String)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_GetByIdAsync_System_String_System_String_System_String_
@@ -2865,6 +3332,15 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetByIdAsync
   nameWithType: EthosProxyClient.GetByIdAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetByIdAsync``1(System.String,System.String,System.String)
+  name: GetByIdAsync<T>(String, String, String)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_GetByIdAsync__1_System_String_System_String_System_String_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetByIdAsync``1(System.String,System.String,System.String)
+  name.vb: GetByIdAsync(Of T)(String, String, String)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetByIdAsync<T>(System.String, System.String, System.String)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetByIdAsync(Of T)(System.String, System.String, System.String)
+  nameWithType: EthosProxyClient.GetByIdAsync<T>(String, String, String)
+  nameWithType.vb: EthosProxyClient.GetByIdAsync(Of T)(String, String, String)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetDataFromInitialContent(Ellucian.Ethos.Integration.Client.Proxy.Pager)
   name: GetDataFromInitialContent(Pager)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_GetDataFromInitialContent_Ellucian_Ethos_Integration_Client_Proxy_Pager_
@@ -2995,6 +3471,15 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetPagesAsync
   nameWithType: EthosProxyClient.GetPagesAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetPagesAsync``1(System.String,System.String,System.Int32,System.Int32)
+  name: GetPagesAsync<T>(String, String, Int32, Int32)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_GetPagesAsync__1_System_String_System_String_System_Int32_System_Int32_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetPagesAsync``1(System.String,System.String,System.Int32,System.Int32)
+  name.vb: GetPagesAsync(Of T)(String, String, Int32, Int32)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetPagesAsync<T>(System.String, System.String, System.Int32, System.Int32)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetPagesAsync(Of T)(System.String, System.String, System.Int32, System.Int32)
+  nameWithType: EthosProxyClient.GetPagesAsync<T>(String, String, Int32, Int32)
+  nameWithType.vb: EthosProxyClient.GetPagesAsync(Of T)(String, String, Int32, Int32)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetPagesFromOffsetAsJArraysAsync(System.String,System.String,System.Int32,System.Int32,System.Int32)
   name: GetPagesFromOffsetAsJArraysAsync(String, String, Int32, Int32, Int32)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_GetPagesFromOffsetAsJArraysAsync_System_String_System_String_System_Int32_System_Int32_System_Int32_
@@ -3034,6 +3519,15 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetPagesFromOffsetAsync
   nameWithType: EthosProxyClient.GetPagesFromOffsetAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetPagesFromOffsetAsync``1(System.String,System.String,System.Int32,System.Int32,System.Int32)
+  name: GetPagesFromOffsetAsync<T>(String, String, Int32, Int32, Int32)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_GetPagesFromOffsetAsync__1_System_String_System_String_System_Int32_System_Int32_System_Int32_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetPagesFromOffsetAsync``1(System.String,System.String,System.Int32,System.Int32,System.Int32)
+  name.vb: GetPagesFromOffsetAsync(Of T)(String, String, Int32, Int32, Int32)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetPagesFromOffsetAsync<T>(System.String, System.String, System.Int32, System.Int32, System.Int32)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetPagesFromOffsetAsync(Of T)(System.String, System.String, System.Int32, System.Int32, System.Int32)
+  nameWithType: EthosProxyClient.GetPagesFromOffsetAsync<T>(String, String, Int32, Int32, Int32)
+  nameWithType.vb: EthosProxyClient.GetPagesFromOffsetAsync(Of T)(String, String, Int32, Int32, Int32)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetPageSizeAsync(System.String,System.String,Ellucian.Ethos.Integration.Client.EthosResponse)
   name: GetPageSizeAsync(String, String, EthosResponse)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_GetPageSizeAsync_System_String_System_String_Ellucian_Ethos_Integration_Client_EthosResponse_
@@ -3086,6 +3580,15 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetRowsAsync
   nameWithType: EthosProxyClient.GetRowsAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetRowsAsync``1(System.String,System.String,System.Int32,System.Int32)
+  name: GetRowsAsync<T>(String, String, Int32, Int32)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_GetRowsAsync__1_System_String_System_String_System_Int32_System_Int32_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetRowsAsync``1(System.String,System.String,System.Int32,System.Int32)
+  name.vb: GetRowsAsync(Of T)(String, String, Int32, Int32)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetRowsAsync<T>(System.String, System.String, System.Int32, System.Int32)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetRowsAsync(Of T)(System.String, System.String, System.Int32, System.Int32)
+  nameWithType: EthosProxyClient.GetRowsAsync<T>(String, String, Int32, Int32)
+  nameWithType.vb: EthosProxyClient.GetRowsAsync(Of T)(String, String, Int32, Int32)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetRowsFromOffsetAsJArrayAsync(System.String,System.String,System.Int32,System.Int32)
   name: GetRowsFromOffsetAsJArrayAsync(String, String, Int32, Int32)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_GetRowsFromOffsetAsJArrayAsync_System_String_System_String_System_Int32_System_Int32_
@@ -3125,6 +3628,15 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetRowsFromOffsetAsync
   nameWithType: EthosProxyClient.GetRowsFromOffsetAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetRowsFromOffsetAsync``1(System.String,System.String,System.Int32,System.Int32,System.Int32)
+  name: GetRowsFromOffsetAsync<T>(String, String, Int32, Int32, Int32)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_GetRowsFromOffsetAsync__1_System_String_System_String_System_Int32_System_Int32_System_Int32_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetRowsFromOffsetAsync``1(System.String,System.String,System.Int32,System.Int32,System.Int32)
+  name.vb: GetRowsFromOffsetAsync(Of T)(String, String, Int32, Int32, Int32)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetRowsFromOffsetAsync<T>(System.String, System.String, System.Int32, System.Int32, System.Int32)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetRowsFromOffsetAsync(Of T)(System.String, System.String, System.Int32, System.Int32, System.Int32)
+  nameWithType: EthosProxyClient.GetRowsFromOffsetAsync<T>(String, String, Int32, Int32, Int32)
+  nameWithType.vb: EthosProxyClient.GetRowsFromOffsetAsync(Of T)(String, String, Int32, Int32, Int32)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.GetTotalCountAsync(System.String,System.String,Ellucian.Ethos.Integration.Client.EthosResponse)
   name: GetTotalCountAsync(String, String, EthosResponse)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_GetTotalCountAsync_System_String_System_String_Ellucian_Ethos_Integration_Client_EthosResponse_
@@ -3288,6 +3800,15 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.PostAsync
   nameWithType: EthosProxyClient.PostAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.PostAsync``1(System.String,``0,System.String)
+  name: PostAsync<T>(String, T, String)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_PostAsync__1_System_String___0_System_String_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.PostAsync``1(System.String,``0,System.String)
+  name.vb: PostAsync(Of T)(String, T, String)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.PostAsync<T>(System.String, T, System.String)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.PostAsync(Of T)(System.String, T, System.String)
+  nameWithType: EthosProxyClient.PostAsync<T>(String, T, String)
+  nameWithType.vb: EthosProxyClient.PostAsync(Of T)(String, T, String)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.PrepareForPagingAsync(Ellucian.Ethos.Integration.Client.Proxy.Pager)
   name: PrepareForPagingAsync(Pager)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_PrepareForPagingAsync_Ellucian_Ethos_Integration_Client_Proxy_Pager_
@@ -3332,6 +3853,15 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.PutAsync
   nameWithType: EthosProxyClient.PutAsync
+- uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.PutAsync``1(System.String,``0,System.String,System.String)
+  name: PutAsync<T>(String, T, String, String)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_PutAsync__1_System_String___0_System_String_System_String_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.PutAsync``1(System.String,``0,System.String,System.String)
+  name.vb: PutAsync(Of T)(String, T, String, String)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.PutAsync<T>(System.String, T, System.String, System.String)
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.PutAsync(Of T)(System.String, T, System.String, System.String)
+  nameWithType: EthosProxyClient.PutAsync<T>(String, T, String, String)
+  nameWithType.vb: EthosProxyClient.PutAsync(Of T)(String, T, String, String)
 - uid: Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.ShouldDoPaging(Ellucian.Ethos.Integration.Client.Proxy.Pager,System.Boolean)
   name: ShouldDoPaging(Pager, Boolean)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html#Ellucian_Ethos_Integration_Client_Proxy_EthosProxyClient_ShouldDoPaging_Ellucian_Ethos_Integration_Client_Proxy_Pager_System_Boolean_
@@ -3351,83 +3881,6 @@ references:
   commentId: N:Ellucian.Ethos.Integration.Client.Proxy.Filter
   fullName: Ellucian.Ethos.Integration.Client.Proxy.Filter
   nameWithType: Ellucian.Ethos.Integration.Client.Proxy.Filter
-- uid: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions
-  name: CriteriaExtensions
-  href: api/Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.html
-  commentId: T:Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions
-  fullName: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions
-  nameWithType: CriteriaExtensions
-- uid: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,Dictionary{System.String,System.Object})
-  name: WithArray(CriteriaFilter, String, Dictionary<String, Object>)
-  href: api/Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.html#Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaExtensions_WithArray_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_System_String_Dictionary_System_String_System_Object__
-  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,Dictionary{System.String,System.Object})
-  name.vb: WithArray(CriteriaFilter, String, Dictionary(Of String, Object))
-  fullName: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, Dictionary<System.String, System.Object>)
-  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, Dictionary(Of System.String, System.Object))
-  nameWithType: CriteriaExtensions.WithArray(CriteriaFilter, String, Dictionary<String, Object>)
-  nameWithType.vb: CriteriaExtensions.WithArray(CriteriaFilter, String, Dictionary(Of String, Object))
-- uid: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.Object[])
-  name: WithArray(CriteriaFilter, String, Object[])
-  href: api/Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.html#Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaExtensions_WithArray_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_System_String_System_Object___
-  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.Object[])
-  name.vb: WithArray(CriteriaFilter, String, Object())
-  fullName: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.Object[])
-  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.Object())
-  nameWithType: CriteriaExtensions.WithArray(CriteriaFilter, String, Object[])
-  nameWithType.vb: CriteriaExtensions.WithArray(CriteriaFilter, String, Object())
-- uid: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.ValueTuple{System.String,System.Object}[])
-  name: WithArray(CriteriaFilter, String, (String key, Object value)[])
-  href: api/Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.html#Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaExtensions_WithArray_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_System_String_System_ValueTuple_System_String_System_Object____
-  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.ValueTuple{System.String,System.Object}[])
-  name.vb: WithArray(CriteriaFilter, String, (key As String, value As Object)())
-  fullName: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.ValueTuple<System.String, System.Object>[])
-  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithArray(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.ValueTuple(Of System.String, System.Object)())
-  nameWithType: CriteriaExtensions.WithArray(CriteriaFilter, String, (String key, Object value)[])
-  nameWithType.vb: CriteriaExtensions.WithArray(CriteriaFilter, String, (key As String, value As Object)())
-- uid: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithArray*
-  name: WithArray
-  href: api/Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.html#Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaExtensions_WithArray_
-  commentId: Overload:Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithArray
-  isSpec: "True"
-  fullName: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithArray
-  nameWithType: CriteriaExtensions.WithArray
-- uid: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String)
-  name: WithSimpleCriteria(CriteriaFilter, String)
-  href: api/Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.html#Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaExtensions_WithSimpleCriteria_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_System_String_
-  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String)
-  fullName: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String)
-  nameWithType: CriteriaExtensions.WithSimpleCriteria(CriteriaFilter, String)
-- uid: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.Object)
-  name: WithSimpleCriteria(CriteriaFilter, String, Object)
-  href: api/Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.html#Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaExtensions_WithSimpleCriteria_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_System_String_System_Object_
-  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.Object)
-  fullName: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.Object)
-  nameWithType: CriteriaExtensions.WithSimpleCriteria(CriteriaFilter, String, Object)
-- uid: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.ValueTuple{System.String,System.Object})
-  name: WithSimpleCriteria(CriteriaFilter, String, (String key, Object value))
-  href: api/Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.html#Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaExtensions_WithSimpleCriteria_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_System_String_System_ValueTuple_System_String_System_Object__
-  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.ValueTuple{System.String,System.Object})
-  name.vb: WithSimpleCriteria(CriteriaFilter, String, (key As String, value As Object))
-  fullName: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.ValueTuple<System.String, System.Object>)
-  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.ValueTuple(Of System.String, System.Object))
-  nameWithType: CriteriaExtensions.WithSimpleCriteria(CriteriaFilter, String, (String key, Object value))
-  nameWithType.vb: CriteriaExtensions.WithSimpleCriteria(CriteriaFilter, String, (key As String, value As Object))
-- uid: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.ValueTuple{System.String,System.Object}[])
-  name: WithSimpleCriteria(CriteriaFilter, String, (String key, Object value)[])
-  href: api/Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.html#Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaExtensions_WithSimpleCriteria_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_System_String_System_ValueTuple_System_String_System_Object____
-  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String,System.ValueTuple{System.String,System.Object}[])
-  name.vb: WithSimpleCriteria(CriteriaFilter, String, (key As String, value As Object)())
-  fullName: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.ValueTuple<System.String, System.Object>[])
-  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithSimpleCriteria(Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter, System.String, System.ValueTuple(Of System.String, System.Object)())
-  nameWithType: CriteriaExtensions.WithSimpleCriteria(CriteriaFilter, String, (String key, Object value)[])
-  nameWithType.vb: CriteriaExtensions.WithSimpleCriteria(CriteriaFilter, String, (key As String, value As Object)())
-- uid: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithSimpleCriteria*
-  name: WithSimpleCriteria
-  href: api/Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.html#Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaExtensions_WithSimpleCriteria_
-  commentId: Overload:Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithSimpleCriteria
-  isSpec: "True"
-  fullName: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaExtensions.WithSimpleCriteria
-  nameWithType: CriteriaExtensions.WithSimpleCriteria
 - uid: Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter
   name: CriteriaFilter
   href: api/Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter.html
@@ -3674,6 +4127,19 @@ references:
   commentId: T:Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions
   fullName: Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions
   nameWithType: NamedQueryExtensions
+- uid: Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.BuildExpando(System.String,System.Object)
+  name: BuildExpando(String, Object)
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.html#Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryExtensions_BuildExpando_System_String_System_Object_
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.BuildExpando(System.String,System.Object)
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.BuildExpando(System.String, System.Object)
+  nameWithType: NamedQueryExtensions.BuildExpando(String, Object)
+- uid: Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.BuildExpando*
+  name: BuildExpando
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.html#Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryExtensions_BuildExpando_
+  commentId: Overload:Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.BuildExpando
+  isSpec: "True"
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.BuildExpando
+  nameWithType: NamedQueryExtensions.BuildExpando
 - uid: Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.WithNamedQuery(Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter,System.String,System.Object)
   name: WithNamedQuery(NamedQueryFilter, String, Object)
   href: api/Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.html#Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryExtensions_WithNamedQuery_Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryFilter_System_String_System_Object_
@@ -3686,6 +4152,15 @@ references:
   commentId: M:Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.WithNamedQuery(Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter,System.String,System.String,System.Object)
   fullName: Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.WithNamedQuery(Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter, System.String, System.String, System.Object)
   nameWithType: NamedQueryExtensions.WithNamedQuery(NamedQueryFilter, String, String, Object)
+- uid: Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.WithNamedQuery(Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter,System.String,System.ValueTuple{System.String,System.String,System.Object}[])
+  name: WithNamedQuery(NamedQueryFilter, String, (String label, String key, Object value)[])
+  href: api/Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.html#Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryExtensions_WithNamedQuery_Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryFilter_System_String_System_ValueTuple_System_String_System_String_System_Object____
+  commentId: M:Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.WithNamedQuery(Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter,System.String,System.ValueTuple{System.String,System.String,System.Object}[])
+  name.vb: WithNamedQuery(NamedQueryFilter, String, (label As String, key As String, value As Object)())
+  fullName: Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.WithNamedQuery(Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter, System.String, System.ValueTuple<System.String, System.String, System.Object>[])
+  fullName.vb: Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.WithNamedQuery(Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter, System.String, System.ValueTuple(Of System.String, System.String, System.Object)())
+  nameWithType: NamedQueryExtensions.WithNamedQuery(NamedQueryFilter, String, (String label, String key, Object value)[])
+  nameWithType.vb: NamedQueryExtensions.WithNamedQuery(NamedQueryFilter, String, (label As String, key As String, value As Object)())
 - uid: Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.WithNamedQuery(Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter,System.ValueTuple{System.String,System.Object}[])
   name: WithNamedQuery(NamedQueryFilter, (String key, Object value)[])
   href: api/Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.html#Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryExtensions_WithNamedQuery_Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryFilter_System_ValueTuple_System_String_System_Object____
@@ -6165,104 +6640,3 @@ references:
   isSpec: "True"
   fullName: Ellucian.Ethos.Integration.Service.EthosService.EthosClientBuilder
   nameWithType: EthosService.EthosClientBuilder
-- uid: Ellucian.EthosIntegration.SDK.Client.Config
-  name: Ellucian.EthosIntegration.SDK.Client.Config
-  href: api/Ellucian.EthosIntegration.SDK.Client.Config.html
-  commentId: N:Ellucian.EthosIntegration.SDK.Client.Config
-  fullName: Ellucian.EthosIntegration.SDK.Client.Config
-  nameWithType: Ellucian.EthosIntegration.SDK.Client.Config
-- uid: Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException
-  name: EthosResourceNotFoundException
-  href: api/Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.html
-  commentId: T:Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException
-  fullName: Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException
-  nameWithType: EthosResourceNotFoundException
-- uid: Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.#ctor(System.String)
-  name: EthosResourceNotFoundException(String)
-  href: api/Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.html#Ellucian_EthosIntegration_SDK_Client_Config_EthosResourceNotFoundException__ctor_System_String_
-  commentId: M:Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.#ctor(System.String)
-  fullName: Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.EthosResourceNotFoundException(System.String)
-  nameWithType: EthosResourceNotFoundException.EthosResourceNotFoundException(String)
-- uid: Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.#ctor(System.String,System.String)
-  name: EthosResourceNotFoundException(String, String)
-  href: api/Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.html#Ellucian_EthosIntegration_SDK_Client_Config_EthosResourceNotFoundException__ctor_System_String_System_String_
-  commentId: M:Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.#ctor(System.String,System.String)
-  fullName: Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.EthosResourceNotFoundException(System.String, System.String)
-  nameWithType: EthosResourceNotFoundException.EthosResourceNotFoundException(String, String)
-- uid: Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.#ctor*
-  name: EthosResourceNotFoundException
-  href: api/Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.html#Ellucian_EthosIntegration_SDK_Client_Config_EthosResourceNotFoundException__ctor_
-  commentId: Overload:Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.#ctor
-  isSpec: "True"
-  fullName: Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.EthosResourceNotFoundException
-  nameWithType: EthosResourceNotFoundException.EthosResourceNotFoundException
-- uid: Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.ResourceName
-  name: ResourceName
-  href: api/Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.html#Ellucian_EthosIntegration_SDK_Client_Config_EthosResourceNotFoundException_ResourceName
-  commentId: P:Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.ResourceName
-  fullName: Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.ResourceName
-  nameWithType: EthosResourceNotFoundException.ResourceName
-- uid: Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.ResourceName*
-  name: ResourceName
-  href: api/Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.html#Ellucian_EthosIntegration_SDK_Client_Config_EthosResourceNotFoundException_ResourceName_
-  commentId: Overload:Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.ResourceName
-  isSpec: "True"
-  fullName: Ellucian.EthosIntegration.SDK.Client.Config.EthosResourceNotFoundException.ResourceName
-  nameWithType: EthosResourceNotFoundException.ResourceName
-- uid: Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException
-  name: UnsupportedVersionException
-  href: api/Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.html
-  commentId: T:Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException
-  fullName: Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException
-  nameWithType: UnsupportedVersionException
-- uid: Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.#ctor(System.String)
-  name: UnsupportedVersionException(String)
-  href: api/Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.html#Ellucian_EthosIntegration_SDK_Client_Config_UnsupportedVersionException__ctor_System_String_
-  commentId: M:Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.#ctor(System.String)
-  fullName: Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.UnsupportedVersionException(System.String)
-  nameWithType: UnsupportedVersionException.UnsupportedVersionException(String)
-- uid: Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.#ctor(System.String,System.String)
-  name: UnsupportedVersionException(String, String)
-  href: api/Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.html#Ellucian_EthosIntegration_SDK_Client_Config_UnsupportedVersionException__ctor_System_String_System_String_
-  commentId: M:Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.#ctor(System.String,System.String)
-  fullName: Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.UnsupportedVersionException(System.String, System.String)
-  nameWithType: UnsupportedVersionException.UnsupportedVersionException(String, String)
-- uid: Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.#ctor(System.String,System.String,System.String)
-  name: UnsupportedVersionException(String, String, String)
-  href: api/Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.html#Ellucian_EthosIntegration_SDK_Client_Config_UnsupportedVersionException__ctor_System_String_System_String_System_String_
-  commentId: M:Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.#ctor(System.String,System.String,System.String)
-  fullName: Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.UnsupportedVersionException(System.String, System.String, System.String)
-  nameWithType: UnsupportedVersionException.UnsupportedVersionException(String, String, String)
-- uid: Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.#ctor*
-  name: UnsupportedVersionException
-  href: api/Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.html#Ellucian_EthosIntegration_SDK_Client_Config_UnsupportedVersionException__ctor_
-  commentId: Overload:Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.#ctor
-  isSpec: "True"
-  fullName: Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.UnsupportedVersionException
-  nameWithType: UnsupportedVersionException.UnsupportedVersionException
-- uid: Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.ResourceName
-  name: ResourceName
-  href: api/Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.html#Ellucian_EthosIntegration_SDK_Client_Config_UnsupportedVersionException_ResourceName
-  commentId: P:Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.ResourceName
-  fullName: Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.ResourceName
-  nameWithType: UnsupportedVersionException.ResourceName
-- uid: Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.ResourceName*
-  name: ResourceName
-  href: api/Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.html#Ellucian_EthosIntegration_SDK_Client_Config_UnsupportedVersionException_ResourceName_
-  commentId: Overload:Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.ResourceName
-  isSpec: "True"
-  fullName: Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.ResourceName
-  nameWithType: UnsupportedVersionException.ResourceName
-- uid: Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.UnsupportedVersion
-  name: UnsupportedVersion
-  href: api/Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.html#Ellucian_EthosIntegration_SDK_Client_Config_UnsupportedVersionException_UnsupportedVersion
-  commentId: P:Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.UnsupportedVersion
-  fullName: Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.UnsupportedVersion
-  nameWithType: UnsupportedVersionException.UnsupportedVersion
-- uid: Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.UnsupportedVersion*
-  name: UnsupportedVersion
-  href: api/Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.html#Ellucian_EthosIntegration_SDK_Client_Config_UnsupportedVersionException_UnsupportedVersion_
-  commentId: Overload:Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.UnsupportedVersion
-  isSpec: "True"
-  fullName: Ellucian.EthosIntegration.SDK.Client.Config.UnsupportedVersionException.UnsupportedVersion
-  nameWithType: UnsupportedVersionException.UnsupportedVersion
