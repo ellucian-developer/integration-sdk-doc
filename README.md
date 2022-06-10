@@ -4,6 +4,6 @@ This repository contains the generated code for the Ethos Integration SDK (EISDK
 
 The API doc sites are deployed and available through Github pages.  The following links are for the Java and C# API doc sites for the EISDK:
 
-[Java EISDK Javadoc](https://ellucian-developer.github.io/integrationSDKDoc/java)
+[Java EISDK Javadoc](https://ellucian-developer.github.io/integration-sdk-doc/java)
 
-[C# EISDK API Doc](https://ellucian-developer.github.io/integrationSDKDoc/csharp/api/Ellucian.Ethos.Integration.html)
+[C# EISDK API Doc](https://ellucian-developer.github.io/integration-sdk-doc/csharp/api/Ellucian.Ethos.Integration.html)
