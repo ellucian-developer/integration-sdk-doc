@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "/var/lib/jenkins/workspace/EthosDataModel/EISDK-Publication-Pipeline/2.2-publish-sdk-apidoc-csharp/integration-sdk-csharp/Ellucian.Ethos.Integration",
+  "source_base_path": "/var/lib/jenkins/workspace/EthosDataModel/EISDK-Publication-Pipeline/3.2-publish-sdk-apidoc-csharp/integration-sdk-csharp/Ellucian.Ethos.Integration",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "f6cZ49KyjLuuR2i0RqO8lA=="
+          "hash": "ekwipCBCOUhur2Fzn9vhKA=="
         }
       },
       "is_incremental": false,

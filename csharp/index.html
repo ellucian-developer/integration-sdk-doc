@@ -76,15 +76,15 @@ The Ethos Integration SDK makes the application development process less expensi
 <li><a href="#examples">Examples</a></li>
 </ol>
 <h1 id="setup">Setup</h1>
-<p>This SDK is available for download from the nuget repository (<a href="https://www.nuget.org/packages/Ellucian.EthosIntegration.SDK/">https://www.nuget.org/packages/Ellucian.EthosIntegration.SDK/</a>).</p>
+<p>This SDK is available for download from the <a href="https://www.nuget.org/packages/Ellucian.Ethos.Integration/">nuget repository</a>.</p>
 <p>Before using the SDK, you will need to download and install the following required software:</p>
 <ul>
-<li>A .NET runtime. The SDK was built in .NET Core 3.1</li>
+<li>A .NET runtime. The SDK was built in .NET Core 6.0.301</li>
 <li>nuget</li>
 </ul>
-<p>You will need an API key from an Ethos Integration application.  It is expected that the application that the API key belongs
-to is already configured properly in Ethos Integration.  Please refer to Ellucian documentation for more information about how to get
-an API key and configure Ethos Integration applications.</p>
+<p>You will need an API key from an Ethos Integration application. It is expected that the application that the API key belongs to is already
+configured properly in Ethos Integration.  Please refer to Ellucian documentation for more information about how to get an API key and configure
+Ethos Integration applications.</p>
 <p>We also recommend:</p>
 <ul>
 <li>A C# IDE such as
@@ -151,14 +151,15 @@ applications return.  This is why it is necessary to handle the responses as str
 <p>The other clients, such as <code>EthosMessagesClient</code> and <code>EthosErrorsClient</code>, return more specialized objects since the responses
 have defined JSON schemas.  They return <code>EthosError</code> and <code>ChangeNotification</code> objects.  See the full API doc for more details.</p>
 <h1 id="full-api-documentation">Full API Documentation</h1>
-<p>The full SDK API for the C# SDK is hosted on our Github Pages site, located at (<a href="https://ellucianethos.github.io/integrationSDKDoc/csharp">https://ellucianethos.github.io/integrationSDKDoc/csharp</a>).  This site uses the DocFX tool to generate API documentation.</p>
+<p>The full SDK API for the C# SDK is hosted on our <a href="https://ellucian-developer.github.io/integration-sdk-doc/csharp/api/Ellucian.Ethos.Integration.html">Github Pages site</a>. This site uses the DocFX tool to generate API documentation.</p>
 <h1 id="examples">Examples</h1>
-<p>To view more examples, clone this repo and view the <code>Ellucian.EthosIntegration.SDK.Sample</code> project.  Each of the
-classes in that package has a static <code>main</code> method and can be run from the command line or with an IDE run command.  When
-running these classes, an API key is required as a program argument.</p>
+<p>The following are the code-snippet examples of how to use the Ethos Integration SDK for C#. For more in-depth examples
+please refer to the <a href="https://github.com/ellucian-developer/integration-sdk-csharp-examples">integration SDK C# example project</a> in Github.</p>
 <p>For example:
-<code>dotnet run --project ./Ellucian.EthosIntegration.SDK.Sample/ &quot;11111111-1111-1111-1111-111111111111&quot;</code></p>
-<p>That will run the examples specified in the <code>Program.cs</code> file.</p>
+To start the project, run following command from the command prompt</p>
+<p><code>dotnet run &quot;11111111-1111-1111-1111-111111111111&quot;</code></p>
+<p>or alternatively you can run it from Visual Studio menu Debug --&gt; Start Debugging (F5 command key)/Start Without Debugging (Ctrl+F5) or</p>
+<p>That will run the examples specified in the <code>SDKExamples.cs</code> file.</p>
 <h3 id="making-requests-to-the-proxy-api">Making Requests to the Proxy API</h3>
 <p>Get a page of 'courses' resources using a specific version.</p>
 <pre><code class="lang-csharp">EthosProxyClient proxyClient = new EthosClientBuilder(apiKey).BuildEthosProxyClient();
@@ -201,10 +202,10 @@ var jsonNodeList = await proxyClient.GetPagesAsJArraysAsync( &quot;persons&quot;
 var stringList = await proxyClient.GetPagesFromOffsetAsStringsAsync( &quot;courses&quot;, &quot;&quot;, 0, 100, 2 );
 </code></pre>
 <h3 id="making-criteria-filter-requests-to-the-proxy-api">Making Criteria Filter Requests to the Proxy API</h3>
-<p>Requests using criteria filters can be made using the EthosFilterQueryClient. SimpleCriteria can be built using the CriteriaFilter WithSimpleCriteria or WithArray methods. Once built, you call BuildCriteria or BuildNamedQuery method to get a string representation
-of the filter. You can also directly pass CriteriaFilter or NamedQueryFilter to methods in EthosFilterQueryClient.
-This is covered in the documentation and example code. Some knowledge of the desired criteria filter syntax is needed for use with the given Ethos resource.
-The following is a brief example code snippet.</p>
+<p>Requests using criteria filters can be made using the EthosFilterQueryClient. SimpleCriteria can be built using the CriteriaFilter
+WithSimpleCriteria or WithArray methods. Once built, you call BuildCriteria or BuildNamedQuery method to get a string representation of the filter.
+You can also directly pass CriteriaFilter or NamedQueryFilter to methods in EthosFilterQueryClient. This is covered in the documentation and example code.
+Some knowledge of the desired criteria filter syntax is needed for use with the given Ethos resource. The following is a brief example code snippet.</p>
 <pre><code class="lang-csharp">//Creates ?criteria={&quot;names&quot;:{&quot;firstName&quot;:&quot;John&quot;,&quot;lastName&quot;:&quot;Smith&quot;}}
 string resource = &quot;persons&quot;;
 string version = &quot;application/vnd.hedtech.integration.v12.3.0+json&quot;;
@@ -275,7 +276,7 @@ subscriber, which then receives notifications from the SDK in an automated polli
         /// Here handle any errors that occured.
         /// &lt;/summary&gt;
         /// &lt;param name=&quot;e&quot;&gt;&lt;/param&gt;
-		public override void OnChangeNotificationError( Exception e )
+        public override void OnChangeNotificationError( Exception e )
         {
             base.OnChangeNotificationError( e );
         }
@@ -425,7 +426,7 @@ setup to make proxy requests and receive change-notifications from the different
 <ul>
 <li>NORTH</li>
 <li>SOUTH</li>
-<li>MAIN</li>
+<li>MAINP</li>
 </ul>
 <p>Likewise, there will be 3 client applications that are used to get data from the 3 different Banner campuses.</p>
 <pre><code class="lang-csharp">// API keys for my 3 client apps
@@ -450,6 +451,53 @@ EthosResponse response = await mainProxyClient.GetAsync(&quot;students&quot;);
 EthosMessagesClient mainMessagesClient = mainClientBuilder.GetEthosMessagesClient();
 IEnumerable&lt;ChangeNotification&gt; changeNotifications = await mainMessagesClient.ConsumeAsync();
 </code></pre>
+<h3 id="using-eisdk-generated-strongly-typed-objects-object-library">Using EISDK generated strongly typed objects Object Library</h3>
+<p>Data can be retrieved from Ethos APIs and then be returned as a concrete type as illustrated below.  Following example gets list of term-codes and then iterate over the individual <em>TermCodesV100GetRequest</em> type where each property can be accessed by using the dot notation making it easy to find and use members of a type.</p>
+<pre><code class="lang-csharp">
+try
+{
+    var response = await proxyClient.GetAsync&lt;IEnumerable&lt;TermCodesV100GetRequest&gt;&gt;( &quot;term-codes&quot; );
+
+    if ( response != null )
+    {
+        Console.WriteLine( &quot;&quot; );
+        foreach ( var item in ( IEnumerable&lt;TermCodesV100GetRequest&gt; ) response.Dto )
+        {
+            Console.WriteLine( $&quot;Activity Date: { item.ActivityDate }, CODE: { item.Code }, DESC: { item.Desc } &quot; );
+        }
+    }
+}
+catch ( Exception ex )
+{
+    Console.WriteLine( ex.Message );
+}
+
+</code></pre>
+<p>See the <a href="https://github.com/ellucian-developer/integration-sdk-csharp-objects">EISDK C# object library</a> for more info.</p>
+<p>See the <a href="https://github.com/ellucian-developer/integration-sdk-objects-csharp-doc">EISDK C# object library C# Doc</a> to access the C# doc pages.</p>
+<h3 id="qapi-support-in-the-eisdk-for-c">QAPI Support in the EISDK for C#</h3>
+<p>Searching by QAPI allows a secure search instead of passing parameters in the URL. Following example illustrate searching term-codes where acyrcode equals 2017. This example is using strongly typed <em>TermCodesV100GetRequest</em> type.</p>
+<pre><code class="lang-csharp">
+string resource = &quot;term-codes&quot;;
+string version = &quot;application/vnd.hedtech.integration.v1.0.0+json&quot;;
+TermCodesV100GetRequest requestBody = new TermCodesV100GetRequest() { AcyrCode = &quot;2017&quot; };
+try
+{
+    var ethosResponses = await filterClient.GetPagesFromOffsetWithQAPIAsync&lt;TermCodesV100GetRequest&gt;( resource, requestBody, version, 40, 0 );
+    foreach ( var ethosResponse in ethosResponses )
+    {
+        Console.WriteLine( $&quot;Total records retrieved: {ethosResponse.GetContentCount()}.&quot; );
+        Console.WriteLine( $&quot;Json content: {ethosResponse.Content}&quot; );
+    }
+}
+catch ( Exception e )
+{
+    Console.WriteLine( e.Message );
+}
+
+</code></pre>
+<h3 id="examples-project">Examples project</h3>
+<p>More examples can be found in the <a href="https://github.com/ellucian-developer/integration-sdk-csharp-examples">EISDK C# examples project</a>.</p>
 </article>
           </div>
           
