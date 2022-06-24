@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class EthosMessagesClient
    ">
-    <meta name="generator" content="docfx 2.56.5.0">
+    <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -75,7 +75,7 @@
   </h1>
   <div class="markdown level0 summary"><p>An EthosClient used to publish and consume messages using the Ethos Integration messages service.</p>
 <p>
-This client accepts an API key that belongs to an ethos application.All requests made from this client are done
+This client accepts an API key that belongs to an ethos application. All requests made from this client are done
 on behalf of the application to which that API key belongs. That means that calling the consume methods
 will try to retrieve change-notifications from the subscription queue of that specific application.It is assumed that
 the application is configured in Ethos Integration to subscribe to some resource changes.</p>
@@ -240,7 +240,7 @@ If it is null, empty, or not in a valid GUID format, then an<pre><code> Argument
   <a id="Ellucian_Ethos_Integration_Client_Messages_EthosMessagesClient_ConsumeAsync_" data-uid="Ellucian.Ethos.Integration.Client.Messages.EthosMessagesClient.ConsumeAsync*"></a>
   <h4 id="Ellucian_Ethos_Integration_Client_Messages_EthosMessagesClient_ConsumeAsync_System_Nullable_System_Int32__System_Nullable_System_Int64__" data-uid="Ellucian.Ethos.Integration.Client.Messages.EthosMessagesClient.ConsumeAsync(System.Nullable{System.Int32},System.Nullable{System.Int64})">ConsumeAsync(Nullable&lt;Int32&gt;, Nullable&lt;Int64&gt;)</h4>
   <div class="markdown level1 summary"><p>Gets a list of messages from the subscription queue of the application. This will return the number of messages specified
-by the limit parameter, if there are that many available.The messages will be returned in the format of a<br>
+by the limit parameter, if there are that many available. The messages will be returned in the format of a<br>
 change-notification.</p>
 <p>
 The limit can be up to 1000, but the total size of the response payload from Ethos Integration
@@ -248,7 +248,7 @@ is limited to 1 MB. If the size limit is reached, the number of messages returne
 are more messages remaining in the queue.</p>
 <p>
 The lastProcessedID parameter can be used to indicate the ID of the last message that was successfully processed.
-This parameter can be used to retrieve messages that have already been retrieved.The messages in the queue have sequential ID&apos;s, and the
+This parameter can be used to retrieve messages that have already been retrieved. The messages in the queue have sequential ID&apos;s, and the
 lastProcessedID parameter corresponds to the ID of a message in the queue.</p>
 <p>
 Here is an example of how lastProcessedID  can be used. If the application consuming the messages retrieves messages 1-10, but
@@ -262,7 +262,7 @@ a starting point on what message should be the first one returned. The limit is 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;ChangeNotification&gt;&gt; ConsumeAsync(int? limit = null, long? lastProcessedID = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;ChangeNotification&gt;&gt; ConsumeAsync(int? limit = null, long? lastProcessedID = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -319,7 +319,7 @@ to get the same messages( or subset of them ) again, use the consume method that
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;ChangeNotification&gt;&gt; GetMessagesAsync(int? limit, long? lastProcessedID)</code></pre>
+    <pre><code class="lang-csharp hljs">async Task&lt;IEnumerable&lt;ChangeNotification&gt;&gt; GetMessagesAsync(int? limit, long? lastProcessedID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -371,7 +371,7 @@ the app has an empty queue or if the app has no subscriber queue.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;int&gt; GetNumAvailableMessagesAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;int&gt; GetNumAvailableMessagesAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">

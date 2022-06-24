@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class EthosFilterQueryClient
    ">
-    <meta name="generator" content="docfx 2.56.5.0">
+    <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -460,7 +460,7 @@ If it is null, empty, or not in a valid GUID format, then an <pre><code>IllegalA
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string CRITERIA_FILTER_PREFIX = null</code></pre>
+    <pre><code class="lang-csharp hljs">const string CRITERIA_FILTER_PREFIX = null</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -481,6 +481,81 @@ If it is null, empty, or not in a valid GUID format, then an <pre><code>IllegalA
   </h3>
   
   
+  <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_DoPagingFromOffsetForQAPIAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.DoPagingFromOffsetForQAPIAsync*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_DoPagingFromOffsetForQAPIAsync_System_String_System_String_System_String_System_Int32_System_Int32_System_Int32_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.DoPagingFromOffsetForQAPIAsync(System.String,System.String,System.String,System.Int32,System.Int32,System.Int32)">DoPagingFromOffsetForQAPIAsync(String, String, String, Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p><strong>Intended to be used internally within the SDK.</strong></p> Performs paging calculations and operations for QAPI requests.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected async Task&lt;List&lt;EthosResponse&gt;&gt; DoPagingFromOffsetForQAPIAsync(string resourceName, string version, string qapiRequestBody, int totalCount, int pageSize, int offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">resourceName</span></td>
+        <td><p>The name of the resource to add an instance of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The full version header value of the resource used for this POST request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">qapiRequestBody</span></td>
+        <td><p>The body of the request to POST for the given resource.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">totalCount</span></td>
+        <td><p>The total count of rows for the given resource.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pageSize</span></td>
+        <td><p>The size (number of rows) of each page returned in the list.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The 0 based index from which to begin paging for the given resource.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">List</span>&lt;<a class="xref" href="Ellucian.Ethos.Integration.Client.EthosResponse.html">EthosResponse</a>&gt;&gt;</td>
+        <td><p>Collection of EthosResponse with content.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_EncodeString_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.EncodeString*"></a>
   <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_EncodeString_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.EncodeString(System.String)">EncodeString(String)</h4>
   <div class="markdown level1 summary"><p><strong>Used internally by the SDK.</strong></p>
@@ -495,7 +570,7 @@ encoded. Uses UTF-8 encoding.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string EncodeString(string criteriaFilterStr)</code></pre>
+    <pre><code class="lang-csharp hljs">static string EncodeString(string criteriaFilterStr)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -534,6 +609,91 @@ string encoded in UTF-8.</p>
   </table>
   
   
+  <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetEthosResponseAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetEthosResponseAsync*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetEthosResponseAsync_System_String_System_String_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetEthosResponseAsync(System.String,System.String,System.String)">GetEthosResponseAsync(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Gets Ethos Response.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">async Task&lt;EthosResponse&gt; GetEthosResponseAsync(string resourceName, string version, string criteria)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">resourceName</span></td>
+        <td><p>The name of the resource to get data for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The desired resource version header to use, as provided in the HTTP Accept Header of the request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">criteria</span></td>
+        <td><p>This can be CriteriaFilter or NamedQuery.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ellucian.Ethos.Integration.Client.EthosResponse.html">EthosResponse</a>&gt;</td>
+        <td><p>An <pre><code>EthosResponse</code></pre> containing an initial page (EthosResponse content) of resource data according<br>
+to the requested version and filter of the resource.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetJsonSerializerSettings_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetJsonSerializerSettings*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetJsonSerializerSettings" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetJsonSerializerSettings">GetJsonSerializerSettings()</h4>
+  <div class="markdown level1 summary"><p>Gets JsonSerializerSettings with date format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">static JsonSerializerSettings GetJsonSerializerSettings()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">JsonSerializerSettings</span></td>
+        <td><p>Returns JsonSerializerSettings with yyyy'-'MM'-'dd'T'HH':'mm':'ssK date format and ignores null values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesFromOffsetWithCriteriaFilterAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithCriteriaFilterAsync*"></a>
   <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesFromOffsetWithCriteriaFilterAsync_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_System_Int32_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithCriteriaFilterAsync(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.Int32)">GetPagesFromOffsetWithCriteriaFilterAsync(String, CriteriaFilter, Int32)</h4>
   <div class="markdown level1 summary"><p>Gets all the pages for a given resource beginning at the given offset index, using the specified criteria filter.
@@ -543,7 +703,7 @@ The default version of the resource is used.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithCriteriaFilterAsync(string resourceName, CriteriaFilter criteria, int offset)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithCriteriaFilterAsync(string resourceName, CriteriaFilter criteria, int offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -602,7 +762,7 @@ and page size for the given version. The default version of the resource is used
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithCriteriaFilterAsync(string resourceName, CriteriaFilter criteria, int pageSize, int offset)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithCriteriaFilterAsync(string resourceName, CriteriaFilter criteria, int pageSize, int offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -668,7 +828,7 @@ the criteria filter.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithCriteriaFilterAsync(string resourceName, string version, CriteriaFilter criteria, int offset)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithCriteriaFilterAsync(string resourceName, string version, CriteriaFilter criteria, int offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -733,7 +893,7 @@ and page size for the given version.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithCriteriaFilterAsync(string resourceName, string version, CriteriaFilter criteria, int pageSize, int offset)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithCriteriaFilterAsync(string resourceName, string version, CriteriaFilter criteria, int pageSize, int offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -804,7 +964,7 @@ and page size for the given version.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithCriteriaFilterAsync&lt;T&gt;(string resourceName, CriteriaFilter criteria, string version = &quot;&quot;, int pageSize = 0, int offset = 0)
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithCriteriaFilterAsync&lt;T&gt;(string resourceName, CriteriaFilter criteria, string version = &quot;&quot;, int pageSize = 0, int offset = 0)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -893,7 +1053,7 @@ the filter map.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithFilterMapAsync(string resourceName, string version, FilterMap filterMap, int offset)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithFilterMapAsync(string resourceName, string version, FilterMap filterMap, int offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -960,7 +1120,7 @@ page size for the given version.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithFilterMapAsync(string resourceName, string version, FilterMap filterMap, int pageSize, int offset)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithFilterMapAsync(string resourceName, string version, FilterMap filterMap, int pageSize, int offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1033,7 +1193,7 @@ page size for the given version.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithFilterMapAsync&lt;T&gt;(string resourceName, FilterMap filterMap, string version = &quot;&quot;, int pageSize = 0, int offset = 0)
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithFilterMapAsync&lt;T&gt;(string resourceName, FilterMap filterMap, string version = &quot;&quot;, int pageSize = 0, int offset = 0)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1124,7 +1284,7 @@ The default version of the resource is used.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithNamedQueryFilterAsync(string resourceName, NamedQueryFilter namedQueryFilter, int offset)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithNamedQueryFilterAsync(string resourceName, NamedQueryFilter namedQueryFilter, int offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1182,7 +1342,7 @@ and page size for the given version. The default version of the resource is used
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithNamedQueryFilterAsync(string resourceName, NamedQueryFilter namedQueryFilter, int pageSize, int offset)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithNamedQueryFilterAsync(string resourceName, NamedQueryFilter namedQueryFilter, int pageSize, int offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1248,7 +1408,7 @@ the namedQueryFilter filter.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithNamedQueryFilterAsync(string resourceName, string version, NamedQueryFilter namedQueryFilter, int offset)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithNamedQueryFilterAsync(string resourceName, string version, NamedQueryFilter namedQueryFilter, int offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1313,7 +1473,7 @@ and page size for the given version.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithNamedQueryFilterAsync(string resourceName, string version, NamedQueryFilter namedQueryFilter, int pageSize, int offset)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithNamedQueryFilterAsync(string resourceName, string version, NamedQueryFilter namedQueryFilter, int pageSize, int offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1384,7 +1544,7 @@ and page size for the given version.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithNamedQueryFilterAsync&lt;T&gt;(string resourceName, NamedQueryFilter namedQueryFilter, string version = &quot;&quot;, int pageSize = 0, int offset = 0)
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithNamedQueryFilterAsync&lt;T&gt;(string resourceName, NamedQueryFilter namedQueryFilter, string version = &quot;&quot;, int pageSize = 0, int offset = 0)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1464,6 +1624,236 @@ to the requested version and filter of the resource.</p>
   </table>
   
   
+  <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesFromOffsetWithQAPIAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithQAPIAsync*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesFromOffsetWithQAPIAsync_System_String_JObject_System_String_System_Int32_System_Int32_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithQAPIAsync(System.String,JObject,System.String,System.Int32,System.Int32)">GetPagesFromOffsetWithQAPIAsync(String, JObject, String, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets the total count of resources available using the given criteriaFilter. Gets the pages for a given resource beginning at the given offset index,
+using the specified QAPI request body and page size for the given version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithQAPIAsync(string resourceName, JObject qapiRequestBody, string version = &quot;&quot;, int pageSize = 0, int offset = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">resourceName</span></td>
+        <td><p>The name of the resource to add an instance of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">JObject</span></td>
+        <td><span class="parametername">qapiRequestBody</span></td>
+        <td><p>The body of the request to POST for the given resource.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The full version header value of the resource used for this POST request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pageSize</span></td>
+        <td><p>The size (number of rows) of each page returned in the list.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The 0 based index from which to begin paging for the given resource.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IEnumerable</span>&lt;<a class="xref" href="Ellucian.Ethos.Integration.Client.EthosResponse.html">EthosResponse</a>&gt;&gt;</td>
+        <td><p>A list of EthosResponses where each EthosResponse contains a page of data.  If paging is not required based on the
+given pageSize and total count( from using the filter), the returned list will only contain one EthosResponse.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesFromOffsetWithQAPIAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithQAPIAsync*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesFromOffsetWithQAPIAsync_System_String_System_String_System_String_System_Int32_System_Int32_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithQAPIAsync(System.String,System.String,System.String,System.Int32,System.Int32)">GetPagesFromOffsetWithQAPIAsync(String, String, String, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets the total count of resources available using the given criteriaFilter. Gets the pages for a given resource beginning at the given offset index,
+using the specified QAPI request body and page size for the given version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithQAPIAsync(string resourceName, string qapiRequestBody, string version = &quot;&quot;, int pageSize = 0, int offset = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">resourceName</span></td>
+        <td><p>The name of the resource to add an instance of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">qapiRequestBody</span></td>
+        <td><p>The body of the request to POST for the given resource.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The full version header value of the resource used for this POST request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pageSize</span></td>
+        <td><p>The size (number of rows) of each page returned in the list.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The 0 based index from which to begin paging for the given resource.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IEnumerable</span>&lt;<a class="xref" href="Ellucian.Ethos.Integration.Client.EthosResponse.html">EthosResponse</a>&gt;&gt;</td>
+        <td><p>A list of EthosResponses where each EthosResponse contains a page of data.  If paging is not required based on the
+given pageSize and total count( from using the filter), the returned list will only contain one EthosResponse.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesFromOffsetWithQAPIAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithQAPIAsync*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesFromOffsetWithQAPIAsync__1_System_String___0_System_String_System_Int32_System_Int32_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesFromOffsetWithQAPIAsync``1(System.String,``0,System.String,System.Int32,System.Int32)">GetPagesFromOffsetWithQAPIAsync&lt;T&gt;(String, T, String, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets the total count of resources available using the given type T.
+Gets the pages for a given resource beginning at the given offset index, using the specified QAPI request body and page size for the given version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetWithQAPIAsync&lt;T&gt;(string resourceName, T qapiRequestBody, string version = &quot;&quot;, int pageSize = 0, int offset = 0)
+    where T : class</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">resourceName</span></td>
+        <td><p>The name of the resource to add an instance of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">qapiRequestBody</span></td>
+        <td><p>The body of the request to POST for the given resource.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The full version header value of the resource used for this POST request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pageSize</span></td>
+        <td><p>The size (number of rows) of each page returned in the list.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The 0 based index from which to begin paging for the given resource.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IEnumerable</span>&lt;<a class="xref" href="Ellucian.Ethos.Integration.Client.EthosResponse.html">EthosResponse</a>&gt;&gt;</td>
+        <td><p>A list of EthosResponses where each EthosResponse contains a page of data.  If paging is not required based on the
+given pageSize and total count( from using the filter), the returned list will only contain one EthosResponse.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Request type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesWithCriteriaFilterAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithCriteriaFilterAsync*"></a>
   <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesWithCriteriaFilterAsync_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithCriteriaFilterAsync(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter)">GetPagesWithCriteriaFilterAsync(String, CriteriaFilter)</h4>
   <div class="markdown level1 summary"><p>Gets all the pages for a given resource using the specified criteria filter. Uses the default version of the resource,
@@ -1472,7 +1862,7 @@ and the page size is derived from the length of the returned response of the req
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithCriteriaFilterAsync(string resourceName, CriteriaFilter criteria)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithCriteriaFilterAsync(string resourceName, CriteriaFilter criteria)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1527,7 +1917,7 @@ of the resource is used.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithCriteriaFilterAsync(string resourceName, CriteriaFilter criteria, int pageSize)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithCriteriaFilterAsync(string resourceName, CriteriaFilter criteria, int pageSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1586,7 +1976,7 @@ page size, which is the length of the returned response of the request using the
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithCriteriaFilterAsync(string resourceName, string version, CriteriaFilter criteria)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithCriteriaFilterAsync(string resourceName, string version, CriteriaFilter criteria)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1644,7 +2034,7 @@ to the requested version and filter of the resource.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithCriteriaFilterAsync(string resourceName, string version, CriteriaFilter criteria, int pageSize)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithCriteriaFilterAsync(string resourceName, string version, CriteriaFilter criteria, int pageSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1708,7 +2098,7 @@ to the requested version and filter of the resource.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithCriteriaFilterAsync&lt;T&gt;(string resourceName, CriteriaFilter criteria, string version = &quot;&quot;, int pageSize = 0)
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithCriteriaFilterAsync&lt;T&gt;(string resourceName, CriteriaFilter criteria, string version = &quot;&quot;, int pageSize = 0)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1789,7 +2179,7 @@ to the requested version and filter of the resource.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithFilterMapAsync(string resourceName, string version, FilterMap filterMap)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithFilterMapAsync(string resourceName, string version, FilterMap filterMap)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1849,7 +2239,7 @@ to the requested version and filter of the resource.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithFilterMapAsync(string resourceName, string version, FilterMap filterMap, int pageSize)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithFilterMapAsync(string resourceName, string version, FilterMap filterMap, int pageSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1915,7 +2305,7 @@ to the requested version and filter of the resource.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithFilterMapAsync&lt;T&gt;(string resourceName, FilterMap filterMap, string version = &quot;&quot;, int pageSize = 0)
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithFilterMapAsync&lt;T&gt;(string resourceName, FilterMap filterMap, string version = &quot;&quot;, int pageSize = 0)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1999,7 +2389,7 @@ and the page size is derived from the length of the returned response of the req
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithNamedQueryFilterAsync(string resourceName, NamedQueryFilter namedQueryFilter)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithNamedQueryFilterAsync(string resourceName, NamedQueryFilter namedQueryFilter)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2053,7 +2443,7 @@ of the resource is used.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithNamedQueryFilterAsync(string resourceName, NamedQueryFilter namedQueryFilter, int pageSize)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithNamedQueryFilterAsync(string resourceName, NamedQueryFilter namedQueryFilter, int pageSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2112,7 +2502,7 @@ page size, which is the length of the returned response of the request using the
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithNamedQueryFilterAsync(string resourceName, string version, NamedQueryFilter namedQueryFilter)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithNamedQueryFilterAsync(string resourceName, string version, NamedQueryFilter namedQueryFilter)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2170,7 +2560,7 @@ to the requested version and filter of the resource.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithNamedQueryFilterAsync(string resourceName, string version, NamedQueryFilter namedQueryFilter, int pageSize)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithNamedQueryFilterAsync(string resourceName, string version, NamedQueryFilter namedQueryFilter, int pageSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2234,7 +2624,7 @@ to the requested version and filter of the resource.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithNamedQueryFilterAsync&lt;T&gt;(string resourceName, NamedQueryFilter namedQueryFilter, string version = &quot;&quot;, int pageSize = 0)
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithNamedQueryFilterAsync&lt;T&gt;(string resourceName, NamedQueryFilter namedQueryFilter, string version = &quot;&quot;, int pageSize = 0)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2308,14 +2698,223 @@ to the requested version and filter of the resource.</p>
   </table>
   
   
+  <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesWithQAPIAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithQAPIAsync*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesWithQAPIAsync_System_String_JObject_System_String_System_Int32_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithQAPIAsync(System.String,JObject,System.String,System.Int32)">GetPagesWithQAPIAsync(String, JObject, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets all the pages for a given resource beginning at offset index 0, using the specified QAPI request body and page size for the given version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithQAPIAsync(string resourceName, JObject qapiRequestBody, string version = &quot;&quot;, int pageSize = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">resourceName</span></td>
+        <td><p>The name of the resource to add an instance of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">JObject</span></td>
+        <td><span class="parametername">qapiRequestBody</span></td>
+        <td><p>The body of the request to POST for the given resource.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The full version header value of the resource used for this POST request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pageSize</span></td>
+        <td><p>The size (number of rows) of each page returned in the list.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IEnumerable</span>&lt;<a class="xref" href="Ellucian.Ethos.Integration.Client.EthosResponse.html">EthosResponse</a>&gt;&gt;</td>
+        <td><p>A list of EthosResponses where each EthosResponse contains a page of data.  If paging is not required based on the
+given pageSize and total count( from using the filter), the returned list will only contain one EthosResponse.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesWithQAPIAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithQAPIAsync*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesWithQAPIAsync_System_String_System_String_System_String_System_Int32_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithQAPIAsync(System.String,System.String,System.String,System.Int32)">GetPagesWithQAPIAsync(String, String, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets all the pages for a given resource beginning at offset index 0, using the specified QAPI request body and page size for the given version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithQAPIAsync(string resourceName, string qapiRequestBody, string version = &quot;&quot;, int pageSize = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">resourceName</span></td>
+        <td><p>The name of the resource to add an instance of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">qapiRequestBody</span></td>
+        <td><p>The body of the request to POST for the given resource.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The full version header value of the resource used for this POST request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pageSize</span></td>
+        <td><p>The size (number of rows) of each page returned in the list.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IEnumerable</span>&lt;<a class="xref" href="Ellucian.Ethos.Integration.Client.EthosResponse.html">EthosResponse</a>&gt;&gt;</td>
+        <td><p>A list of EthosResponses where each EthosResponse contains a page of data.  If paging is not required based on the
+given pageSize and total count( from using the filter), the returned list will only contain one EthosResponse.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesWithQAPIAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithQAPIAsync*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetPagesWithQAPIAsync__1_System_String___0_System_String_System_Int32_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetPagesWithQAPIAsync``1(System.String,``0,System.String,System.Int32)">GetPagesWithQAPIAsync&lt;T&gt;(String, T, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets all the pages for a given resource beginning at offset index 0, using the specified QAPI request body and page size for the given version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesWithQAPIAsync&lt;T&gt;(string resourceName, T qapiRequestBody, string version = &quot;&quot;, int pageSize = 0)
+    where T : class</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">resourceName</span></td>
+        <td><p>The name of the resource to add an instance of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">qapiRequestBody</span></td>
+        <td><p>The body of the request to POST for the given resource.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The full version header value of the resource used for this POST request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pageSize</span></td>
+        <td><p>The size (number of rows) of each page returned in the list.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IEnumerable</span>&lt;<a class="xref" href="Ellucian.Ethos.Integration.Client.EthosResponse.html">EthosResponse</a>&gt;&gt;</td>
+        <td><p>A list of EthosResponses where each EthosResponse contains a page of data.  If paging is not required based on the
+given pageSize and total count( from using the filter), the returned list will only contain one EthosResponse.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Request type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetTotalCountAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetTotalCountAsync*"></a>
-  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetTotalCountAsync_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetTotalCountAsync(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter)">GetTotalCountAsync(String, CriteriaFilter)</h4>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetTotalCountAsync_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetTotalCountAsync(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter,System.String)">GetTotalCountAsync(String, CriteriaFilter, String)</h4>
   <div class="markdown level1 summary"><p>Gets the total count of resources available using the given criteriaFilter.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;int&gt; GetTotalCountAsync(string resourceName, CriteriaFilter criteria)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;int&gt; GetTotalCountAsync(string resourceName, CriteriaFilter criteria, string version = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2337,104 +2936,6 @@ to the requested version and filter of the resource.</p>
         <td><a class="xref" href="Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter.html">CriteriaFilter</a></td>
         <td><span class="parametername">criteria</span></td>
         <td><p>A previously built Criteria containing the filter criteria used in the request URL.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td><p>The number of resource instances available when making a GET request using the given criteriaFilter, or 0 if the
-given resourceName or criteriaFilter is null.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetTotalCountAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetTotalCountAsync*"></a>
-  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetTotalCountAsync_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryFilter_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetTotalCountAsync(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter)">GetTotalCountAsync(String, NamedQueryFilter)</h4>
-  <div class="markdown level1 summary"><p>Gets the total count of resources available using the given namedQueryFilter.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;int&gt; GetTotalCountAsync(string resourceName, NamedQueryFilter namedQueryFilter)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">resourceName</span></td>
-        <td><p>The name of the resource to get data for.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter.html">NamedQueryFilter</a></td>
-        <td><span class="parametername">namedQueryFilter</span></td>
-        <td><p>A previously built namedQueryFilter containing the filter used in the request URL.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td><p>The number of resource instances available when making a GET request using the given namedQueryFilter, or 0 if the
-given resourceName or namedQueryFilter is null.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetTotalCountAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetTotalCountAsync*"></a>
-  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetTotalCountAsync_System_String_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_CriteriaFilter_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetTotalCountAsync(System.String,System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter)">GetTotalCountAsync(String, String, CriteriaFilter)</h4>
-  <div class="markdown level1 summary"><p>Gets the total count of resources available using the given criteriaFilter.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;int&gt; GetTotalCountAsync(string resourceName, string version, CriteriaFilter criteria)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">resourceName</span></td>
-        <td><p>The name of the resource to get data for.</p>
 </td>
       </tr>
       <tr>
@@ -2443,12 +2944,6 @@ given resourceName or namedQueryFilter is null.</p>
         <td><p>The desired resource version header to use, as provided in the HTTP Accept Header of the request.</p>
 </td>
       </tr>
-      <tr>
-        <td><a class="xref" href="Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter.html">CriteriaFilter</a></td>
-        <td><span class="parametername">criteria</span></td>
-        <td><p>A previously built Criteria containing the filter criteria used in the request URL.</p>
-</td>
-      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -2471,13 +2966,13 @@ given resourceName or criteriaFilter is null.</p>
   
   
   <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetTotalCountAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetTotalCountAsync*"></a>
-  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetTotalCountAsync_System_String_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_FilterMap_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetTotalCountAsync(System.String,System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterMap)">GetTotalCountAsync(String, String, FilterMap)</h4>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetTotalCountAsync_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_FilterMap_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetTotalCountAsync(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterMap,System.String)">GetTotalCountAsync(String, FilterMap, String)</h4>
   <div class="markdown level1 summary"><p>Gets the total count of resources available using the given filterMap.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;int&gt; GetTotalCountAsync(string resourceName, string version, FilterMap filterMap)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;int&gt; GetTotalCountAsync(string resourceName, FilterMap filterMap, string version = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2493,12 +2988,6 @@ given resourceName or criteriaFilter is null.</p>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">resourceName</span></td>
         <td><p>The name of the resource to get data for.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">version</span></td>
-        <td><p>The desired resource version header to use, as provided in the HTTP Accept Header of the request.</p>
 </td>
       </tr>
       <tr>
@@ -2509,6 +2998,12 @@ A simple call to filterMap.Tostring() should output the criteria filter portion 
 e.g: <pre><code>?firstName=John&amp;lastName=Smith</code></pre>.</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The desired resource version header to use, as provided in the HTTP Accept Header of the request.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -2531,13 +3026,129 @@ given resourceName or criteriaFilter is null.</p>
   
   
   <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetTotalCountAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetTotalCountAsync*"></a>
-  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetTotalCountAsync_System_String_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryFilter_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetTotalCountAsync(System.String,System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter)">GetTotalCountAsync(String, String, NamedQueryFilter)</h4>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetTotalCountAsync_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_NamedQueryFilter_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetTotalCountAsync(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter,System.String)">GetTotalCountAsync(String, NamedQueryFilter, String)</h4>
   <div class="markdown level1 summary"><p>Gets the total count of resources available using the given namedQueryFilter.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;int&gt; GetTotalCountAsync(string resourceName, string version, NamedQueryFilter namedQueryFilter)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;int&gt; GetTotalCountAsync(string resourceName, NamedQueryFilter namedQueryFilter, string version = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">resourceName</span></td>
+        <td><p>The name of the resource to get data for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter.html">NamedQueryFilter</a></td>
+        <td><span class="parametername">namedQueryFilter</span></td>
+        <td><p>A previously built namedQueryFilter containing the filter used in the request URL.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The desired resource version header to use, as provided in the HTTP Accept Header of the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>The number of resource instances available when making a GET request using the given namedQueryFilter, or 0 if the
+given resourceName or namedQueryFilter is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetTotalCountAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetTotalCountAsync*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetTotalCountAsync_System_String_JObject_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetTotalCountAsync(System.String,JObject,System.String)">GetTotalCountAsync(String, JObject, String)</h4>
+  <div class="markdown level1 summary"><p>Gets the total count of resources available using the given QAPI request body.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;int&gt; GetTotalCountAsync(string resourceName, JObject qapiRequestBody, string version = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">resourceName</span></td>
+        <td><p>The name of the resource to get data for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">JObject</span></td>
+        <td><span class="parametername">qapiRequestBody</span></td>
+        <td><p>The body of the request to POST for the given resource.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The desired resource version header to use, as provided in the HTTP Accept Header of the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>The number of resource instances available when making a GET request using the given namedQueryFilter, or 0 if the
+given resourceName or namedQueryFilter is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetTotalCountAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetTotalCountAsync*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetTotalCountAsync_System_String_System_String_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetTotalCountAsync(System.String,System.String,System.String)">GetTotalCountAsync(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Gets the total count of resources available using the given QAPI request body.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;int&gt; GetTotalCountAsync(string resourceName, string qapiRequestBody, string version = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2557,14 +3168,14 @@ given resourceName or criteriaFilter is null.</p>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">version</span></td>
-        <td><p>The desired resource version header to use, as provided in the HTTP Accept Header of the request.</p>
+        <td><span class="parametername">qapiRequestBody</span></td>
+        <td><p>The body of the request to POST for the given resource.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter.html">NamedQueryFilter</a></td>
-        <td><span class="parametername">namedQueryFilter</span></td>
-        <td><p>A previously built namedQueryFilter containing the filter used in the request URL.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The desired resource version header to use, as provided in the HTTP Accept Header of the request.</p>
 </td>
       </tr>
     </tbody>
@@ -2583,6 +3194,80 @@ given resourceName or criteriaFilter is null.</p>
         <td><p>The number of resource instances available when making a GET request using the given namedQueryFilter, or 0 if the
 given resourceName or namedQueryFilter is null.</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetTotalCountAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetTotalCountAsync*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetTotalCountAsync__1_System_String___0_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetTotalCountAsync``1(System.String,``0,System.String)">GetTotalCountAsync&lt;T&gt;(String, T, String)</h4>
+  <div class="markdown level1 summary"><p>Gets the total count of resources available using the given QAPI request body.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;int&gt; GetTotalCountAsync&lt;T&gt;(string resourceName, T qapiRequestBody, string version = &quot;&quot;)
+    where T : class</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">resourceName</span></td>
+        <td><p>The name of the resource to get data for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">qapiRequestBody</span></td>
+        <td><p>The body of the request to POST for the given resource.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The desired resource version header to use, as provided in the HTTP Accept Header of the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>The number of resource instances available when making a GET request using the given namedQueryFilter, or 0 if the
+given resourceName or namedQueryFilter is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -2598,7 +3283,7 @@ e.g: <pre><code>?criteria={&quot;names&quot;:[{&quot;firstName&quot;:&quot;John&
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetWithCriteriaFilterAsync(string resourceName, CriteriaFilter criteria)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithCriteriaFilterAsync(string resourceName, CriteriaFilter criteria)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2653,7 +3338,7 @@ Makes a non-filter API request if the given criteriaFilterStr is null or blank.<
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetWithCriteriaFilterAsync(string resourceName, string criteriaFilterStr)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithCriteriaFilterAsync(string resourceName, string criteriaFilterStr)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2705,7 +3390,7 @@ to the requested version and filter of the resource.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetWithCriteriaFilterAsync(string resourceName, string version, CriteriaFilter criteria)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithCriteriaFilterAsync(string resourceName, string version, CriteriaFilter criteria)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2765,7 +3450,7 @@ to the requested version and filter of the resource.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetWithCriteriaFilterAsync(string resourceName, string version, string criteriaFilterStr)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithCriteriaFilterAsync(string resourceName, string version, string criteriaFilterStr)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2823,7 +3508,7 @@ to the requested version and filter of the resource.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetWithCriteriaFilterAsync&lt;T&gt;(string resourceName, CriteriaFilter criteria, string version = &quot;&quot;)
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithCriteriaFilterAsync&lt;T&gt;(string resourceName, CriteriaFilter criteria, string version = &quot;&quot;)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2900,7 +3585,7 @@ to the requested version and filter of the resource.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetWithCriteriaFilterAsync&lt;T&gt;(string resourceName, string criteriaFilterStr, string version = &quot;&quot;)
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithCriteriaFilterAsync&lt;T&gt;(string resourceName, string criteriaFilterStr, string version = &quot;&quot;)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2979,7 +3664,7 @@ one or many filter parameter pair(s).  An example of a filterMap string indicati
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetWithFilterMapAsync(string resourceName, string version, FilterMap filterMap)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithFilterMapAsync(string resourceName, string version, FilterMap filterMap)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3040,7 +3725,7 @@ is intended to support the filter syntax for resources versions 7 and older. An 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetWithFilterMapAsync(string resourceName, string version, string filterMapStr)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithFilterMapAsync(string resourceName, string version, string filterMapStr)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3095,14 +3780,14 @@ to the requested version and filter of the resource.</p>
   <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetWithFilterMapAsync__1_System_String_Ellucian_Ethos_Integration_Client_Proxy_Filter_FilterMap_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithFilterMapAsync``1(System.String,Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterMap,System.String)">GetWithFilterMapAsync&lt;T&gt;(String, FilterMap, String)</h4>
   <div class="markdown level1 summary"><p>Submits a GET request for the given resource and version using the given filterMap. The filterMap
 is intended to support the filter syntax for resources versions 7 and older. A FilterMap contains a map of
-one or many filter parameter pair(s).  An example of a filterMap string indicating the contents of the map is:</p>
+one or many filter parameter pair(s). An example of a filterMap string indicating the contents of the map is:</p>
 <pre><code>?firstName=James</code></pre>.
 <p>This is NOT intended to be used for resource versions after version 7 and/or for criteria filters.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetWithFilterMapAsync&lt;T&gt;(string resourceName, FilterMap filterMap, string version = &quot;&quot;)
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithFilterMapAsync&lt;T&gt;(string resourceName, FilterMap filterMap, string version = &quot;&quot;)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3180,7 +3865,7 @@ is intended to support the filter syntax for resources versions 7 and older. An 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetWithFilterMapAsync&lt;T&gt;(string resourceName, string filterMapStr, string version = &quot;&quot;)
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithFilterMapAsync&lt;T&gt;(string resourceName, string filterMapStr, string version = &quot;&quot;)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3257,7 +3942,7 @@ A simple call to criteriaFilter.BuildCriteria() should output the criteria filte
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetWithNamedQueryFilterAsync(string resourceName, NamedQueryFilter namedQueryFilter)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithNamedQueryFilterAsync(string resourceName, NamedQueryFilter namedQueryFilter)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3312,7 +3997,7 @@ Makes a non-filter API request if the given namedQueryFilterStr is null or blank
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetWithNamedQueryFilterAsync(string resourceName, string namedQueryFilterStr)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithNamedQueryFilterAsync(string resourceName, string namedQueryFilterStr)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3364,7 +4049,7 @@ to the requested version and filter of the resource.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetWithNamedQueryFilterAsync(string resourceName, string version, NamedQueryFilter namedQueryFilter)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithNamedQueryFilterAsync(string resourceName, string version, NamedQueryFilter namedQueryFilter)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3423,7 +4108,7 @@ to the requested version and filter of the resource.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetWithNamedQueryFilterAsync(string resourceName, string version, string namedQueryFilterStr)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithNamedQueryFilterAsync(string resourceName, string version, string namedQueryFilterStr)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3481,7 +4166,7 @@ to the requested version and filter of the resource.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetWithNamedQueryFilterAsync&lt;T&gt;(string resourceName, NamedQueryFilter namedQueryFilter, string version = &quot;&quot;)
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithNamedQueryFilterAsync&lt;T&gt;(string resourceName, NamedQueryFilter namedQueryFilter, string version = &quot;&quot;)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3557,7 +4242,7 @@ to the requested version and filter of the resource.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetWithNamedQueryFilterAsync&lt;T&gt;(string resourceName, string namedQueryFilterStr, string version = &quot;&quot;)
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithNamedQueryFilterAsync&lt;T&gt;(string resourceName, string namedQueryFilterStr, string version = &quot;&quot;)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3625,6 +4310,194 @@ to the requested version and filter of the resource.</p>
   </table>
   
   
+  <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetWithQapiAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithQapiAsync*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetWithQapiAsync_System_String_JObject_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithQapiAsync(System.String,JObject,System.String)">GetWithQapiAsync(String, JObject, String)</h4>
+  <div class="markdown level1 summary"><p>Submits a POST request for the given resourceName with the given requestBodyNode. The requestBodyNode should be a JObject.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithQapiAsync(string resourceName, JObject qapiRequestBodyNode, string version = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">resourceName</span></td>
+        <td><p>The name of the resource to add an instance of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">JObject</span></td>
+        <td><span class="parametername">qapiRequestBodyNode</span></td>
+        <td><p>The body of the request to POST for the given resource as a JsonNode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The full version header value of the resource used for this POST request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ellucian.Ethos.Integration.Client.EthosResponse.html">EthosResponse</a>&gt;</td>
+        <td><p>An EthosResponse containing the instance of the resource that was added by this POST operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetWithQapiAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithQapiAsync*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetWithQapiAsync_System_String_System_String_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithQapiAsync(System.String,System.String,System.String)">GetWithQapiAsync(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Submits a POST request for the given resourceName with the given qapiRequestBody. The qapiRequestBody should be a string in JSON format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithQapiAsync(string resourceName, string qapiRequestBody, string version = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">resourceName</span></td>
+        <td><p>The name of the resource to add an instance of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">qapiRequestBody</span></td>
+        <td><p>The body of the request to POST for the given resource.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The full version header value of the resource used for this POST request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ellucian.Ethos.Integration.Client.EthosResponse.html">EthosResponse</a>&gt;</td>
+        <td><p>An EthosResponse containing the instance of the resource that was added by this POST operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetWithQapiAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithQapiAsync*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetWithQapiAsync__1_System_String___0_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithQapiAsync``1(System.String,``0,System.String)">GetWithQapiAsync&lt;T&gt;(String, T, String)</h4>
+  <div class="markdown level1 summary"><p>Submits a POST request for the given resourceName with the given qapiRequestBody. The qapiRequestBody should be a T type class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithQapiAsync&lt;T&gt;(string resourceName, T qapiRequestBody, string version = &quot;&quot;)
+    where T : class</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">resourceName</span></td>
+        <td><p>The name of the resource to add an instance of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">qapiRequestBody</span></td>
+        <td><p>The body of the request to POST for the given resource.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The full version header value of the resource used for this POST request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ellucian.Ethos.Integration.Client.EthosResponse.html">EthosResponse</a>&gt;</td>
+        <td><p>An EthosResponse containing the instance of the resource that was added by this POST operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Request type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetWithSimpleCriteriaValuesAsync_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithSimpleCriteriaValuesAsync*"></a>
   <h4 id="Ellucian_Ethos_Integration_Client_Proxy_EthosFilterQueryClient_GetWithSimpleCriteriaValuesAsync_System_String_System_String_System_String_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.GetWithSimpleCriteriaValuesAsync(System.String,System.String,System.String,System.String)">GetWithSimpleCriteriaValuesAsync(String, String, String, String)</h4>
   <div class="markdown level1 summary"><p>Convenience method to submit a GET request with a single set of criteria filter. This is intended only to be used
@@ -3639,7 +4512,7 @@ JSON filter syntax. No JSON syntax (square or angeled braces etc.) should be con
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetWithSimpleCriteriaValuesAsync(string resourceName, string criteriaSetName, string criteriaKey, string criteriaValue)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithSimpleCriteriaValuesAsync(string resourceName, string criteriaSetName, string criteriaKey, string criteriaValue)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3711,7 +4584,7 @@ JSON filter syntax. No JSON syntax (square or angeled braces, etc) should be con
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetWithSimpleCriteriaValuesAsync(string resourceName, string version, string criteriaSetName, string criteriaKey, string criteriaValue)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithSimpleCriteriaValuesAsync(string resourceName, string version, string criteriaSetName, string criteriaKey, string criteriaValue)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3789,7 +4662,7 @@ JSON filter syntax. No JSON syntax (square or angeled braces, etc) should be con
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetWithSimpleCriteriaValuesAsync&lt;T&gt;(string resourceName, string criteriaSetName, string criteriaKey, string criteriaValue, string version = &quot;&quot;)
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithSimpleCriteriaValuesAsync&lt;T&gt;(string resourceName, string criteriaSetName, string criteriaKey, string criteriaValue, string version = &quot;&quot;)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3886,7 +4759,7 @@ and encodes the filter within the pager.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Task&lt;Pager&gt; PrepareForPagingAsync(Pager pager)</code></pre>
+    <pre><code class="lang-csharp hljs">protected async Task&lt;Pager&gt; PrepareForPagingAsync(Pager pager)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3985,7 +4858,7 @@ The total count is derived from the response x-total-count header after making a
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Task&lt;Pager&gt; PreparePagerForTotalCountAsync(Pager pager)</code></pre>
+    <pre><code class="lang-csharp hljs">protected async Task&lt;Pager&gt; PreparePagerForTotalCountAsync(Pager pager)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

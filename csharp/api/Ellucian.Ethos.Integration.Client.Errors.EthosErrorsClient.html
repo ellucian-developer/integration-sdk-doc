@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class EthosErrorsClient
    ">
-    <meta name="generator" content="docfx 2.56.5.0">
+    <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -426,7 +426,7 @@ The numPages returned value is cast to an int.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task DeleteAsync(string id)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task DeleteAsync(string id)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -472,7 +472,7 @@ Handles paging for errors.If the given pageSize is &lt;= 0, the default page siz
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; DoPagingAsync(int totalErrorCount, int pageSize, int offset)</code></pre>
+    <pre><code class="lang-csharp hljs">protected async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; DoPagingAsync(int totalErrorCount, int pageSize, int offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -529,7 +529,7 @@ Handles paging for errors.If the given pageSize is &lt;= 0, the default page siz
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosError&gt;&gt; GetAllErrorsAsEthosErrorsAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosError&gt;&gt; GetAllErrorsAsEthosErrorsAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -556,7 +556,7 @@ Handles paging for errors.If the given pageSize is &lt;= 0, the default page siz
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;JArray&gt;&gt; GetAllErrorsAsJArrayAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;JArray&gt;&gt; GetAllErrorsAsJArrayAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -583,7 +583,7 @@ Handles paging for errors.If the given pageSize is &lt;= 0, the default page siz
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;string&gt;&gt; GetAllErrorsAsStringsAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;string&gt;&gt; GetAllErrorsAsStringsAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -610,7 +610,7 @@ Handles paging for errors.If the given pageSize is &lt;= 0, the default page siz
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetAllErrorsAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetAllErrorsAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -637,7 +637,7 @@ Handles paging for errors.If the given pageSize is &lt;= 0, the default page siz
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;JArray&gt;&gt; GetAllErrorsWithPageSizeAsJArraysAsync(int pageSize)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;JArray&gt;&gt; GetAllErrorsWithPageSizeAsJArraysAsync(int pageSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -683,7 +683,7 @@ contains up to the number of errors specified as the page size.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;string&gt;&gt; GetAllErrorsWithPageSizeAsStringsAsync(int pageSize)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;string&gt;&gt; GetAllErrorsWithPageSizeAsStringsAsync(int pageSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -729,7 +729,7 @@ contains up to the number of errors specified as the page size.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetAllErrorsWithPageSizeAsync(int pageSize)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetAllErrorsWithPageSizeAsync(int pageSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -775,7 +775,7 @@ contains up to the number of errors specified as the page size.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosError&gt;&gt; GetAsEthosErrorsAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosError&gt;&gt; GetAsEthosErrorsAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -802,7 +802,7 @@ contains up to the number of errors specified as the page size.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;JArray&gt; GetAsJArrayAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;JArray&gt; GetAsJArrayAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -829,7 +829,7 @@ contains up to the number of errors specified as the page size.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; GetAsStringAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;string&gt; GetAsStringAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -842,7 +842,8 @@ contains up to the number of errors specified as the page size.</p>
     <tbody>
       <tr>
         <td><span class="xref">Task</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td></td>
+        <td><p>Returns content as string.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -855,7 +856,7 @@ contains up to the number of errors specified as the page size.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -882,7 +883,7 @@ contains up to the number of errors specified as the page size.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosError&gt; GetByIdAsEthosErrorAsync(string id)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosError&gt; GetByIdAsEthosErrorAsync(string id)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -928,7 +929,7 @@ If it is null or empty, then an ArgumentNullException will be thrown.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;JObject&gt; GetByIdAsJObjectAsync(string id)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;JObject&gt; GetByIdAsJObjectAsync(string id)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -974,7 +975,7 @@ If it is null or empty, then an ArgumentNullException will be thrown.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; GetByIdAsStringAsync(string id)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;string&gt; GetByIdAsStringAsync(string id)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1020,7 +1021,7 @@ If it is null or empty, then an ArgumentNullException will be thrown.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetByIdAsync(string id)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetByIdAsync(string id)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1065,7 +1066,7 @@ If it is null or empty, then an ArgumentNullException will be thrown.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosError&gt;&gt; GetErrorsFromOffsetAsEthosErrorsAsync(int offset)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosError&gt;&gt; GetErrorsFromOffsetAsEthosErrorsAsync(int offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1111,7 +1112,7 @@ Uses the default page size.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;JArray&gt;&gt; GetErrorsFromOffsetAsJArrayAsync(int offset)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;JArray&gt;&gt; GetErrorsFromOffsetAsJArrayAsync(int offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1157,7 +1158,7 @@ Uses the default page size.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;string&gt;&gt; GetErrorsFromOffsetAsJsonStringsAsync(int offset)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;string&gt;&gt; GetErrorsFromOffsetAsJsonStringsAsync(int offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1201,7 +1202,7 @@ Uses the default page size.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetErrorsFromOffsetAsync(int offset)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetErrorsFromOffsetAsync(int offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1246,7 +1247,7 @@ Uses the default page size.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;JArray&gt;&gt; GetErrorsFromOffsetWithPageSizeAsJArrayAsync(int offset, int pageSize)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;JArray&gt;&gt; GetErrorsFromOffsetWithPageSizeAsJArrayAsync(int offset, int pageSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1296,7 +1297,7 @@ Uses the default page size.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;string&gt;&gt; GetErrorsFromOffsetWithPageSizeAsJsonStringsAsync(int offset, int pageSize)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;string&gt;&gt; GetErrorsFromOffsetWithPageSizeAsJsonStringsAsync(int offset, int pageSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1346,7 +1347,7 @@ Uses the default page size.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetErrorsFromOffsetWithPageSizeAsync(int offset, int pageSize)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetErrorsFromOffsetWithPageSizeAsync(int offset, int pageSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1397,7 +1398,7 @@ Uses the default page size.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;int&gt; GetTotalErrorCountAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;int&gt; GetTotalErrorCountAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1425,7 +1426,7 @@ See the examples directory for how to do this.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; PostAsync(EthosError newError)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; PostAsync(EthosError newError)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Pager
    ">
-    <meta name="generator" content="docfx 2.56.5.0">
+    <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -320,6 +320,32 @@ This class follows the builder pattern and contains an inner static Builder clas
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Ellucian_Ethos_Integration_Client_Proxy_Pager_QapiRequestBody_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.Pager.QapiRequestBody*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_Pager_QapiRequestBody" data-uid="Ellucian.Ethos.Integration.Client.Proxy.Pager.QapiRequestBody">QapiRequestBody</h4>
+  <div class="markdown level1 summary"><p>The optional QAPI request body used when making filter QAPI POST request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string QapiRequestBody { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -758,7 +784,9 @@ All of the attributes in this Builder class correspond to the attributes in the 
   
   <a id="Ellucian_Ethos_Integration_Client_Proxy_Pager_WithCriteriaFilter_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.Pager.WithCriteriaFilter*"></a>
   <h4 id="Ellucian_Ethos_Integration_Client_Proxy_Pager_WithCriteriaFilter_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.Pager.WithCriteriaFilter(System.String)">WithCriteriaFilter(String)</h4>
-  <div class="markdown level1 summary"><p>Assigns the specified request URL criteria filter and returns this builder for fluent API functionality.</p>
+  <div class="markdown level1 summary"><p>Assigns the specified request URL criteria filter and returns this builder for fluent API functionality.
+Nulls out the namedQueryFilter and filterMap because there can only be one filter approach used at a time.
+Nulls out the namedQueryFilter, filterMap, and qapiRequestBody because there can only be one filter approach used at a time.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -803,7 +831,8 @@ All of the attributes in this Builder class correspond to the attributes in the 
   
   <a id="Ellucian_Ethos_Integration_Client_Proxy_Pager_WithFilterMap_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.Pager.WithFilterMap*"></a>
   <h4 id="Ellucian_Ethos_Integration_Client_Proxy_Pager_WithFilterMap_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.Pager.WithFilterMap(System.String)">WithFilterMap(String)</h4>
-  <div class="markdown level1 summary"><p>Assigns the specified request URL filter map and returns this builder for fluent API functionality.</p>
+  <div class="markdown level1 summary"><p>Assigns the specified request URL filter map and returns this builder for fluent API functionality.
+Nulls out the criteriaFilter, namedQueryFilter, and qapiRequestBody because there can only be one filter approach used at a time.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -848,7 +877,8 @@ All of the attributes in this Builder class correspond to the attributes in the 
   
   <a id="Ellucian_Ethos_Integration_Client_Proxy_Pager_WithNamedQuery_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.Pager.WithNamedQuery*"></a>
   <h4 id="Ellucian_Ethos_Integration_Client_Proxy_Pager_WithNamedQuery_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.Pager.WithNamedQuery(System.String)">WithNamedQuery(String)</h4>
-  <div class="markdown level1 summary"><p>Assigns the specified request URL criteria filter and returns this builder for fluent API functionality.</p>
+  <div class="markdown level1 summary"><p>Assigns the specified request URL named query filter and returns this builder for fluent API functionality.
+Nulls out the criteriaFilter, filterMap, and qapiRequestBody because there can only be one filter approach used at a time.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -930,6 +960,36 @@ All of the attributes in this Builder class correspond to the attributes in the 
       <tr>
         <td><a class="xref" href="Ellucian.Ethos.Integration.Client.Proxy.Pager.html">Pager</a></td>
         <td><p>Pager object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Ellucian_Ethos_Integration_Client_Proxy_Pager_WithQAPIRequestBodyFilter_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.Pager.WithQAPIRequestBodyFilter*"></a>
+  <h4 id="Ellucian_Ethos_Integration_Client_Proxy_Pager_WithQAPIRequestBodyFilter_System_String_" data-uid="Ellucian.Ethos.Integration.Client.Proxy.Pager.WithQAPIRequestBodyFilter(System.String)">WithQAPIRequestBodyFilter(String)</h4>
+  <div class="markdown level1 summary"><p>Assigns the specified QAPI request request body and returns this builder for fluent API functionality.
+Nulls out the criteriaFilter, namedQueryFilter and filterMap because there can only be one filter approach used at a time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WithQAPIRequestBodyFilter(string qapiRequestBody)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">qapiRequestBody</span></td>
+        <td><p>The QAPI request body which can also be used when paging.</p>
 </td>
       </tr>
     </tbody>

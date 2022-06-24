@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class EthosIntegrationUrls
    ">
-    <meta name="generator" content="docfx 2.56.5.0">
+    <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -835,6 +835,120 @@ a query parameter. If the value is zero or less, it will not be added to the URL
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><p>A string value containing the URL to use for interacting with EthosIntegration Errors API, in support of paging.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Ellucian_Ethos_Integration_EthosIntegrationUrls_Qapi_" data-uid="Ellucian.Ethos.Integration.EthosIntegrationUrls.Qapi*"></a>
+  <h4 id="Ellucian_Ethos_Integration_EthosIntegrationUrls_Qapi_Ellucian_Ethos_Integration_Authentication_SupportedRegions_System_String_" data-uid="Ellucian.Ethos.Integration.EthosIntegrationUrls.Qapi(Ellucian.Ethos.Integration.Authentication.SupportedRegions,System.String)">Qapi(SupportedRegions, String)</h4>
+  <div class="markdown level1 summary"><p>The base URL for getting QAPI result(s) in Ethos Integration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Qapi(SupportedRegions region, string resource)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ellucian.Ethos.Integration.Authentication.SupportedRegions.html">SupportedRegions</a></td>
+        <td><span class="parametername">region</span></td>
+        <td><p>A supported region.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">resource</span></td>
+        <td><p>The Ethos resource the URL should contain.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A string value containing the URL to use for interacting with Ethos Integration Proxy APIs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Ellucian_Ethos_Integration_EthosIntegrationUrls_QapiPaging_" data-uid="Ellucian.Ethos.Integration.EthosIntegrationUrls.QapiPaging*"></a>
+  <h4 id="Ellucian_Ethos_Integration_EthosIntegrationUrls_QapiPaging_Ellucian_Ethos_Integration_Authentication_SupportedRegions_System_String_System_Int32_System_Int32_" data-uid="Ellucian.Ethos.Integration.EthosIntegrationUrls.QapiPaging(Ellucian.Ethos.Integration.Authentication.SupportedRegions,System.String,System.Int32,System.Int32)">QapiPaging(SupportedRegions, String, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Builds a URL for interacting with the proxy APIs through Ethos Integration supporting paging for QAPI POST requests</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string QapiPaging(SupportedRegions region, string resource, int offset, int pageSize)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ellucian.Ethos.Integration.Authentication.SupportedRegions.html">SupportedRegions</a></td>
+        <td><span class="parametername">region</span></td>
+        <td><p>A supported region.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">resource</span></td>
+        <td><p>The Ethos resource the URL should contain.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The row index from which to begin paging for data for the given resource.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pageSize</span></td>
+        <td><p>The number of rows each response can contain.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A string value containing the URL to use for interacting with Ethos Integration Proxy APIs.</p>
 </td>
       </tr>
     </tbody>

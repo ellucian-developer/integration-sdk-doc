@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class EthosProxyClient
    ">
-    <meta name="generator" content="docfx 2.56.5.0">
+    <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -649,7 +649,8 @@ If it is null, empty, <see cref="!:ArgumentNullException"></see> will be thrown 
     <tbody>
       <tr>
         <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Ellucian.Ethos.Integration.Client.EthosResponse.html">EthosResponse</a>&gt;</td>
-        <td></td>
+        <td><p>Collection of Ethos responses with content converted to type specified by 'T' and stored in Dto property and setting Content property to empty string.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -709,7 +710,8 @@ If it is null, empty, <see cref="!:ArgumentNullException"></see> will be thrown 
     <tbody>
       <tr>
         <td><a class="xref" href="Ellucian.Ethos.Integration.Client.EthosResponse.html">EthosResponse</a></td>
-        <td></td>
+        <td><p>Ethos response with content converted to type specified by 'T' and stored in Dto property and setting Content property to empty string.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -738,7 +740,7 @@ If it is null, empty, <see cref="!:ArgumentNullException"></see> will be thrown 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task DeleteAsync(string resourceName, string id)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task DeleteAsync(string resourceName, string id)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -789,7 +791,7 @@ Used within the SDK to page for all pages for a given resource by using an offse
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;List&lt;EthosResponse&gt;&gt; DoPagingForAllAsync(string resourceName, string version, int totalCount, int pageSize)</code></pre>
+    <pre><code class="lang-csharp hljs">async Task&lt;List&lt;EthosResponse&gt;&gt; DoPagingForAllAsync(string resourceName, string version, int totalCount, int pageSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -853,7 +855,7 @@ Used within the SDK to page for some number of pages for a given resource by usi
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;List&lt;EthosResponse&gt;&gt; DoPagingForNumPagesAsync(string resourceName, string version, int totalCount, int pageSize, int numPages)</code></pre>
+    <pre><code class="lang-csharp hljs">async Task&lt;List&lt;EthosResponse&gt;&gt; DoPagingForNumPagesAsync(string resourceName, string version, int totalCount, int pageSize, int numPages)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -924,7 +926,7 @@ Used within the SDK to page for some number of rows for a given resource, using 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;List&lt;EthosResponse&gt;&gt; DoPagingForNumRowsAsync(string resourceName, string version, int totalCount, int pageSize, int numRows)</code></pre>
+    <pre><code class="lang-csharp hljs">async Task&lt;List&lt;EthosResponse&gt;&gt; DoPagingForNumRowsAsync(string resourceName, string version, int totalCount, int pageSize, int numRows)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -993,7 +995,7 @@ up to the number of rows specified or the total count of the resource( whichever
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Task&lt;List&lt;EthosResponse&gt;&gt; DoPagingFromOffsetAsync(string resourceName, string version, string filter, int totalCount, int pageSize, int offset)</code></pre>
+    <pre><code class="lang-csharp hljs">protected async Task&lt;List&lt;EthosResponse&gt;&gt; DoPagingFromOffsetAsync(string resourceName, string version, string filter, int totalCount, int pageSize, int offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1070,7 +1072,7 @@ Used within the SDK to page for some number of pages for a given resource from t
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;List&lt;EthosResponse&gt;&gt; DoPagingFromOffsetForNumPagesAsync(string resourceName, string version, int totalCount, int pageSize, int numPages, int offset)</code></pre>
+    <pre><code class="lang-csharp hljs">async Task&lt;List&lt;EthosResponse&gt;&gt; DoPagingFromOffsetForNumPagesAsync(string resourceName, string version, int totalCount, int pageSize, int numPages, int offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1147,7 +1149,7 @@ Used within the SDK to page for some number of rows for a given resource, using 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;List&lt;EthosResponse&gt;&gt; DoPagingFromOffsetForNumRowsAsync(string resourceName, string version, int totalCount, int pageSize, int offset, int numRows)</code></pre>
+    <pre><code class="lang-csharp hljs">async Task&lt;List&lt;EthosResponse&gt;&gt; DoPagingFromOffsetForNumRowsAsync(string resourceName, string version, int totalCount, int pageSize, int offset, int numRows)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1208,7 +1210,8 @@ Used within the SDK to page for some number of rows for a given resource, using 
     <tbody>
       <tr>
         <td><span class="xref">Task</span>&lt;<span class="xref">List</span>&lt;<a class="xref" href="Ellucian.Ethos.Integration.Client.EthosResponse.html">EthosResponse</a>&gt;&gt;</td>
-        <td></td>
+        <td><p>Returns collection of EthosResponses.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1225,7 +1228,7 @@ data in Ethos data model format in bulk.</strong></p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;JArray&gt;&gt; GetAllPagesAsJArraysAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;JArray&gt;&gt; GetAllPagesAsJArraysAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1286,7 +1289,7 @@ data in Ethos data model format in bulk.</strong></p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;string&gt;&gt; GetAllPagesAsStringsAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;string&gt;&gt; GetAllPagesAsStringsAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1347,7 +1350,7 @@ data in Ethos data model format in bulk.</strong></p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetAllPagesAsync(string resourceName)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetAllPagesAsync(string resourceName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1396,7 +1399,7 @@ data in Ethos data model format in bulk.</strong></p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetAllPagesAsync(string resourceName, string version = &quot;&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetAllPagesAsync(string resourceName, string version = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1451,7 +1454,7 @@ data in Ethos data model format in bulk.</strong></p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetAllPagesAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetAllPagesAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1512,7 +1515,7 @@ data in Ethos data model format in bulk.</strong></p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetAllPagesAsync&lt;T&gt;(string resourceName, string version = &quot;&quot;, int pageSize = 0)
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetAllPagesAsync&lt;T&gt;(string resourceName, string version = &quot;&quot;, int pageSize = 0)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1590,7 +1593,7 @@ data in Ethos data model format in bulk.</strong></p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;JArray&gt;&gt; GetAllPagesFromOffsetAsJArraysAsync(string resourceName, string version = &quot;&quot;, int offset = 0, int pageSize = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;JArray&gt;&gt; GetAllPagesFromOffsetAsJArraysAsync(string resourceName, string version = &quot;&quot;, int offset = 0, int pageSize = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1657,7 +1660,7 @@ data in Ethos data model format in bulk.</strong></p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;string&gt;&gt; GetAllPagesFromOffsetAsStringsAsync(string resourceName, string version = &quot;&quot;, int offset = 0, int pageSize = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;string&gt;&gt; GetAllPagesFromOffsetAsStringsAsync(string resourceName, string version = &quot;&quot;, int offset = 0, int pageSize = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1725,7 +1728,7 @@ data in Ethos data model format in bulk.</strong></p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetAllPagesFromOffsetAsync(string resourceName, string version = &quot;&quot;, int offset = 0, int pageSize = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetAllPagesFromOffsetAsync(string resourceName, string version = &quot;&quot;, int offset = 0, int pageSize = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1793,7 +1796,7 @@ data in Ethos data model format in bulk.</strong></p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetAllPagesFromOffsetAsync&lt;T&gt;(string resourceName, string version = &quot;&quot;, int offset = 0, int pageSize = 0)
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetAllPagesFromOffsetAsync&lt;T&gt;(string resourceName, string version = &quot;&quot;, int offset = 0, int pageSize = 0)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1873,7 +1876,7 @@ data in Ethos data model format in bulk.</strong></p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;JArray&gt; GetAsJArrayAsync(string resourceName, string version = &quot;&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;JArray&gt; GetAsJArrayAsync(string resourceName, string version = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1926,7 +1929,7 @@ not be used.If the given pageSize is 0 or negative, it will not be used.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;JArray&gt; GetAsJArrayAsync(string resourceName, string version = &quot;&quot;, int offset = 0, int pageSize = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;JArray&gt; GetAsJArrayAsync(string resourceName, string version = &quot;&quot;, int offset = 0, int pageSize = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1989,7 +1992,7 @@ not be used.If the given pageSize is 0 or negative, it will not be used.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;JObject&gt; GetAsJObjectByIdAsync(string resourceName, string id, string version = &quot;&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;JObject&gt; GetAsJObjectByIdAsync(string resourceName, string id, string version = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2047,7 +2050,7 @@ Only returns the content body of the <a class="xref" href="Ellucian.Ethos.Integr
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; GetAsStringAsync(string resourceName, string version = &quot;&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;string&gt; GetAsStringAsync(string resourceName, string version = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2100,7 +2103,7 @@ not be used. If the given pageSize is 0 or negative, it will not be used.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; GetAsStringAsync(string resourceName, string version = &quot;&quot;, int offset = 0, int pageSize = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;string&gt; GetAsStringAsync(string resourceName, string version = &quot;&quot;, int offset = 0, int pageSize = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2163,7 +2166,7 @@ not be used. If the given pageSize is 0 or negative, it will not be used.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; GetAsStringByIdAsync(string resourceName, string id, string version = &quot;&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;string&gt; GetAsStringByIdAsync(string resourceName, string id, string version = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2221,7 +2224,7 @@ Only returns the content body of the <a class="xref" href="Ellucian.Ethos.Integr
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetAsync(string resourceName)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetAsync(string resourceName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2267,7 +2270,7 @@ to the requested version of the resource.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetAsync(string resourceName, string version = &quot;&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetAsync(string resourceName, string version = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2321,7 +2324,7 @@ not be used.If the given pageSize is 0 or negative, it will not be used.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetAsync(string resourceName, string version = &quot;&quot;, int offset = 0, int pageSize = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetAsync(string resourceName, string version = &quot;&quot;, int offset = 0, int pageSize = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2384,7 +2387,7 @@ not be used.If the given pageSize is 0 or negative, it will not be used.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetAsync&lt;T&gt;(string resourceName, string version = &quot;&quot;, int offset = 0, int pageSize = 0)
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetAsync&lt;T&gt;(string resourceName, string version = &quot;&quot;, int offset = 0, int pageSize = 0)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2464,7 +2467,7 @@ not be used.If the given pageSize is 0 or negative, it will not be used.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetByIdAsync(string resourceName, string id, string version = &quot;&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetByIdAsync(string resourceName, string id, string version = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2523,7 +2526,7 @@ the Http status code.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetByIdAsync&lt;T&gt;(string resourceName, string id, string version = &quot;&quot;)
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetByIdAsync&lt;T&gt;(string resourceName, string id, string version = &quot;&quot;)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2649,7 +2652,7 @@ defined PagingTypes.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;List&lt;EthosResponse&gt;&gt; GetDataFromPagingAsync(Pager pager)</code></pre>
+    <pre><code class="lang-csharp hljs">async Task&lt;List&lt;EthosResponse&gt;&gt; GetDataFromPagingAsync(Pager pager)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2694,7 +2697,7 @@ defined PagingTypes.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;JArray&gt; GetFromOffsetAsJArrayAsync(string resourceName, string version = &quot;&quot;, int offset = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;JArray&gt; GetFromOffsetAsJArrayAsync(string resourceName, string version = &quot;&quot;, int offset = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2751,7 +2754,7 @@ defined PagingTypes.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; GetFromOffsetAsStringAsync(string resourceName, string version = &quot;&quot;, int offset = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;string&gt; GetFromOffsetAsStringAsync(string resourceName, string version = &quot;&quot;, int offset = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2808,7 +2811,7 @@ defined PagingTypes.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetFromOffsetAsync(string resourceName, string version = &quot;&quot;, int offset = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetFromOffsetAsync(string resourceName, string version = &quot;&quot;, int offset = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2919,7 +2922,7 @@ will make a call to get the data for the given resource to then calculate the pa
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;int&gt; GetMaxPageSizeAsync(string resourceName, string version = &quot;&quot;, EthosResponse ethosResponse = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;int&gt; GetMaxPageSizeAsync(string resourceName, string version = &quot;&quot;, EthosResponse ethosResponse = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2976,7 +2979,7 @@ will make a call to get the data for the given resource to then calculate the pa
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;JArray&gt;&gt; GetPagesAsJArraysAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0, int numPages = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;JArray&gt;&gt; GetPagesAsJArraysAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0, int numPages = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3039,7 +3042,7 @@ will make a call to get the data for the given resource to then calculate the pa
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;string&gt;&gt; GetPagesAsStringsAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0, int numPages = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;string&gt;&gt; GetPagesAsStringsAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0, int numPages = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3103,7 +3106,7 @@ will be returned.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0, int numPages = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0, int numPages = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3167,7 +3170,7 @@ will be returned.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesAsync&lt;T&gt;(string resourceName, string version = &quot;&quot;, int pageSize = 0, int numPages = 0)
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesAsync&lt;T&gt;(string resourceName, string version = &quot;&quot;, int pageSize = 0, int numPages = 0)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3247,7 +3250,7 @@ will be returned.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;JArray&gt;&gt; GetPagesFromOffsetAsJArraysAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0, int offset = 0, int numPages = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;JArray&gt;&gt; GetPagesFromOffsetAsJArraysAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0, int offset = 0, int numPages = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3316,7 +3319,7 @@ will be returned.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;string&gt;&gt; GetPagesFromOffsetAsStringsAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0, int offset = 0, int numPages = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;string&gt;&gt; GetPagesFromOffsetAsStringsAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0, int offset = 0, int numPages = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3387,7 +3390,7 @@ be returned. If numPages is negative, all pages from the offset will be returned
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0, int offset = 0, int numPages = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0, int offset = 0, int numPages = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3458,7 +3461,7 @@ be returned. If numPages is negative, all pages from the offset will be returned
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetAsync&lt;T&gt;(string resourceName, string version = &quot;&quot;, int pageSize = 0, int offset = 0, int numPages = 0)
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetPagesFromOffsetAsync&lt;T&gt;(string resourceName, string version = &quot;&quot;, int pageSize = 0, int offset = 0, int numPages = 0)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3546,7 +3549,7 @@ will make a call to get the data for the given resource to then calculate the pa
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;int&gt; GetPageSizeAsync(string resourceName, string version = &quot;&quot;, EthosResponse ethosResponse = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;int&gt; GetPageSizeAsync(string resourceName, string version = &quot;&quot;, EthosResponse ethosResponse = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3605,7 +3608,7 @@ that many available in the source system.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;JArray&gt; GetRowsAsJArrayAsync(string resourceName, string version = &quot;&quot;, int numRows = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;JArray&gt; GetRowsAsJArrayAsync(string resourceName, string version = &quot;&quot;, int numRows = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3664,7 +3667,7 @@ that many available in the source system.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;string&gt;&gt; GetRowsAsStringsAsync(string resourceName, string version = &quot;&quot;, int numRows = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;string&gt;&gt; GetRowsAsStringsAsync(string resourceName, string version = &quot;&quot;, int numRows = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3722,7 +3725,7 @@ pages altogether containing the number of rows.If numRows is negative, all pages
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetRowsAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0, int numRows = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetRowsAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0, int numRows = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3786,7 +3789,7 @@ pages altogether containing the number of rows.If numRows is negative, all pages
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetRowsAsync&lt;T&gt;(string resourceName, string version = &quot;&quot;, int pageSize = 0, int numRows = 0)
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetRowsAsync&lt;T&gt;(string resourceName, string version = &quot;&quot;, int pageSize = 0, int numRows = 0)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3868,7 +3871,7 @@ that many available in the source system.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;JArray&gt; GetRowsFromOffsetAsJArrayAsync(string resourceName, string version = &quot;&quot;, int offset = 0, int numRows = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;JArray&gt; GetRowsFromOffsetAsJArrayAsync(string resourceName, string version = &quot;&quot;, int offset = 0, int numRows = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3933,7 +3936,7 @@ that many available in the source system.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;string&gt;&gt; GetRowsFromOffsetAsStringsAsync(string resourceName, string version = &quot;&quot;, int offset = 0, int numRows = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;string&gt;&gt; GetRowsFromOffsetAsStringsAsync(string resourceName, string version = &quot;&quot;, int offset = 0, int numRows = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3998,7 +4001,7 @@ If the offset is negative, pages up to the numRows will be returned. If numRows 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetRowsFromOffsetAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0, int offset = 0, int numRows = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetRowsFromOffsetAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0, int offset = 0, int numRows = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4069,7 +4072,7 @@ If the offset is negative, pages up to the numRows will be returned. If numRows 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetRowsFromOffsetAsync&lt;T&gt;(string resourceName, string version = &quot;&quot;, int pageSize = 0, int offset = 0, int numRows = 0)
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;EthosResponse&gt;&gt; GetRowsFromOffsetAsync&lt;T&gt;(string resourceName, string version = &quot;&quot;, int pageSize = 0, int offset = 0, int numRows = 0)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -4157,7 +4160,7 @@ a call will be made to get the resource data to then get the total count from th
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;int&gt; GetTotalCountAsync(string resourceName, string version = &quot;&quot;, EthosResponse ethosResponse = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;int&gt; GetTotalCountAsync(string resourceName, string version = &quot;&quot;, EthosResponse ethosResponse = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4214,7 +4217,7 @@ a call will be made to get the resource data to then get the total count from th
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;JArray&gt; GetWithPageSizeAsJArrayAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;JArray&gt; GetWithPageSizeAsJArrayAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4271,7 +4274,7 @@ a call will be made to get the resource data to then get the total count from th
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; GetWithPageSizeAsStringAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;string&gt; GetWithPageSizeAsStringAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4328,7 +4331,7 @@ a call will be made to get the resource data to then get the total count from th
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; GetWithPageSizeAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; GetWithPageSizeAsync(string resourceName, string version = &quot;&quot;, int pageSize = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4387,7 +4390,7 @@ obtained during paging preparation.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;List&lt;EthosResponse&gt;&gt; HandlePagingAsync(Pager pager)</code></pre>
+    <pre><code class="lang-csharp hljs">async Task&lt;List&lt;EthosResponse&gt;&gt; HandlePagingAsync(Pager pager)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4486,7 +4489,7 @@ This is a convenience method equivalent to <pre>Post(resourceName, requestBodyNo
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; PostAsync(string resourceName, JObject requestBodyNode)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; PostAsync(string resourceName, JObject requestBodyNode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4538,7 +4541,7 @@ The requestBody should be a string in JSON format.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; PostAsync(string resourceName, string requestBody)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; PostAsync(string resourceName, string requestBody)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4590,7 +4593,7 @@ This is a convenience method equivalent to <pre>Post(resourceName, requestBodyNo
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; PostAsync(string resourceName, string version, JObject requestBodyNode)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; PostAsync(string resourceName, string version, JObject requestBodyNode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4648,7 +4651,7 @@ in JSON format.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; PostAsync(string resourceName, string version, string requestBody)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; PostAsync(string resourceName, string version, string requestBody)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4705,7 +4708,7 @@ in JSON format.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; PostAsync&lt;T&gt;(string resourceName, T requestBody, string version = &quot;&quot;)
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; PostAsync&lt;T&gt;(string resourceName, T requestBody, string version = &quot;&quot;)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -4783,7 +4786,7 @@ about the resource used for paging. Also sets the page size and the total count 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Task&lt;Pager&gt; PrepareForPagingAsync(Pager pager)</code></pre>
+    <pre><code class="lang-csharp hljs">protected async Task&lt;Pager&gt; PrepareForPagingAsync(Pager pager)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4829,7 +4832,7 @@ This is a convenience method equivalent to <pre>put(resourceName, requestBodyNod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; PutAsync(string resourceName, string resourceId, JObject requestBodyNode)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; PutAsync(string resourceName, string resourceId, JObject requestBodyNode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4887,7 +4890,7 @@ The requestBody should be a string in JSON format.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; PutAsync(string resourceName, string resourceId, string requestBody)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; PutAsync(string resourceName, string resourceId, string requestBody)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4945,7 +4948,7 @@ This is a convenience method equivalent to <pre>put(resourceName, requestBodyNod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; PutAsync(string resourceName, string resourceId, string version, JObject requestBodyNode)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; PutAsync(string resourceName, string resourceId, string version, JObject requestBodyNode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -5009,7 +5012,7 @@ in JSON format.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; PutAsync(string resourceName, string resourceId, string version, string requestBody)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; PutAsync(string resourceName, string resourceId, string version, string requestBody)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -5072,7 +5075,7 @@ in JSON format.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EthosResponse&gt; PutAsync&lt;T&gt;(string resourceName, T requestBody, string resourceId = &quot;&quot;, string version = &quot;&quot;)
+    <pre><code class="lang-csharp hljs">public async Task&lt;EthosResponse&gt; PutAsync&lt;T&gt;(string resourceName, T requestBody, string resourceId = &quot;&quot;, string version = &quot;&quot;)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

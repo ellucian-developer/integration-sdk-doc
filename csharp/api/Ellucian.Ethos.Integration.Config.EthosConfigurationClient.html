@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class EthosConfigurationClient
    ">
-    <meta name="generator" content="docfx 2.56.5.0">
+    <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -706,9 +706,7 @@ If it is null or empty, an <see cref="!:ArgumentNullException"></see> will be th
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">EthosResponseConverter EthosResponseConverter
-{
-}</code></pre>
+    <pre><code class="lang-csharp hljs">EthosResponseConverter EthosResponseConverter { }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -754,13 +752,13 @@ the &apos;ownerOverrides&apos; array from calling the /appConfig endpoint in Eth
       <tr>
         <td><span class="xref">JArray</span></td>
         <td><span class="parametername">availableResources</span></td>
-        <td><p>The entire list of available resources from Ethos Integration</p>
+        <td><p>The entire list of available resources from Ethos Integration.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">JArray</span></td>
         <td><span class="parametername">desiredResources</span></td>
-        <td><p>The target list of specific app resources that you want returned</p>
+        <td><p>The target list of specific app resources that you want returned.</p>
 </td>
       </tr>
     </tbody>
@@ -776,7 +774,7 @@ the &apos;ownerOverrides&apos; array from calling the /appConfig endpoint in Eth
     <tbody>
       <tr>
         <td><span class="xref">JArray</span></td>
-        <td><p>A filtered list of available resources</p>
+        <td><p>A filtered list of available resources.</p>
 </td>
       </tr>
     </tbody>
@@ -829,7 +827,7 @@ the details of the given resource from each owning application in the available 
     <tbody>
       <tr>
         <td><span class="xref">JArray</span></td>
-        <td><p>A filtered list of available resources</p>
+        <td><p>A filtered list of available resources.</p>
 </td>
       </tr>
     </tbody>
@@ -892,7 +890,7 @@ JSON array.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;JArray&gt; GetAllAvailableResourcesAsJsonAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;JArray&gt; GetAllAvailableResourcesAsJsonAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -919,7 +917,7 @@ JSON array.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; GetAllAvailableResourcesAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;string&gt; GetAllAvailableResourcesAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -932,7 +930,7 @@ JSON array.</p>
     <tbody>
       <tr>
         <td><span class="xref">Task</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td><p>The available resources details in string format</p>
+        <td><p>The available resources details in string format.</p>
 </td>
       </tr>
     </tbody>
@@ -947,7 +945,7 @@ data for the application that this client's access token belongs to.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; GetAppConfigAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;string&gt; GetAppConfigAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -960,7 +958,7 @@ data for the application that this client's access token belongs to.</p>
     <tbody>
       <tr>
         <td><span class="xref">Task</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td><p>The config info for your app in string format</p>
+        <td><p>The config info for your app in string format.</p>
 </td>
       </tr>
     </tbody>
@@ -975,7 +973,7 @@ data for the application that this client's access token belongs to.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;JObject&gt; GetAppConfigJsonAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;JObject&gt; GetAppConfigJsonAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1004,7 +1002,7 @@ config data.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;JArray&gt; GetAvailableResourcesForAppAsJsonAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;JArray&gt; GetAvailableResourcesForAppAsJsonAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1033,7 +1031,7 @@ config data.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; GetAvailableResourcesForAppAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;string&gt; GetAvailableResourcesForAppAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1046,7 +1044,7 @@ config data.</p>
     <tbody>
       <tr>
         <td><span class="xref">Task</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td><p>The available resources details in a string format</p>
+        <td><p>The available resources details in a string format.</p>
 </td>
       </tr>
     </tbody>
@@ -1090,7 +1088,7 @@ The following is an example of the JSON data structure within the returned JObje
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;JObject&gt; GetFiltersAndNamedQueriesAsync(string resourceName, string versionHeader = &quot;&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;JObject&gt; GetFiltersAndNamedQueriesAsync(string resourceName, string versionHeader = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1144,7 +1142,7 @@ the list of filters.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;string&gt;&gt; GetFiltersAsync(string resourceName, string versionHeader = &quot;&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;string&gt;&gt; GetFiltersAsync(string resourceName, string versionHeader = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1191,12 +1189,12 @@ the list of filters.</p>
   <a id="Ellucian_Ethos_Integration_Config_EthosConfigurationClient_GetLatestVersionAsync_" data-uid="Ellucian.Ethos.Integration.Config.EthosConfigurationClient.GetLatestVersionAsync*"></a>
   <h4 id="Ellucian_Ethos_Integration_Config_EthosConfigurationClient_GetLatestVersionAsync_System_String_" data-uid="Ellucian.Ethos.Integration.Config.EthosConfigurationClient.GetLatestVersionAsync(System.String)">GetLatestVersionAsync(String)</h4>
   <div class="markdown level1 summary"><p>Gets the latest version of the given resource. Could return either a Semantic version (e.g. 12.0.0), or a
-non-semantic version( e.g. 12), as a string value.</p>
+non-semantic version (e.g. 12), as a string value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;string&gt; GetLatestVersionAsync(string resourceName)</code></pre>
+    <pre><code class="lang-csharp hljs">async Task&lt;string&gt; GetLatestVersionAsync(string resourceName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1241,7 +1239,7 @@ non-semantic version( e.g. 12), as a string value.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; GetLatestVersionHeaderAsync(string resourceName)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;string&gt; GetLatestVersionHeaderAsync(string resourceName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1293,7 +1291,7 @@ Also throws an ArgumentNullException (Runtime) if the given resourceName is null
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;string&gt;&gt; GetMajorVersionsOfResourceAsync(string resourceName)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;string&gt;&gt; GetMajorVersionsOfResourceAsync(string resourceName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1339,7 +1337,7 @@ null or empty, the latest version of the given resource will be used.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;Dictionary&lt;string, IEnumerable&lt;string&gt;&gt;&gt; GetNamedQueriesAsync(string resourceName, string versionHeader = &quot;&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;Dictionary&lt;string, IEnumerable&lt;string&gt;&gt;&gt; GetNamedQueriesAsync(string resourceName, string versionHeader = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1390,13 +1388,13 @@ Each key in the map is the name of a named query, with a corresponding value whi
 details from each application in the tenant that owns the resource.</p>
 <p>
 The format of the response will be a JSON array with each object containing the following properties:
-<ul><li>appId - the ID of an owning application</li><li>appName - the name of an owning application</li><li>resource - the details of the resource</li></ul>
+<ul><li>appId - the ID of an owning application.</li><li>appName - the name of an owning application.</li><li>resource - the details of the resource.</li></ul>
 </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;JArray&gt; GetResourceDetailsAsJsonAsync(string resourceName)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;JArray&gt; GetResourceDetailsAsJsonAsync(string resourceName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1427,7 +1425,7 @@ The format of the response will be a JSON array with each object containing the 
     <tbody>
       <tr>
         <td><span class="xref">Task</span>&lt;<span class="xref">JArray</span>&gt;</td>
-        <td><p>The resource details in a JSON array</p>
+        <td><p>The resource details in a JSON array.</p>
 </td>
       </tr>
     </tbody>
@@ -1440,13 +1438,13 @@ The format of the response will be a JSON array with each object containing the 
 details from each application in the tenant that owns the resource.</p>
 <p>
 The format of the response will be a JSON array with each object containing the following properties:
-<ul><li>appId - the ID of an owning application</li><li>appName - the name of an owning application</li><li>resource - the details of the resource</li></ul>
+<ul><li>appId - the ID of an owning application</li><li>appName - the name of an owning application</li><li>resource - the details of the resource.</li></ul>
 </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; GetResourceDetailsAsync(string resourceName)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;string&gt; GetResourceDetailsAsync(string resourceName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1477,7 +1475,7 @@ The format of the response will be a JSON array with each object containing the 
     <tbody>
       <tr>
         <td><span class="xref">Task</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td><p>The resource details in string format</p>
+        <td><p>The resource details in string format.</p>
 </td>
       </tr>
     </tbody>
@@ -1496,7 +1494,7 @@ The format of the response will be a JSON array with each object containing the 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;JArray&gt; GetResourceDetailsJsonAsync(string resourceName)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;JArray&gt; GetResourceDetailsJsonAsync(string resourceName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1527,7 +1525,7 @@ The format of the response will be a JSON array with each object containing the 
     <tbody>
       <tr>
         <td><span class="xref">Task</span>&lt;<span class="xref">JArray</span>&gt;</td>
-        <td><p>The resource details in a JSON array</p>
+        <td><p>The resource details in a JSON array.</p>
 </td>
       </tr>
     </tbody>
@@ -1560,7 +1558,7 @@ The returned list may contain duplicate version values.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Task&lt;JArray&gt; GetResourceVersionsByRepresentationTypeAsync(string resourceName, string representationType)</code></pre>
+    <pre><code class="lang-csharp hljs">protected async Task&lt;JArray&gt; GetResourceVersionsByRepresentationTypeAsync(string resourceName, string representationType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1600,7 +1598,7 @@ Expected to only be 'version' or 'X-Media-Type', otherwise an ArgumentException 
         <td><span class="xref">Task</span>&lt;<span class="xref">JArray</span>&gt;</td>
         <td><p>A list of supported version values for the given resource according to the given representationType. If the
 representationType is 'X-Media-Type' a list of full version headers will be returned. If the representationType
-is '/version' a list of version values where each version value is prefixed with the 'v' char will be returned.</p>
+is 'version' a list of version values where each version value is prefixed with the 'v' char will be returned.</p>
 </td>
       </tr>
     </tbody>
@@ -1610,7 +1608,7 @@ is '/version' a list of version values where each version value is prefixed with
   <a id="Ellucian_Ethos_Integration_Config_EthosConfigurationClient_GetVersionHeaderAsync_" data-uid="Ellucian.Ethos.Integration.Config.EthosConfigurationClient.GetVersionHeaderAsync*"></a>
   <h4 id="Ellucian_Ethos_Integration_Config_EthosConfigurationClient_GetVersionHeaderAsync_System_String_Ellucian_Ethos_Integration_Config_SemVer_" data-uid="Ellucian.Ethos.Integration.Config.EthosConfigurationClient.GetVersionHeaderAsync(System.String,Ellucian.Ethos.Integration.Config.SemVer)">GetVersionHeaderAsync(String, SemVer)</h4>
   <div class="markdown level1 summary"><p>Gets the full version header string for the given resource and SemVer if the resource supports the given
-version contained within the SemVer.If the resource does not support the SemVer version, an UnsupportedVersionException is thrown,
+version contained within the SemVer. If the resource does not support the SemVer version, an UnsupportedVersionException is thrown,
 which is a RuntimeException.</p>
 <p>
 Also throws an IllegalArgumentException (Runtime) if the given resourceName is null or empty or the given semVer is null.</p>
@@ -1621,7 +1619,7 @@ when only the major.minor version is provided will result in a patch version of 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; GetVersionHeaderAsync(string resourceName, SemVer semVer)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;string&gt; GetVersionHeaderAsync(string resourceName, SemVer semVer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1658,7 +1656,8 @@ when only the major.minor version is provided will result in a patch version of 
     <tbody>
       <tr>
         <td><span class="xref">Task</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td></td>
+        <td><p>Gets the full version header string for the given resource and SemVer.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1667,7 +1666,7 @@ when only the major.minor version is provided will result in a patch version of 
   <a id="Ellucian_Ethos_Integration_Config_EthosConfigurationClient_GetVersionHeaderAsync_" data-uid="Ellucian.Ethos.Integration.Config.EthosConfigurationClient.GetVersionHeaderAsync*"></a>
   <h4 id="Ellucian_Ethos_Integration_Config_EthosConfigurationClient_GetVersionHeaderAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__" data-uid="Ellucian.Ethos.Integration.Config.EthosConfigurationClient.GetVersionHeaderAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32})">GetVersionHeaderAsync(String, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;)</h4>
   <div class="markdown level1 summary"><p>Gets the full version header string for the given resource, major, minor, and patch version if the resource supports the given
-major.minor.patch version.If the resource does not support the major.minor.patch version, an UnsupportedVersionException is thrown,
+major.minor.patch version. If the resource does not support the major.minor.patch version, an UnsupportedVersionException is thrown,
 which is a RuntimeException.</p>
 <p>
 Also throws an IllegalArgumentException (Runtime) if the given resourceName is null or empty.</p>
@@ -1675,7 +1674,7 @@ Also throws an IllegalArgumentException (Runtime) if the given resourceName is n
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; GetVersionHeaderAsync(string resourceName, int? majorVersion = null, int? minorVersion = null, int? patchVersion = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;string&gt; GetVersionHeaderAsync(string resourceName, int? majorVersion = null, int? minorVersion = null, int? patchVersion = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1742,7 +1741,7 @@ If resourceName not found in ownerOverrides, returns an empty List.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;string&gt;&gt; GetVersionHeadersForAppAsync(string resourceName)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;string&gt;&gt; GetVersionHeadersForAppAsync(string resourceName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1783,13 +1782,13 @@ or an empty list if not found.</p>
   
   <a id="Ellucian_Ethos_Integration_Config_EthosConfigurationClient_GetVersionHeadersOfResourceAsStringsAsync_" data-uid="Ellucian.Ethos.Integration.Config.EthosConfigurationClient.GetVersionHeadersOfResourceAsStringsAsync*"></a>
   <h4 id="Ellucian_Ethos_Integration_Config_EthosConfigurationClient_GetVersionHeadersOfResourceAsStringsAsync_System_String_" data-uid="Ellucian.Ethos.Integration.Config.EthosConfigurationClient.GetVersionHeadersOfResourceAsStringsAsync(System.String)">GetVersionHeadersOfResourceAsStringsAsync(String)</h4>
-  <div class="markdown level1 summary"><p>Gets a list of version header string values from the /versions json property of the ArrayNode
+  <div class="markdown level1 summary"><p>Gets a list of version header string values from the versions json property of the ArrayNode
 returned from {@link #getVersionHeadersOfResource(string) getVersionHeadersOfResource()}.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;string&gt;&gt; GetVersionHeadersOfResourceAsStringsAsync(string resourceName)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;string&gt;&gt; GetVersionHeadersOfResourceAsStringsAsync(string resourceName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1863,7 +1862,7 @@ The following is an example of the JSON data structure contained within the retu
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;JArray&gt; GetVersionHeadersOfResourceAsync(string resourceName)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;JArray&gt; GetVersionHeadersOfResourceAsync(string resourceName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1939,7 +1938,7 @@ The given arrayNode is expected to contain an array of the following properties:
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">representationType</span></td>
         <td><p>The JSON property to use, expected to be &quot;/versions&quot; when the array node contains both version
-values (v2, v3.0.4, etc. ) and version header strings.</p>
+values (v2, v3.0.4, etc.) and version header strings.</p>
 </td>
       </tr>
     </tbody>
@@ -2028,7 +2027,7 @@ If resourceName not found in ownerOverrides, returns an empty List.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;string&gt;&gt; GetVersionsForAppAsync(string resourceName)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;string&gt;&gt; GetVersionsForAppAsync(string resourceName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2076,7 +2075,7 @@ and should not contain duplicate values.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;string&gt;&gt; GetVersionsOfResourceAsStringsAsync(string resourceName)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;string&gt;&gt; GetVersionsOfResourceAsStringsAsync(string resourceName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2142,7 +2141,7 @@ The following is an example of the JSON data structure contained within the retu
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;JArray&gt; GetVersionsOfResourceAsync(string resourceName)</code></pre>
+    <pre><code class="lang-csharp hljs">async Task&lt;JArray&gt; GetVersionsOfResourceAsync(string resourceName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2188,12 +2187,12 @@ or patch versions of the semantic version notation are missing or not known.For 
 not be used when trying to determine if version 12.2 is supported because the given SemVer will translate 12.2
 into 12.2.0 which is different.</p>
 <p>
-Also throws an ArgumentNullException( Runtime) if the given resourceName is null or empty or the given semVer is null.</p>
+Also throws an ArgumentNullException (Runtime) if the given resourceName is null or empty or the given semVer is null.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; IsResourceVersionSupportedAsync(string resourceName, SemVer semVer)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;bool&gt; IsResourceVersionSupportedAsync(string resourceName, SemVer semVer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2250,7 +2249,7 @@ Also throws an ArgumentNullException (Runtime) if the given resourceName is null
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; IsResourceVersionSupportedAsync(string resourceName, int? majorVersion = null, int? minorVersion = null, int? patchVersion = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;bool&gt; IsResourceVersionSupportedAsync(string resourceName, int? majorVersion = null, int? minorVersion = null, int? patchVersion = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2309,14 +2308,14 @@ Also throws an ArgumentNullException (Runtime) if the given resourceName is null
   <a id="Ellucian_Ethos_Integration_Config_EthosConfigurationClient_IsResourceVersionSupportedAsync_" data-uid="Ellucian.Ethos.Integration.Config.EthosConfigurationClient.IsResourceVersionSupportedAsync*"></a>
   <h4 id="Ellucian_Ethos_Integration_Config_EthosConfigurationClient_IsResourceVersionSupportedAsync_System_String_System_String_" data-uid="Ellucian.Ethos.Integration.Config.EthosConfigurationClient.IsResourceVersionSupportedAsync(System.String,System.String)">IsResourceVersionSupportedAsync(String, String)</h4>
   <div class="markdown level1 summary"><p>Indicates if the given resource supports the given full version header. The full version header should be in the following
-format:  application/vnd.hedtech.integration.vSEMVER+json, where SEMVER is the semantic version of the requested resource.</p>
+format: application/vnd.hedtech.integration.vSEMVER+json, where SEMVER is the semantic version of the requested resource.</p>
 <p>
 Also throws an ArgumentNullException( Runtime) if the given resourceName or fullVersionHeader is null or empty.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; IsResourceVersionSupportedAsync(string resourceName, string fullVersionHeader)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;bool&gt; IsResourceVersionSupportedAsync(string resourceName, string fullVersionHeader)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2364,8 +2363,8 @@ Also throws an ArgumentNullException( Runtime) if the given resourceName or full
   <h4 id="Ellucian_Ethos_Integration_Config_EthosConfigurationClient_SplitVersionList_IEnumerable_System_String__" data-uid="Ellucian.Ethos.Integration.Config.EthosConfigurationClient.SplitVersionList(IEnumerable{System.String})">SplitVersionList(IEnumerable&lt;String&gt;)</h4>
   <div class="markdown level1 summary"><p><strong>Used internally by the SDK.</strong></p>
 <p>
-The given versionList could contain both semantic and non-semantic version values.Splits the versionList
-into 2 lists:  1 with SemVer values, and 1 with non-semantic Integer version values.</p>
+The given versionList could contain both semantic and non-semantic version values. Splits the versionList
+into 2 lists: 1 with SemVer values, and 1 with non-semantic Integer version values.</p>
 <p>
 Any null or blank version values in the versionList will be filtered out and not processed.</p>
 </div>
@@ -2402,7 +2401,8 @@ Any null or blank version values in the versionList will be filtered out and not
     <tbody>
       <tr>
         <td><span class="xref">Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
-        <td></td>
+        <td><p>Dictionary containing splits versionList into two.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2433,12 +2433,14 @@ Throws an ArgumentNullException with the given errorMessage if the resourceName 
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">resourceName</span></td>
-        <td></td>
+        <td><p>The name of the resource for which you want details.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">errorMessage</span></td>
-        <td></td>
+        <td><p>The error message.</p>
+</td>
       </tr>
     </tbody>
   </table>

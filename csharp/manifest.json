@@ -4,12 +4,756 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Authentication.AccessToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Authentication.AccessToken.html",
+          "hash": "SOcl90D3YGSmXmt/jAkCRfqOX/w332we2QPqmTmmxW4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Authentication.SupportedRegions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Authentication.SupportedRegions.html",
+          "hash": "DHwrZ0gb4307HSEoukmQk/nECWAI9EfLk2HpYP+Smwo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Authentication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Authentication.html",
+          "hash": "d2ktHXLtWNVxOM7oxNxSWhJJ2nukmyH3aVlsHWDCoME="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Config.EthosResourceNotFoundException.html",
+          "hash": "3aT8RO3z/Evqr+ehQTb1EgKqLx7pitlN30s94fCD/Qw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Config.UnsupportedVersionException.html",
+          "hash": "SZRbWaqbwt7AKw1Rek27sHyT8awHJlNb7aHugoKtjro="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Config.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Config.html",
+          "hash": "EFz2L4VvW6M3JGirAUXSzJTh5dLqX/f4v+kuKnaNPmE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Errors.ErrorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Errors.ErrorFactory.html",
+          "hash": "/kGXT44l1f9uKda+ouMGt9P5XUSufu2wxce/LzGhzpk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Errors.EthosError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Errors.EthosError.html",
+          "hash": "qxWJw+vakAOa/LQHRm2MN7yRABfWKEvP2L/ZLpBShi0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Errors.EthosErrorsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Errors.EthosErrorsClient.html",
+          "hash": "fcHcOmrRWxPh+xYkte0J2i4uAC6K+gHdoxIIJOEDr0M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Errors.Request.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Errors.Request.html",
+          "hash": "ihqk5wS82QM1N4IEHeR9eaGhivtOdJkGtTbDLU6jBXI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Errors.Resource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Errors.Resource.html",
+          "hash": "disfuM0U/w92AE7fodAI/KS9aoIsTcGsefn1BwVeAfs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Errors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Errors.html",
+          "hash": "D/+SOaoZLuG5I7vrs9Af6e+3NYUpdiiiOqrYBuS7Y2k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.EthosClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.EthosClient.html",
+          "hash": "jcKQEJUS9ULA1H76S951g/8xoHX4GZT8LqhsizwqmHM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.EthosClientBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.EthosClientBuilder.html",
+          "hash": "aF55yQaaWHNwAM/5Sq/EdoXmyjYsJ5Nd5TrJXhpH/tQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.EthosResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.EthosResponse.html",
+          "hash": "IgDz/y8OaAlBScPNROaOwO0YlobJibcrAhlUplxI/iY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.EthosResponseBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.EthosResponseBuilder.html",
+          "hash": "E7Ge+kHTMutwUWZ0DvZHi59Yrr147WrnPyWb6u818pY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.EthosResponseConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.EthosResponseConverter.html",
+          "hash": "w/1/ali26iJkS8zQJm5cNnqF6Mw6GYEijtc09y8Ujn4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Extensions.EthosResponseExtension.html",
+          "hash": "2cqZlmkoTGxg4WIas18c2i05Y5NMFtMNmo9ymPbkB/s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Extensions.html",
+          "hash": "TNvAa9QD+Y3JTMVHIsRjV5YV4p817CFUhRshmKp/COw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Filter.Extensions.CriteriaExtension.html",
+          "hash": "/Y8TqOgqT4r01Zb2r7gF0gc3oI8Fiih6YSif3/KF49g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Filter.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Filter.Extensions.html",
+          "hash": "33dsI6CgWNJBzln6MtwMeaSiMvodAM+S7M+DROIbtk0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.HttpProtocolClientBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.HttpProtocolClientBuilder.html",
+          "hash": "l0hbAmEQj/IdpjKAv2ixwQfT5QJkeofDXVe54lLLYJY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.IHttpProtocolClientBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.IHttpProtocolClientBuilder.html",
+          "hash": "IIcuBFuKXW49sTeuBQdj+2cQQYRT9qcp9orK47ZkiU4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Messages.ChangeNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Messages.ChangeNotification.html",
+          "hash": "QcfshPp84TrobUGAlPnFNtgM6mF+7QkA/QDPLDgY+Xc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Messages.ChangeNotificationFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Messages.ChangeNotificationFactory.html",
+          "hash": "eOxmolGDpYWUzU/qMyzCOw3xKhHJ51JaZJTt9iY2AGM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Messages.EthosMessagesClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Messages.EthosMessagesClient.html",
+          "hash": "Xa58KpNvk3RQDXxbOIc4cYSsXHtoRAaspEPaTjM1LpQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Messages.Publisher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Messages.Publisher.html",
+          "hash": "/Ti19hs/uu+I5j2KDDYcH2CyBy7LH/Hp/zzHNh0+ZsM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Messages.Resource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Messages.Resource.html",
+          "hash": "GMwUOp4GyFxfyCg0wHpcmmeH+ciXm1+tPe5pReTzgc4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Messages.Tenant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Messages.Tenant.html",
+          "hash": "mbZsW9LO40Wo2fwJVEfdGEc9FPj8LdYm+j/XEJtB9XE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Messages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Messages.html",
+          "hash": "AtqClsEiLul5kH+IDnmvOfuXAbLJSEgwhb/53lDsO0s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.EthosFilterQueryClient.html",
+          "hash": "L+3v6bjSvGx3TRDZdsoCp6E+kp1PonwRPLltdhvQATU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.EthosProxyClient.html",
+          "hash": "ZeYFN/ANlu3mhsmDTOlqxpmDsnDgOow/fCCMp1nqxqE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.Filter.CriteriaFilter.html",
+          "hash": "g/cbrq4P8XhKq/v/l9YOr8epR97cuoba7iXvXh3rLag="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterMap.html",
+          "hash": "7QnfGwfKI77xwGPIFLu4nUWhsT1F4YUQ3cy5eCaXyZM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.Filter.FilterUtility.html",
+          "hash": "E4ShIvyw9jNwk8fDuB2u7w5o1zLzwspisx7eTcfHRCo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryExtensions.html",
+          "hash": "b75+75YQ0qxE8lyYkoeURQFh/REZw6MXE8T4Ia8oDUI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.Filter.NamedQueryFilter.html",
+          "hash": "fCGD7gq4ebE+Irnob+5VWP9zUUNERzDSJB3DYwbHYpQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.Filter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.Filter.html",
+          "hash": "r5xsBA6tu4vimw5pOhGmChT8R3PEjatzJWCMObLGmSo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.Pager.PagingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.Pager.PagingType.html",
+          "hash": "e3PZDDf4xtEDwXeYkm8hs2B610itl47A7JDSIdyY+vU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.Pager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.Pager.html",
+          "hash": "ZJzOFmvRTwQ4kPAwsYVQxnRbc2OsHNV/+n4ENbgJWjU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.Proxy.html",
+          "hash": "xVZYFCczcTUHUgVTO8Q9AtMDJbMEq4CBLJxS8vSTH/I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Client.html",
+          "hash": "PtwR924JLgxOe/9iJxw3U479RJZbdjmKcut0D7Lt1bc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Config.EthosConfigurationClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Config.EthosConfigurationClient.html",
+          "hash": "XQnHHrFIPMLzD7yBZb2evLGf7dcMY8tbnRN2m649IFE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Config.SemVer.Builder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Config.SemVer.Builder.html",
+          "hash": "vjVqkjWjHVaDWOZyh+F7Qjltd4U5XOcRrMCxacpZr1A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Config.SemVer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Config.SemVer.html",
+          "hash": "acBRNGF1+srPT28nP4RX370Rh3wxQDUUMDVSQcK/ZHc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Config.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Config.html",
+          "hash": "UGQ1mG6cOe4HaH59P2JwaLTe44C9Y67BtGBIuau4BDM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.EthosIntegrationUrls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.EthosIntegrationUrls.html",
+          "hash": "3JKBFSSxYgeS/iabMK2vMRSSoXOEVsmGyzDzZrm8qnI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Notification.AbstractEthosChangeNotificationSubscriber-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Notification.AbstractEthosChangeNotificationSubscriber-1.html",
+          "hash": "l7b10k+PvbAI8oSYDAKFhHA9aG7MkFYl2eGHCrTpibw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Notification.AbstractEthosNotificationPollService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Notification.AbstractEthosNotificationPollService.html",
+          "hash": "SqIlrLFnXkh1AEVttIHI7zJSOxHwkgHQdf9UVsZgmK0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Notification.AbstractEthosNotificationSubscription-1.Unsubscriber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Notification.AbstractEthosNotificationSubscription-1.Unsubscriber.html",
+          "hash": "dw53UiiJfcb0QvZlWuvcuc+DD1eynRtAA5BeJx4nsbA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Notification.AbstractEthosNotificationSubscription-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Notification.AbstractEthosNotificationSubscription-1.html",
+          "hash": "jh9PPLR78mDWzn38Tdw1fNT02wBiCVKdUlNgBCIypNQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Notification.EthosChangeNotificationListPollService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Notification.EthosChangeNotificationListPollService.html",
+          "hash": "zOzZZDf98LodRmCKdex4YwGIAXb0JZUgkR80PAe6R9M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Notification.EthosChangeNotificationListSubscription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Notification.EthosChangeNotificationListSubscription.html",
+          "hash": "FTZPzBfGJN7GpWD6YOcD/boSrYy7bI3xrRGI0M8eSgs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Notification.EthosChangeNotificationPollService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Notification.EthosChangeNotificationPollService.html",
+          "hash": "ieUxYk7uxaOp3rpp302OqOftQRABPquWrqY17WfJmmc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Notification.EthosChangeNotificationSubscription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Notification.EthosChangeNotificationSubscription.html",
+          "hash": "3qWhGozMiPAKqq5cl7HLVZFv98MQYuGpZ7MGeL7cYSo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Notification.EthosChangeNotificationSubscriptionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Notification.EthosChangeNotificationSubscriptionException.html",
+          "hash": "nJ3VGpipFjKGvDHe1gLCKLX3IU4eaCkcduMB1As3caM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Notification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Notification.html",
+          "hash": "MbQ4Gi4ML1SgR+vA5MNxjhMoXGfCwU9kM9ASuZsvWok="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Service.EthosChangeNotificationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Service.EthosChangeNotificationService.html",
+          "hash": "RZQFmJQOLXwUWaNNjGsz2XiLjbd0SKk7xk7d9daX5zg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Service.EthosService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Service.EthosService.html",
+          "hash": "4OSdReL87oxZWcRqOYBHFnt6KXXyrI8q+5U+H71O6VE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.Service.html",
+          "hash": "czoMgEF3oRp8T2TwrbDRQbDkiJjbFCCM72d1JipoNGQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ellucian.Ethos.Integration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ellucian.Ethos.Integration.html",
+          "hash": "lOWv2YRzHcp3eOpST1Ehtpto5gfGTW4S7azsZ3oFA+M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "N77ecvlyyjIBJ4r1rszoQWiYkgUP/hf9FYKh4oZ5CjE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "ekwipCBCOUhur2Fzn9vhKA=="
+          "hash": "Fde+/KKSFloNtd8v1tAZYZBaVRFH3/HkjxxWIfzwUr8="
         }
       },
       "is_incremental": false,
@@ -21,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "B+BOFaxQKjJtVfiu6tpn2Q=="
+          "hash": "CygiOxKPYV+x34AApJ0BRWaE58ZrM2ZYinYnlTHW1bk="
         }
       },
       "is_incremental": false,
@@ -43,6 +787,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 61,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

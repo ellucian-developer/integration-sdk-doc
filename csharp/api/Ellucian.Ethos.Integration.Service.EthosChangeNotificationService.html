@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class EthosChangeNotificationService
    ">
-    <meta name="generator" content="docfx 2.56.5.0">
+    <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -483,7 +483,7 @@ Also accepts the version value prefixed with the char 'v', e.g: v16, or v16.0.0.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;ChangeNotification&gt;&gt; GetChangeNotificationsAsync(int? limit = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;ChangeNotification&gt;&gt; GetChangeNotificationsAsync(int? limit = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -524,7 +524,7 @@ notifications in the returned list match those added to this class (by resource 
   
   <a id="Ellucian_Ethos_Integration_Service_EthosChangeNotificationService_GetOverriddenResources_" data-uid="Ellucian.Ethos.Integration.Service.EthosChangeNotificationService.GetOverriddenResources*"></a>
   <h4 id="Ellucian_Ethos_Integration_Service_EthosChangeNotificationService_GetOverriddenResources" data-uid="Ellucian.Ethos.Integration.Service.EthosChangeNotificationService.GetOverriddenResources">GetOverriddenResources()</h4>
-  <div class="markdown level1 summary"><p>Gets a list of resources to be overridden in change notifications.  These are the resources added to the resource version override
+  <div class="markdown level1 summary"><p>Gets a list of resources to be overridden in change notifications. These are the resources added to the resource version override
 capability of this class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -601,7 +601,7 @@ is null or blank, or if there is no version mapping for the given resourceName.<
   <h4 id="Ellucian_Ethos_Integration_Service_EthosChangeNotificationService_OverrideChangeNotification_Ellucian_Ethos_Integration_Client_Messages_ChangeNotification_Ellucian_Ethos_Integration_Client_EthosResponse_System_String_" data-uid="Ellucian.Ethos.Integration.Service.EthosChangeNotificationService.OverrideChangeNotification(Ellucian.Ethos.Integration.Client.Messages.ChangeNotification,Ellucian.Ethos.Integration.Client.EthosResponse,System.String)">OverrideChangeNotification(ChangeNotification, EthosResponse, String)</h4>
   <div class="markdown level1 summary"><p><strong>Used internally by the SDK.</strong></p>
 <p>
-Updates the given changeNotification with the data from the EthosResponse.Specifically, updates the contentType,
+Updates the given changeNotification with the data from the EthosResponse. Specifically, updates the contentType,
 content, and version of the changeNotification.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -664,7 +664,7 @@ content, and version of the changeNotification.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;ChangeNotification&gt; ProcessChangeNotificationOverrideAsync(ChangeNotification cn)</code></pre>
+    <pre><code class="lang-csharp hljs">async Task&lt;ChangeNotification&gt; ProcessChangeNotificationOverrideAsync(ChangeNotification cn)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -710,7 +710,7 @@ notifications in the returned list match those added to this class (by resource 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;ChangeNotification&gt;&gt; ProcessChangeNotificationOverridesAsync(IEnumerable&lt;ChangeNotification&gt; changeNotificationList)</code></pre>
+    <pre><code class="lang-csharp hljs">async Task&lt;IEnumerable&lt;ChangeNotification&gt;&gt; ProcessChangeNotificationOverridesAsync(IEnumerable&lt;ChangeNotification&gt; changeNotificationList)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
